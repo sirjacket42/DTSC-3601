@@ -1,0 +1,13 @@
+[project]
+name = "hello-streamlit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "sirjacket42", email = "peyton@robinson-us.com" }
+]
+requires-python = ">=3.13"
+dependencies = ["streamlit"]
+
+[tool.uv]
+package = false
