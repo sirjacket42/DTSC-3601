@@ -33,6 +33,11 @@ _SESSION = _make_session()
 @st.cache_data(ttl=3600, show_spinner=False)
 def api_get(endpoint: str, **params) -> list[dict]:
     resp = _SESSION.get(f"{API_BASE}/{endpoint}", params=params, timeout=30)
+    if resp.status_code == 404:
+        # OpenF1 returns 404 with {"detail": "No results found."} for a query
+        # with no matching rows (e.g. a season it has no data for) rather
+        # than an empty 200 list -- treat that as "no data", not an error.
+        return []
     resp.raise_for_status()
     return resp.json()
 
@@ -48,6 +53,8 @@ def api_get_range(endpoint: str, key_field: str, min_val: int, max_val: int) -> 
     """
     url = f"{API_BASE}/{endpoint}?{key_field}>={min_val}&{key_field}<={max_val}"
     resp = _SESSION.get(url, timeout=60)
+    if resp.status_code == 404:
+        return []
     resp.raise_for_status()
     return resp.json()
 
@@ -108,10 +115,15 @@ st.caption(
 current_year = datetime.date.today().year
 default_year = current_year - 1  # last *completed* season
 
+OPENF1_FIRST_YEAR = 2023  # OpenF1 has no data before this season
+
 with st.sidebar:
     st.header("Settings")
-    year = st.number_input("Season", min_value=2018, max_value=current_year, value=default_year, step=1)
+    year = st.number_input(
+        "Season", min_value=OPENF1_FIRST_YEAR, max_value=current_year, value=default_year, step=1
+    )
     session_kind = st.radio("Sessions to include", ["Race only", "Race + Sprint"], index=0)
+    st.caption(f"OpenF1 only has data from {OPENF1_FIRST_YEAR} onward.")
     st.caption("Data is cached for an hour to keep the app snappy and API-friendly.")
 
 sessions_df = get_race_sessions(int(year))
