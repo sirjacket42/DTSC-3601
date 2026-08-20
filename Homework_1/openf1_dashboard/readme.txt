@@ -11,6 +11,12 @@ Run it yourself with:
 The app is a multipage Streamlit app -- one topic per page, listed in the
 sidebar nav. Screenshots below (in screenshots/), one or two per page:
 
+0. screenshots/0_dataset_eda.png, 0_dataset_eda_b.png
+   Dataset & EDA page: loads data/f1_2025_results.csv (a static CSV
+   snapshot, not the live API) and shows the raw data, shape/dtypes,
+   missing-value counts, summary statistics, and three graphics (points
+   distribution, finishing position by team, points vs. gap to leader).
+
 1. screenshots/1_overview.png, 1_overview_b.png
    Overview page: championship standings bar chart, full standings table,
    and the "Explore more" page links at the bottom.

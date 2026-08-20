@@ -61,15 +61,16 @@ st.divider()
 st.subheader("Explore more")
 nav_col1, nav_col2, nav_col3, nav_col4 = st.columns(4)
 with nav_col1:
+    st.page_link("pages/0_Dataset_EDA.py", label="Dataset & EDA", icon="🔍")
     st.page_link("pages/1_Driver_Stats.py", label="Driver Stats", icon="🏎️")
-    st.page_link("pages/2_Constructors.py", label="Constructors", icon="🔧")
 with nav_col2:
+    st.page_link("pages/2_Constructors.py", label="Constructors", icon="🔧")
     st.page_link("pages/3_Points_Progression.py", label="Points Progression", icon="📈")
-    st.page_link("pages/4_Tire_Strategy.py", label="Tire Strategy", icon="🛞")
 with nav_col3:
+    st.page_link("pages/4_Tire_Strategy.py", label="Tire Strategy", icon="🛞")
     st.page_link("pages/5_Weather.py", label="Weather", icon="🌦️")
-    st.page_link("pages/6_Fastest_Laps.py", label="Fastest Laps", icon="⚡")
 with nav_col4:
+    st.page_link("pages/6_Fastest_Laps.py", label="Fastest Laps", icon="⚡")
     st.page_link("pages/7_Race_Control.py", label="Race Control", icon="🚩")
 
 st.caption("Data source: [OpenF1](https://openf1.org) (api.openf1.org) — an open-source, community-run F1 telemetry API.")
