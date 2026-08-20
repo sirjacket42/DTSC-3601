@@ -37,6 +37,21 @@ def api_get(endpoint: str, **params) -> list[dict]:
     return resp.json()
 
 
+@st.cache_data(ttl=3600, show_spinner=False)
+def api_get_range(endpoint: str, key_field: str, min_val: int, max_val: int) -> list[dict]:
+    """Fetch every row with key_field in [min_val, max_val] in a single request.
+
+    OpenF1 supports inline comparison operators appended to a field name
+    (e.g. `session_key>=100`), which lets us pull an entire season's worth
+    of session_result/drivers rows in one call instead of one call per
+    session -- the latter reliably triggers 429s and is much slower.
+    """
+    url = f"{API_BASE}/{endpoint}?{key_field}>={min_val}&{key_field}<={max_val}"
+    resp = _SESSION.get(url, timeout=60)
+    resp.raise_for_status()
+    return resp.json()
+
+
 @st.cache_data(ttl=3600, show_spinner="Fetching race sessions...")
 def get_race_sessions(year: int) -> pd.DataFrame:
     sessions = api_get("sessions", year=year, session_type="Race")
@@ -50,17 +65,17 @@ def get_race_sessions(year: int) -> pd.DataFrame:
 
 @st.cache_data(ttl=3600, show_spinner="Fetching results and driver info...")
 def get_season_data(year: int, session_keys: tuple[int, ...]) -> tuple[pd.DataFrame, pd.DataFrame]:
-    """Return (results_df, drivers_df) across every race/sprint session in the season."""
-    all_results = []
-    all_drivers = []
-    for key in session_keys:
-        results = api_get("session_result", session_key=key)
-        for r in results:
-            r["session_key"] = key
-        all_results.extend(results)
+    """Return (results_df, drivers_df) across every race/sprint session in the season.
 
-        drivers = api_get("drivers", session_key=key)
-        all_drivers.extend(drivers)
+    Fetches the full min-to-max session_key span in one request per endpoint
+    (see api_get_range) rather than one request per session, then filters
+    down to just the sessions we asked for client-side.
+    """
+    key_set = set(session_keys)
+    min_key, max_key = min(session_keys), max(session_keys)
+
+    all_results = [r for r in api_get_range("session_result", "session_key", min_key, max_key) if r["session_key"] in key_set]
+    all_drivers = [d for d in api_get_range("drivers", "session_key", min_key, max_key) if d["session_key"] in key_set]
 
     results_df = pd.DataFrame(all_results)
     drivers_df = pd.DataFrame(all_drivers)
