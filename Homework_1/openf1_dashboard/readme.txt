@@ -2,28 +2,46 @@ OpenF1 Season Dashboard - Screenshots
 ======================================
 
 This is a secondary, plain-text readme with screenshots of the app running
-(2025 season, "Race only" mode). See README.md for setup/usage instructions.
+(2025 season, "Race only" mode, race = Yas Island where a race selector is
+shown). See README.md for setup/usage/code-layout details.
 
 Run it yourself with:
     uv run streamlit run app.py
 
-Screenshots (in screenshots/, top of the page to bottom):
+The app is a multipage Streamlit app -- one topic per page, listed in the
+sidebar nav. Screenshots below (in screenshots/), one or two per page:
 
-1. screenshots/1_standings.png
-   Page header and the championship standings bar chart (points per driver,
-   colored by team).
+1. screenshots/1_overview.png, 1_overview_b.png
+   Overview page: championship standings bar chart, full standings table,
+   and the "Explore more" page links at the bottom.
 
-2. screenshots/2_wins_podiums.png
-   Race wins and podium finishes bar charts side by side.
+2. screenshots/2_driver_stats.png, 2_driver_stats_b.png
+   Driver Stats page: race wins, podium finishes, average finishing
+   position, and DNFs, all by driver.
 
-3. screenshots/3_progression.png
-   Wins/podiums charts plus the cumulative points progression line chart
-   across the season, with the "top N drivers" slider.
+3. screenshots/3_constructors.png, 3_constructors_b.png
+   Constructors page: points/wins/podiums by team, plus the constructors'
+   table.
 
-4. screenshots/4_avgfinish_dnfs.png
-   Average finishing position and DNF bar charts, plus the top of the full
-   standings table (driver, team, points, wins, podiums, races, avg finish,
-   DNFs).
+4. screenshots/4_points_progression.png
+   Points Progression page: cumulative points per driver across the
+   season, with a "top N drivers" slider.
+
+5. screenshots/5_tire_strategy.png
+   Tire Strategy page: per-driver stint length and tire compound for a
+   selected race, ordered by finishing position.
+
+6. screenshots/6_weather.png, 6_weather_b.png
+   Weather page: track/air temperature by round, wet-vs-dry rounds, and a
+   weather summary table.
+
+7. screenshots/7_fastest_laps.png
+   Fastest Laps & Top Speed page: gap-to-fastest-lap and speed-trap
+   leaderboards for a selected race.
+
+8. screenshots/8_race_control.png, 8_race_control_b.png
+   Race Control page: event counts by category, safety car/VSC events by
+   round, and the race control message log for a selected race.
 
 All data shown is live from api.openf1.org at the time these screenshots
 were taken.
