@@ -47,3 +47,65 @@ uv run python scripts/export_dataset.py [year]
 - `scripts/export_dataset.py` — builds the CSV snapshot in `data/`
 - `app.py` — the Overview page (Streamlit's multipage entry point)
 - `pages/` — one file per additional page, auto-discovered by Streamlit
+
+## Screenshots
+
+Screenshots below are from the 2025 season, "Race only" mode, race = Yas Island
+(where a race selector is shown). All live data shown was current as of when these
+were taken.
+
+### Dataset & EDA
+Loads `data/f1_2025_results.csv` (a static CSV snapshot, not the live API) and shows
+the raw data, shape/dtypes, missing-value counts, summary statistics, and three
+graphics (points distribution, finishing position by team, points vs. gap to leader).
+
+![Dataset & EDA](screenshots/0_dataset_eda.png)
+![Dataset & EDA graphics](screenshots/0_dataset_eda_b.png)
+
+### Overview
+Championship standings bar chart, full standings table, and the "Explore more" page
+links at the bottom.
+
+![Overview](screenshots/1_overview.png)
+![Overview nav links](screenshots/1_overview_b.png)
+
+### Driver Stats
+Race wins, podium finishes, average finishing position, and DNFs, all by driver.
+
+![Driver Stats](screenshots/2_driver_stats.png)
+![Driver Stats continued](screenshots/2_driver_stats_b.png)
+
+### Constructors
+Points/wins/podiums by team, plus the constructors' table.
+
+![Constructors](screenshots/3_constructors.png)
+![Constructors continued](screenshots/3_constructors_b.png)
+
+### Points Progression
+Cumulative points per driver across the season, with a "top N drivers" slider.
+
+![Points Progression](screenshots/4_points_progression.png)
+
+### Tire Strategy
+Per-driver stint length and tire compound for a selected race, ordered by finishing
+position.
+
+![Tire Strategy](screenshots/5_tire_strategy.png)
+
+### Weather
+Track/air temperature by round, wet-vs-dry rounds, and a weather summary table.
+
+![Weather](screenshots/6_weather.png)
+![Weather continued](screenshots/6_weather_b.png)
+
+### Fastest Laps
+Gap-to-fastest-lap and speed-trap leaderboards for a selected race.
+
+![Fastest Laps](screenshots/7_fastest_laps.png)
+
+### Race Control
+Event counts by category, safety car/VSC events by round, and the race control
+message log for a selected race.
+
+![Race Control](screenshots/8_race_control.png)
+![Race Control continued](screenshots/8_race_control_b.png)
