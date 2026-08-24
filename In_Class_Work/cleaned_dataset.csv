@@ -1,0 +1,69 @@
+CustomerID,Age,State,Income,Purchases,LastPurchaseDate,Review,Churn,LastPurchaseDate_missing,PositiveReview
+CUST001,40.0,California,40000.0,0.0,,No Review,No,True,0
+CUST002,40.0,California,40000.0,1.0,,No Review,No,True,0
+CUST005,45.0,California,40000.0,2.0,2021-05-20,Loved it!!!,Yes,False,1
+CUST006,45.0,New York,1000000.0,3.0,,terrible service...,Yes,True,0
+CUST007,45.0,New York,60000.0,2.0,,Ok,Yes,True,0
+CUST008,60.0,New York,1000000.0,10.0,2021-07-15,No Review,No,False,0
+CUST009,45.0,California,1000000.0,2.0,,Loved it!!!,Yes,True,1
+CUST010,25.0,New York,70000.0,10.0,2021-05-20,terrible service...,No,False,0
+CUST012,45.0,California,60000.0,0.0,2021-07-15,terrible service...,No,False,0
+CUST014,45.0,California,50000.0,2.0,2021-05-20,Loved it!!!,No,False,1
+CUST015,25.0,New York,60000.0,2.0,,No Review,No,True,0
+CUST017,60.0,California,60000.0,2.0,,would buy again,Yes,True,1
+CUST018,30.0,California,60000.0,3.0,2021-05-20,Horrible!!,Yes,False,0
+CUST020,25.0,New York,60000.0,10.0,,Loved it!!!,Yes,True,1
+CUST021,45.0,California,60000.0,3.0,2021-07-15,Ok,Yes,False,0
+CUST022,40.0,New York,60000.0,2.0,2021-07-15,terrible service...,No,False,0
+CUST024,30.0,California,60000.0,1.0,,terrible service...,No,True,0
+CUST025,40.0,California,1000000.0,3.0,2021-05-20,Ok,No,False,0
+CUST026,45.0,New York,40000.0,2.0,2021-07-15,Horrible!!,No,False,0
+CUST027,45.0,California,60000.0,10.0,2021-07-15,Loved it!!!,No,False,1
+CUST031,45.0,New York,1000000.0,3.0,2021-07-15,No Review,Yes,False,0
+CUST033,25.0,Unknown,50000.0,0.0,2021-07-15,Great product!,Yes,False,1
+CUST034,45.0,California,1000000.0,3.0,2021-05-20,Loved it!!!,No,False,1
+CUST035,60.0,California,50000.0,3.0,2021-07-15,Great product!,Yes,False,1
+CUST036,45.0,California,60000.0,1.0,2021-07-15,No Review,Yes,False,0
+CUST039,25.0,California,60000.0,3.0,2021-05-20,terrible service...,Yes,False,0
+CUST041,45.0,New York,50000.0,1.0,,Horrible!!,Yes,True,0
+CUST044,45.0,Unknown,60000.0,2.0,2021-05-20,Great product!,No,False,1
+CUST045,45.0,New York,1000000.0,0.0,2021-07-15,Horrible!!,No,False,0
+CUST047,50.0,Unknown,40000.0,1.0,2021-05-20,Loved it!!!,Yes,False,1
+CUST048,45.0,New York,60000.0,10.0,2021-07-15,Loved it!!!,Yes,False,1
+CUST049,45.0,New York,60000.0,0.0,2021-07-15,would buy again,No,False,1
+CUST050,50.0,California,40000.0,10.0,2021-05-20,Horrible!!,No,False,0
+CUST051,45.0,Unknown,40000.0,0.0,2021-07-15,Ok,No,False,0
+CUST052,35.0,New York,50000.0,1.0,,Ok,No,True,0
+CUST053,60.0,California,40000.0,3.0,2021-07-15,Loved it!!!,Yes,False,1
+CUST054,50.0,California,50000.0,3.0,2021-07-15,No Review,No,False,0
+CUST055,45.0,New York,70000.0,2.0,2021-05-20,Great product!,No,False,1
+CUST056,45.0,California,50000.0,1.0,2021-05-20,Horrible!!,Yes,False,0
+CUST057,50.0,Unknown,40000.0,10.0,,Horrible!!,No,True,0
+CUST058,45.0,New York,1000000.0,3.0,2021-07-15,No Review,No,False,0
+CUST059,25.0,California,60000.0,2.0,2021-05-20,No Review,No,False,0
+CUST060,50.0,New York,60000.0,0.0,2021-07-15,Great product!,No,False,1
+CUST062,30.0,California,60000.0,1.0,2021-05-20,would buy again,No,False,1
+CUST063,30.0,California,50000.0,2.0,,would buy again,Yes,True,1
+CUST064,40.0,California,1000000.0,0.0,2021-07-15,Great product!,No,False,1
+CUST065,45.0,New York,60000.0,1.0,,would buy again,No,True,1
+CUST068,45.0,California,1000000.0,2.0,2021-07-15,No Review,No,False,0
+CUST070,60.0,California,50000.0,2.0,,would buy again,Yes,True,1
+CUST072,45.0,New York,1000000.0,0.0,2021-07-15,terrible service...,No,False,0
+CUST073,35.0,New York,40000.0,2.0,2021-07-15,No Review,Yes,False,0
+CUST076,45.0,California,60000.0,3.0,2021-05-20,No Review,Yes,False,0
+CUST077,45.0,Unknown,60000.0,0.0,2021-05-20,terrible service...,No,False,0
+CUST078,35.0,Unknown,60000.0,2.0,,Ok,No,True,0
+CUST079,35.0,California,1000000.0,0.0,2021-07-15,Great product!,Yes,False,1
+CUST081,45.0,New York,70000.0,2.0,2021-05-20,terrible service...,Yes,False,0
+CUST084,40.0,New York,60000.0,1.0,2021-07-15,No Review,No,False,0
+CUST085,50.0,California,70000.0,3.0,2021-07-15,would buy again,No,False,1
+CUST086,45.0,California,70000.0,2.0,2021-07-15,Great product!,No,False,1
+CUST087,50.0,California,40000.0,1.0,2021-05-20,terrible service...,No,False,0
+CUST089,50.0,Unknown,1000000.0,2.0,2021-05-20,No Review,No,False,0
+CUST090,45.0,New York,70000.0,10.0,2021-05-20,No Review,Yes,False,0
+CUST091,25.0,New York,60000.0,0.0,,Ok,No,True,0
+CUST092,45.0,New York,50000.0,2.0,2021-07-15,Ok,No,False,0
+CUST093,25.0,New York,50000.0,1.0,,Horrible!!,No,True,0
+CUST094,60.0,California,40000.0,0.0,,Ok,No,True,0
+CUST098,25.0,Unknown,1000000.0,1.0,,Great product!,No,True,1
+CUST099,25.0,California,50000.0,3.0,,Great product!,Yes,True,1
