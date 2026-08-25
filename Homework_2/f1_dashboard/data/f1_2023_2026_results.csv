@@ -1,0 +1,1662 @@
+season,round,location,date_start,driver_number,full_name,team_name,position,points,number_of_laps,gap_to_leader,duration,dnf,dns,dsq
+2023,1,Sakhir,2023-03-05 15:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,57.0,0,5636.736,False,False,False
+2023,1,Sakhir,2023-03-05 15:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,2.0,18.0,57.0,11.987,5648.723,False,False,False
+2023,1,Sakhir,2023-03-05 15:00:00+00:00,14,Fernando ALONSO,Aston Martin,3.0,15.0,57.0,38.637,5675.373,False,False,False
+2023,1,Sakhir,2023-03-05 15:00:00+00:00,55,Carlos SAINZ,Ferrari,4.0,12.0,57.0,48.052,5684.788,False,False,False
+2023,1,Sakhir,2023-03-05 15:00:00+00:00,44,Lewis HAMILTON,Mercedes,5.0,10.0,57.0,50.977,5687.713,False,False,False
+2023,1,Sakhir,2023-03-05 15:00:00+00:00,18,Lance STROLL,Aston Martin,6.0,8.0,57.0,54.502,5691.238,False,False,False
+2023,1,Sakhir,2023-03-05 15:00:00+00:00,63,George RUSSELL,Mercedes,7.0,6.0,57.0,55.873,5692.609,False,False,False
+2023,1,Sakhir,2023-03-05 15:00:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,8.0,4.0,57.0,72.647,5709.383,False,False,False
+2023,1,Sakhir,2023-03-05 15:00:00+00:00,10,Pierre GASLY,Alpine,9.0,2.0,57.0,73.753,5710.489,False,False,False
+2023,1,Sakhir,2023-03-05 15:00:00+00:00,23,Alexander ALBON,Williams,10.0,1.0,57.0,89.774,5726.51,False,False,False
+2023,1,Sakhir,2023-03-05 15:00:00+00:00,22,Yuki TSUNODA,AlphaTauri,11.0,0.0,57.0,90.87,5727.606,False,False,False
+2023,1,Sakhir,2023-03-05 15:00:00+00:00,2,Logan SARGEANT,Williams,12.0,0.0,56.0,+1 LAP,,False,False,False
+2023,1,Sakhir,2023-03-05 15:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,13.0,0.0,56.0,+1 LAP,,False,False,False
+2023,1,Sakhir,2023-03-05 15:00:00+00:00,21,Nyck DE VRIES,AlphaTauri,14.0,0.0,56.0,+1 LAP,,False,False,False
+2023,1,Sakhir,2023-03-05 15:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,15.0,0.0,56.0,+1 LAP,,False,False,False
+2023,1,Sakhir,2023-03-05 15:00:00+00:00,24,ZHOU Guanyu,Alfa Romeo,16.0,0.0,56.0,+1 LAP,,False,False,False
+2023,1,Sakhir,2023-03-05 15:00:00+00:00,4,Lando NORRIS,McLaren,17.0,0.0,55.0,+2 LAPS,,False,False,False
+2023,1,Sakhir,2023-03-05 15:00:00+00:00,31,Esteban OCON,Alpine,,0.0,41.0,,,True,False,False
+2023,1,Sakhir,2023-03-05 15:00:00+00:00,16,Charles LECLERC,Ferrari,,0.0,39.0,,,True,False,False
+2023,1,Sakhir,2023-03-05 15:00:00+00:00,81,Oscar PIASTRI,McLaren,,0.0,13.0,,,True,False,False
+2023,2,Jeddah,2023-03-19 17:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,1.0,25.0,50.0,0,4874.894,False,False,False
+2023,2,Jeddah,2023-03-19 17:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,2.0,0.0,50.0,5.355,4880.249,False,False,False
+2023,2,Jeddah,2023-03-19 17:00:00+00:00,14,Fernando ALONSO,Aston Martin,3.0,15.0,50.0,20.728,4895.622,False,False,False
+2023,2,Jeddah,2023-03-19 17:00:00+00:00,63,George RUSSELL,Mercedes,4.0,12.0,50.0,25.866,4900.76,False,False,False
+2023,2,Jeddah,2023-03-19 17:00:00+00:00,44,Lewis HAMILTON,Mercedes,5.0,10.0,50.0,31.065,4905.959,False,False,False
+2023,2,Jeddah,2023-03-19 17:00:00+00:00,55,Carlos SAINZ,Ferrari,6.0,8.0,50.0,35.876,4910.77,False,False,False
+2023,2,Jeddah,2023-03-19 17:00:00+00:00,16,Charles LECLERC,Ferrari,7.0,6.0,50.0,43.162,4918.056,False,False,False
+2023,2,Jeddah,2023-03-19 17:00:00+00:00,31,Esteban OCON,Alpine,8.0,4.0,50.0,52.832,4927.726,False,False,False
+2023,2,Jeddah,2023-03-19 17:00:00+00:00,10,Pierre GASLY,Alpine,9.0,2.0,50.0,54.747,4929.641,False,False,False
+2023,2,Jeddah,2023-03-19 17:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,10.0,1.0,50.0,64.826,4939.72,False,False,False
+2023,2,Jeddah,2023-03-19 17:00:00+00:00,22,Yuki TSUNODA,AlphaTauri,11.0,0.0,50.0,67.494,4942.388,False,False,False
+2023,2,Jeddah,2023-03-19 17:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,12.0,0.0,50.0,70.588,4945.482,False,False,False
+2023,2,Jeddah,2023-03-19 17:00:00+00:00,24,ZHOU Guanyu,Alfa Romeo,13.0,0.0,50.0,76.06,4950.954,False,False,False
+2023,2,Jeddah,2023-03-19 17:00:00+00:00,21,Nyck DE VRIES,AlphaTauri,14.0,0.0,50.0,77.478,4952.372,False,False,False
+2023,2,Jeddah,2023-03-19 17:00:00+00:00,81,Oscar PIASTRI,McLaren,15.0,0.0,50.0,85.021,4959.915,False,False,False
+2023,2,Jeddah,2023-03-19 17:00:00+00:00,2,Logan SARGEANT,Williams,16.0,0.0,50.0,86.293,4961.187,False,False,False
+2023,2,Jeddah,2023-03-19 17:00:00+00:00,4,Lando NORRIS,McLaren,17.0,0.0,50.0,86.445,4961.339,False,False,False
+2023,2,Jeddah,2023-03-19 17:00:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,18.0,0.0,49.0,+1 LAP,,False,False,False
+2023,2,Jeddah,2023-03-19 17:00:00+00:00,23,Alexander ALBON,Williams,,0.0,27.0,,,True,False,False
+2023,2,Jeddah,2023-03-19 17:00:00+00:00,18,Lance STROLL,Aston Martin,,0.0,16.0,,,True,False,False
+2023,3,Melbourne,2023-04-02 05:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,58.0,0,9158.371,False,False,False
+2023,3,Melbourne,2023-04-02 05:00:00+00:00,44,Lewis HAMILTON,Mercedes,2.0,18.0,58.0,0.179,9158.55,False,False,False
+2023,3,Melbourne,2023-04-02 05:00:00+00:00,14,Fernando ALONSO,Aston Martin,3.0,15.0,58.0,0.769,9159.14,False,False,False
+2023,3,Melbourne,2023-04-02 05:00:00+00:00,18,Lance STROLL,Aston Martin,4.0,12.0,58.0,3.082,9161.453,False,False,False
+2023,3,Melbourne,2023-04-02 05:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,5.0,11.0,58.0,3.32,9161.691,False,False,False
+2023,3,Melbourne,2023-04-02 05:00:00+00:00,4,Lando NORRIS,McLaren,6.0,8.0,58.0,3.701,9162.072,False,False,False
+2023,3,Melbourne,2023-04-02 05:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,7.0,6.0,58.0,4.939,9163.31,False,False,False
+2023,3,Melbourne,2023-04-02 05:00:00+00:00,81,Oscar PIASTRI,McLaren,8.0,4.0,58.0,5.382,9163.753,False,False,False
+2023,3,Melbourne,2023-04-02 05:00:00+00:00,24,ZHOU Guanyu,Alfa Romeo,9.0,2.0,58.0,5.713,9164.084,False,False,False
+2023,3,Melbourne,2023-04-02 05:00:00+00:00,22,Yuki TSUNODA,AlphaTauri,10.0,1.0,58.0,6.052,9164.423,False,False,False
+2023,3,Melbourne,2023-04-02 05:00:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,11.0,0.0,58.0,6.513,9164.884,False,False,False
+2023,3,Melbourne,2023-04-02 05:00:00+00:00,55,Carlos SAINZ,Ferrari,12.0,0.0,58.0,6.594,9164.965,False,False,False
+2023,3,Melbourne,2023-04-02 05:00:00+00:00,10,Pierre GASLY,Alpine,13.0,0.0,56.0,,,True,False,False
+2023,3,Melbourne,2023-04-02 05:00:00+00:00,31,Esteban OCON,Alpine,14.0,0.0,56.0,,,True,False,False
+2023,3,Melbourne,2023-04-02 05:00:00+00:00,21,Nyck DE VRIES,AlphaTauri,15.0,0.0,56.0,,,True,False,False
+2023,3,Melbourne,2023-04-02 05:00:00+00:00,2,Logan SARGEANT,Williams,16.0,0.0,56.0,,,True,False,False
+2023,3,Melbourne,2023-04-02 05:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,17.0,0.0,52.0,,,True,False,False
+2023,3,Melbourne,2023-04-02 05:00:00+00:00,63,George RUSSELL,Mercedes,,0.0,17.0,,,True,False,False
+2023,3,Melbourne,2023-04-02 05:00:00+00:00,23,Alexander ALBON,Williams,,0.0,6.0,,,True,False,False
+2023,3,Melbourne,2023-04-02 05:00:00+00:00,16,Charles LECLERC,Ferrari,,0.0,0.0,,,True,False,False
+2023,4,Baku,2023-04-30 11:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,1.0,25.0,51.0,0,5562.436,False,False,False
+2023,4,Baku,2023-04-30 11:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,2.0,18.0,51.0,2.137,5564.573,False,False,False
+2023,4,Baku,2023-04-30 11:00:00+00:00,16,Charles LECLERC,Ferrari,3.0,15.0,51.0,21.217,5583.653,False,False,False
+2023,4,Baku,2023-04-30 11:00:00+00:00,14,Fernando ALONSO,Aston Martin,4.0,12.0,51.0,22.024,5584.46,False,False,False
+2023,4,Baku,2023-04-30 11:00:00+00:00,55,Carlos SAINZ,Ferrari,5.0,10.0,51.0,45.491,5607.927,False,False,False
+2023,4,Baku,2023-04-30 11:00:00+00:00,44,Lewis HAMILTON,Mercedes,6.0,8.0,51.0,46.145,5608.581,False,False,False
+2023,4,Baku,2023-04-30 11:00:00+00:00,18,Lance STROLL,Aston Martin,7.0,6.0,51.0,51.617,5614.053,False,False,False
+2023,4,Baku,2023-04-30 11:00:00+00:00,63,George RUSSELL,Mercedes,8.0,5.0,51.0,74.24,5636.676,False,False,False
+2023,4,Baku,2023-04-30 11:00:00+00:00,4,Lando NORRIS,McLaren,9.0,2.0,51.0,80.376,5642.812,False,False,False
+2023,4,Baku,2023-04-30 11:00:00+00:00,22,Yuki TSUNODA,AlphaTauri,10.0,1.0,51.0,83.862,5646.298,False,False,False
+2023,4,Baku,2023-04-30 11:00:00+00:00,81,Oscar PIASTRI,McLaren,11.0,0.0,51.0,86.501,5648.937,False,False,False
+2023,4,Baku,2023-04-30 11:00:00+00:00,23,Alexander ALBON,Williams,12.0,0.0,51.0,88.623,5651.059,False,False,False
+2023,4,Baku,2023-04-30 11:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,13.0,0.0,51.0,89.729,5652.165,False,False,False
+2023,4,Baku,2023-04-30 11:00:00+00:00,10,Pierre GASLY,Alpine,14.0,0.0,51.0,91.332,5653.768,False,False,False
+2023,4,Baku,2023-04-30 11:00:00+00:00,31,Esteban OCON,Alpine,15.0,0.0,51.0,97.794,5660.23,False,False,False
+2023,4,Baku,2023-04-30 11:00:00+00:00,2,Logan SARGEANT,Williams,16.0,0.0,51.0,100.943,5663.379,False,False,False
+2023,4,Baku,2023-04-30 11:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,17.0,0.0,50.0,+1 LAP,,False,False,False
+2023,4,Baku,2023-04-30 11:00:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,18.0,0.0,50.0,+1 LAP,,False,False,False
+2023,4,Baku,2023-04-30 11:00:00+00:00,24,ZHOU Guanyu,Alfa Romeo,,0.0,36.0,,,True,False,False
+2023,4,Baku,2023-04-30 11:00:00+00:00,21,Nyck DE VRIES,AlphaTauri,,0.0,9.0,,,True,False,False
+2023,5,Miami,2023-05-07 19:30:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,26.0,57.0,0,5258.241,False,False,False
+2023,5,Miami,2023-05-07 19:30:00+00:00,11,Sergio PEREZ,Red Bull Racing,2.0,18.0,57.0,5.384,5263.625,False,False,False
+2023,5,Miami,2023-05-07 19:30:00+00:00,14,Fernando ALONSO,Aston Martin,3.0,15.0,57.0,26.305,5284.546,False,False,False
+2023,5,Miami,2023-05-07 19:30:00+00:00,63,George RUSSELL,Mercedes,4.0,12.0,57.0,33.229,5291.47,False,False,False
+2023,5,Miami,2023-05-07 19:30:00+00:00,55,Carlos SAINZ,Ferrari,5.0,10.0,57.0,42.511,5300.752,False,False,False
+2023,5,Miami,2023-05-07 19:30:00+00:00,44,Lewis HAMILTON,Mercedes,6.0,8.0,57.0,51.249,5309.49,False,False,False
+2023,5,Miami,2023-05-07 19:30:00+00:00,16,Charles LECLERC,Ferrari,7.0,6.0,57.0,52.988,5311.229,False,False,False
+2023,5,Miami,2023-05-07 19:30:00+00:00,10,Pierre GASLY,Alpine,8.0,4.0,57.0,55.67,5313.911,False,False,False
+2023,5,Miami,2023-05-07 19:30:00+00:00,31,Esteban OCON,Alpine,9.0,2.0,57.0,58.123,5316.364,False,False,False
+2023,5,Miami,2023-05-07 19:30:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,10.0,1.0,57.0,62.945,5321.186,False,False,False
+2023,5,Miami,2023-05-07 19:30:00+00:00,22,Yuki TSUNODA,AlphaTauri,11.0,0.0,57.0,64.309,5322.55,False,False,False
+2023,5,Miami,2023-05-07 19:30:00+00:00,18,Lance STROLL,Aston Martin,12.0,0.0,57.0,64.754,5322.995,False,False,False
+2023,5,Miami,2023-05-07 19:30:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,13.0,0.0,57.0,71.637,5329.878,False,False,False
+2023,5,Miami,2023-05-07 19:30:00+00:00,23,Alexander ALBON,Williams,14.0,0.0,57.0,72.861,5331.102,False,False,False
+2023,5,Miami,2023-05-07 19:30:00+00:00,27,Nico HULKENBERG,Haas F1 Team,15.0,0.0,57.0,74.95,5333.191,False,False,False
+2023,5,Miami,2023-05-07 19:30:00+00:00,24,ZHOU Guanyu,Alfa Romeo,16.0,0.0,57.0,78.44,5336.681,False,False,False
+2023,5,Miami,2023-05-07 19:30:00+00:00,4,Lando NORRIS,McLaren,17.0,0.0,57.0,87.717,5345.958,False,False,False
+2023,5,Miami,2023-05-07 19:30:00+00:00,21,Nyck DE VRIES,AlphaTauri,18.0,0.0,57.0,88.949,5347.19,False,False,False
+2023,5,Miami,2023-05-07 19:30:00+00:00,81,Oscar PIASTRI,McLaren,19.0,0.0,56.0,+1 LAP,,False,False,False
+2023,5,Miami,2023-05-07 19:30:00+00:00,2,Logan SARGEANT,Williams,20.0,0.0,56.0,+1 LAP,,False,False,False
+2023,7,Monaco,2023-05-28 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,78.0,0,6531.98,False,False,False
+2023,7,Monaco,2023-05-28 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,2.0,18.0,78.0,27.921,6559.901,False,False,False
+2023,7,Monaco,2023-05-28 13:00:00+00:00,31,Esteban OCON,Alpine,3.0,15.0,78.0,36.99,6568.97,False,False,False
+2023,7,Monaco,2023-05-28 13:00:00+00:00,44,Lewis HAMILTON,Mercedes,4.0,13.0,78.0,39.062,6571.042,False,False,False
+2023,7,Monaco,2023-05-28 13:00:00+00:00,63,George RUSSELL,Mercedes,5.0,10.0,78.0,56.284,6588.264,False,False,False
+2023,7,Monaco,2023-05-28 13:00:00+00:00,16,Charles LECLERC,Ferrari,6.0,8.0,78.0,61.89,6593.87,False,False,False
+2023,7,Monaco,2023-05-28 13:00:00+00:00,10,Pierre GASLY,Alpine,7.0,6.0,78.0,62.362,6594.342,False,False,False
+2023,7,Monaco,2023-05-28 13:00:00+00:00,55,Carlos SAINZ,Ferrari,8.0,4.0,78.0,63.391,6595.371,False,False,False
+2023,7,Monaco,2023-05-28 13:00:00+00:00,4,Lando NORRIS,McLaren,9.0,2.0,77.0,+1 LAP,,False,False,False
+2023,7,Monaco,2023-05-28 13:00:00+00:00,81,Oscar PIASTRI,McLaren,10.0,1.0,77.0,+1 LAP,,False,False,False
+2023,7,Monaco,2023-05-28 13:00:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,11.0,0.0,77.0,+1 LAP,,False,False,False
+2023,7,Monaco,2023-05-28 13:00:00+00:00,21,Nyck DE VRIES,AlphaTauri,12.0,0.0,77.0,+1 LAP,,False,False,False
+2023,7,Monaco,2023-05-28 13:00:00+00:00,24,ZHOU Guanyu,Alfa Romeo,13.0,0.0,77.0,+1 LAP,,False,False,False
+2023,7,Monaco,2023-05-28 13:00:00+00:00,23,Alexander ALBON,Williams,14.0,0.0,77.0,+1 LAP,,False,False,False
+2023,7,Monaco,2023-05-28 13:00:00+00:00,22,Yuki TSUNODA,AlphaTauri,15.0,0.0,76.0,+2 LAPS,,False,False,False
+2023,7,Monaco,2023-05-28 13:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,16.0,0.0,76.0,+2 LAPS,,False,False,False
+2023,7,Monaco,2023-05-28 13:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,17.0,0.0,76.0,+2 LAPS,,False,False,False
+2023,7,Monaco,2023-05-28 13:00:00+00:00,2,Logan SARGEANT,Williams,18.0,0.0,76.0,+2 LAPS,,False,False,False
+2023,7,Monaco,2023-05-28 13:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,19.0,0.0,70.0,,,True,False,False
+2023,7,Monaco,2023-05-28 13:00:00+00:00,18,Lance STROLL,Aston Martin,,0.0,53.0,,,True,False,False
+2023,8,Barcelona,2023-06-04 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,26.0,66.0,0,5277.94,False,False,False
+2023,8,Barcelona,2023-06-04 13:00:00+00:00,44,Lewis HAMILTON,Mercedes,2.0,18.0,66.0,24.09,5302.03,False,False,False
+2023,8,Barcelona,2023-06-04 13:00:00+00:00,63,George RUSSELL,Mercedes,3.0,15.0,66.0,32.389,5310.329,False,False,False
+2023,8,Barcelona,2023-06-04 13:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,4.0,12.0,66.0,35.812,5313.752,False,False,False
+2023,8,Barcelona,2023-06-04 13:00:00+00:00,55,Carlos SAINZ,Ferrari,5.0,10.0,66.0,45.698,5323.638,False,False,False
+2023,8,Barcelona,2023-06-04 13:00:00+00:00,18,Lance STROLL,Aston Martin,6.0,8.0,66.0,63.32,5341.26,False,False,False
+2023,8,Barcelona,2023-06-04 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,7.0,6.0,66.0,64.127,5342.067,False,False,False
+2023,8,Barcelona,2023-06-04 13:00:00+00:00,31,Esteban OCON,Alpine,8.0,4.0,66.0,69.242,5347.182,False,False,False
+2023,8,Barcelona,2023-06-04 13:00:00+00:00,24,ZHOU Guanyu,Alfa Romeo,9.0,2.0,66.0,71.878,5349.818,False,False,False
+2023,8,Barcelona,2023-06-04 13:00:00+00:00,10,Pierre GASLY,Alpine,10.0,1.0,66.0,73.53,5351.47,False,False,False
+2023,8,Barcelona,2023-06-04 13:00:00+00:00,16,Charles LECLERC,Ferrari,11.0,0.0,66.0,74.419,5352.359,False,False,False
+2023,8,Barcelona,2023-06-04 13:00:00+00:00,22,Yuki TSUNODA,AlphaTauri,12.0,0.0,66.0,75.416,5353.356,False,False,False
+2023,8,Barcelona,2023-06-04 13:00:00+00:00,81,Oscar PIASTRI,McLaren,13.0,0.0,65.0,+1 LAP,,False,False,False
+2023,8,Barcelona,2023-06-04 13:00:00+00:00,21,Nyck DE VRIES,AlphaTauri,14.0,0.0,65.0,+1 LAP,,False,False,False
+2023,8,Barcelona,2023-06-04 13:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,15.0,0.0,65.0,+1 LAP,,False,False,False
+2023,8,Barcelona,2023-06-04 13:00:00+00:00,23,Alexander ALBON,Williams,16.0,0.0,65.0,+1 LAP,,False,False,False
+2023,8,Barcelona,2023-06-04 13:00:00+00:00,4,Lando NORRIS,McLaren,17.0,0.0,65.0,+1 LAP,,False,False,False
+2023,8,Barcelona,2023-06-04 13:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,18.0,0.0,65.0,+1 LAP,,False,False,False
+2023,8,Barcelona,2023-06-04 13:00:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,19.0,0.0,65.0,+1 LAP,,False,False,False
+2023,8,Barcelona,2023-06-04 13:00:00+00:00,2,Logan SARGEANT,Williams,20.0,0.0,65.0,+1 LAP,,False,False,False
+2023,9,Montréal,2023-06-18 18:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,70.0,0,5638.348,False,False,False
+2023,9,Montréal,2023-06-18 18:00:00+00:00,14,Fernando ALONSO,Aston Martin,2.0,18.0,70.0,9.57,5647.918,False,False,False
+2023,9,Montréal,2023-06-18 18:00:00+00:00,44,Lewis HAMILTON,Mercedes,3.0,15.0,70.0,14.168,5652.516,False,False,False
+2023,9,Montréal,2023-06-18 18:00:00+00:00,16,Charles LECLERC,Ferrari,4.0,12.0,70.0,18.648,5656.996,False,False,False
+2023,9,Montréal,2023-06-18 18:00:00+00:00,55,Carlos SAINZ,Ferrari,5.0,10.0,70.0,21.54,5659.888,False,False,False
+2023,9,Montréal,2023-06-18 18:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,6.0,9.0,70.0,51.028,5689.376,False,False,False
+2023,9,Montréal,2023-06-18 18:00:00+00:00,23,Alexander ALBON,Williams,7.0,6.0,70.0,60.813,5699.161,False,False,False
+2023,9,Montréal,2023-06-18 18:00:00+00:00,31,Esteban OCON,Alpine,8.0,4.0,70.0,61.692,5700.04,False,False,False
+2023,9,Montréal,2023-06-18 18:00:00+00:00,18,Lance STROLL,Aston Martin,9.0,2.0,70.0,64.402,5702.75,False,False,False
+2023,9,Montréal,2023-06-18 18:00:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,10.0,1.0,70.0,64.432,5702.78,False,False,False
+2023,9,Montréal,2023-06-18 18:00:00+00:00,81,Oscar PIASTRI,McLaren,11.0,0.0,70.0,65.101,5703.449,False,False,False
+2023,9,Montréal,2023-06-18 18:00:00+00:00,10,Pierre GASLY,Alpine,12.0,0.0,70.0,65.249,5703.597,False,False,False
+2023,9,Montréal,2023-06-18 18:00:00+00:00,4,Lando NORRIS,McLaren,13.0,0.0,70.0,68.363,5706.711,False,False,False
+2023,9,Montréal,2023-06-18 18:00:00+00:00,22,Yuki TSUNODA,AlphaTauri,14.0,0.0,70.0,73.423,5711.771,False,False,False
+2023,9,Montréal,2023-06-18 18:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,15.0,0.0,69.0,+1 LAP,,False,False,False
+2023,9,Montréal,2023-06-18 18:00:00+00:00,24,ZHOU Guanyu,Alfa Romeo,16.0,0.0,69.0,+1 LAP,,False,False,False
+2023,9,Montréal,2023-06-18 18:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,17.0,0.0,69.0,+1 LAP,,False,False,False
+2023,9,Montréal,2023-06-18 18:00:00+00:00,21,Nyck DE VRIES,AlphaTauri,18.0,0.0,69.0,+1 LAP,,False,False,False
+2023,9,Montréal,2023-06-18 18:00:00+00:00,63,George RUSSELL,Mercedes,,0.0,53.0,,,True,False,False
+2023,9,Montréal,2023-06-18 18:00:00+00:00,2,Logan SARGEANT,Williams,,0.0,6.0,,,True,False,False
+2023,10,Spielberg,2023-07-02 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,26.0,71.0,0,5133.607,False,False,False
+2023,10,Spielberg,2023-07-02 13:00:00+00:00,16,Charles LECLERC,Ferrari,2.0,18.0,71.0,5.155,5138.762,False,False,False
+2023,10,Spielberg,2023-07-02 13:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,3.0,15.0,71.0,17.188,5150.795,False,False,False
+2023,10,Spielberg,2023-07-02 13:00:00+00:00,4,Lando NORRIS,McLaren,4.0,12.0,71.0,26.327,5159.934,False,False,False
+2023,10,Spielberg,2023-07-02 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,5.0,10.0,71.0,30.317,5163.924,False,False,False
+2023,10,Spielberg,2023-07-02 13:00:00+00:00,55,Carlos SAINZ,Ferrari,6.0,8.0,71.0,31.377,5164.984,False,False,False
+2023,10,Spielberg,2023-07-02 13:00:00+00:00,63,George RUSSELL,Mercedes,7.0,6.0,71.0,48.403,5182.01,False,False,False
+2023,10,Spielberg,2023-07-02 13:00:00+00:00,44,Lewis HAMILTON,Mercedes,8.0,4.0,71.0,49.196,5182.803,False,False,False
+2023,10,Spielberg,2023-07-02 13:00:00+00:00,18,Lance STROLL,Aston Martin,9.0,2.0,71.0,59.043,5192.65,False,False,False
+2023,10,Spielberg,2023-07-02 13:00:00+00:00,10,Pierre GASLY,Alpine,10.0,1.0,71.0,67.667,5201.274,False,False,False
+2023,10,Spielberg,2023-07-02 13:00:00+00:00,23,Alexander ALBON,Williams,11.0,0.0,71.0,79.767,5213.374,False,False,False
+2023,10,Spielberg,2023-07-02 13:00:00+00:00,24,ZHOU Guanyu,Alfa Romeo,12.0,0.0,70.0,+1 LAP,,False,False,False
+2023,10,Spielberg,2023-07-02 13:00:00+00:00,2,Logan SARGEANT,Williams,13.0,0.0,70.0,+1 LAP,,False,False,False
+2023,10,Spielberg,2023-07-02 13:00:00+00:00,31,Esteban OCON,Alpine,14.0,0.0,70.0,+1 LAP,,False,False,False
+2023,10,Spielberg,2023-07-02 13:00:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,15.0,0.0,70.0,+1 LAP,,False,False,False
+2023,10,Spielberg,2023-07-02 13:00:00+00:00,81,Oscar PIASTRI,McLaren,16.0,0.0,70.0,+1 LAP,,False,False,False
+2023,10,Spielberg,2023-07-02 13:00:00+00:00,21,Nyck DE VRIES,AlphaTauri,17.0,0.0,70.0,+1 LAP,,False,False,False
+2023,10,Spielberg,2023-07-02 13:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,18.0,0.0,70.0,+1 LAP,,False,False,False
+2023,10,Spielberg,2023-07-02 13:00:00+00:00,22,Yuki TSUNODA,AlphaTauri,19.0,0.0,70.0,+1 LAP,,False,False,False
+2023,10,Spielberg,2023-07-02 13:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,,0.0,12.0,,,True,False,False
+2023,11,Silverstone,2023-07-09 14:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,26.0,52.0,0,5116.938,False,False,False
+2023,11,Silverstone,2023-07-09 14:00:00+00:00,4,Lando NORRIS,McLaren,2.0,18.0,52.0,3.798,5120.736,False,False,False
+2023,11,Silverstone,2023-07-09 14:00:00+00:00,44,Lewis HAMILTON,Mercedes,3.0,15.0,52.0,6.783,5123.721,False,False,False
+2023,11,Silverstone,2023-07-09 14:00:00+00:00,81,Oscar PIASTRI,McLaren,4.0,12.0,52.0,7.776,5124.714,False,False,False
+2023,11,Silverstone,2023-07-09 14:00:00+00:00,63,George RUSSELL,Mercedes,5.0,10.0,52.0,11.206,5128.144,False,False,False
+2023,11,Silverstone,2023-07-09 14:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,6.0,8.0,52.0,12.882,5129.82,False,False,False
+2023,11,Silverstone,2023-07-09 14:00:00+00:00,14,Fernando ALONSO,Aston Martin,7.0,6.0,52.0,17.193,5134.131,False,False,False
+2023,11,Silverstone,2023-07-09 14:00:00+00:00,23,Alexander ALBON,Williams,8.0,4.0,52.0,17.878,5134.816,False,False,False
+2023,11,Silverstone,2023-07-09 14:00:00+00:00,16,Charles LECLERC,Ferrari,9.0,2.0,52.0,18.689,5135.627,False,False,False
+2023,11,Silverstone,2023-07-09 14:00:00+00:00,55,Carlos SAINZ,Ferrari,10.0,1.0,52.0,19.448,5136.386,False,False,False
+2023,11,Silverstone,2023-07-09 14:00:00+00:00,2,Logan SARGEANT,Williams,11.0,0.0,52.0,23.632,5140.57,False,False,False
+2023,11,Silverstone,2023-07-09 14:00:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,12.0,0.0,52.0,25.83,5142.768,False,False,False
+2023,11,Silverstone,2023-07-09 14:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,13.0,0.0,52.0,26.663,5143.601,False,False,False
+2023,11,Silverstone,2023-07-09 14:00:00+00:00,18,Lance STROLL,Aston Martin,14.0,0.0,52.0,27.483,5144.421,False,False,False
+2023,11,Silverstone,2023-07-09 14:00:00+00:00,24,ZHOU Guanyu,Alfa Romeo,15.0,0.0,52.0,29.82,5146.758,False,False,False
+2023,11,Silverstone,2023-07-09 14:00:00+00:00,22,Yuki TSUNODA,AlphaTauri,16.0,0.0,52.0,31.225,5148.163,False,False,False
+2023,11,Silverstone,2023-07-09 14:00:00+00:00,21,Nyck DE VRIES,AlphaTauri,17.0,0.0,52.0,33.128,5150.066,False,False,False
+2023,11,Silverstone,2023-07-09 14:00:00+00:00,10,Pierre GASLY,Alpine,18.0,0.0,46.0,,,True,False,False
+2023,11,Silverstone,2023-07-09 14:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,,0.0,31.0,,,True,False,False
+2023,11,Silverstone,2023-07-09 14:00:00+00:00,31,Esteban OCON,Alpine,,0.0,9.0,,,True,False,False
+2023,12,Budapest,2023-07-23 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,26.0,70.0,0,5888.634,False,False,False
+2023,12,Budapest,2023-07-23 13:00:00+00:00,4,Lando NORRIS,McLaren,2.0,18.0,70.0,33.731,5922.365,False,False,False
+2023,12,Budapest,2023-07-23 13:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,3.0,15.0,70.0,37.603,5926.237,False,False,False
+2023,12,Budapest,2023-07-23 13:00:00+00:00,44,Lewis HAMILTON,Mercedes,4.0,12.0,70.0,39.134,5927.768,False,False,False
+2023,12,Budapest,2023-07-23 13:00:00+00:00,81,Oscar PIASTRI,McLaren,5.0,10.0,70.0,62.572,5951.206,False,False,False
+2023,12,Budapest,2023-07-23 13:00:00+00:00,63,George RUSSELL,Mercedes,6.0,8.0,70.0,65.825,5954.459,False,False,False
+2023,12,Budapest,2023-07-23 13:00:00+00:00,16,Charles LECLERC,Ferrari,7.0,6.0,70.0,70.317,5958.951,False,False,False
+2023,12,Budapest,2023-07-23 13:00:00+00:00,55,Carlos SAINZ,Ferrari,8.0,4.0,70.0,71.073,5959.707,False,False,False
+2023,12,Budapest,2023-07-23 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,9.0,2.0,70.0,75.709,5964.343,False,False,False
+2023,12,Budapest,2023-07-23 13:00:00+00:00,18,Lance STROLL,Aston Martin,10.0,1.0,69.0,+1 LAP,,False,False,False
+2023,12,Budapest,2023-07-23 13:00:00+00:00,23,Alexander ALBON,Williams,11.0,0.0,69.0,+1 LAP,,False,False,False
+2023,12,Budapest,2023-07-23 13:00:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,12.0,0.0,69.0,+1 LAP,,False,False,False
+2023,12,Budapest,2023-07-23 13:00:00+00:00,3,Daniel RICCIARDO,AlphaTauri,13.0,0.0,69.0,+1 LAP,,False,False,False
+2023,12,Budapest,2023-07-23 13:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,14.0,0.0,69.0,+1 LAP,,False,False,False
+2023,12,Budapest,2023-07-23 13:00:00+00:00,22,Yuki TSUNODA,AlphaTauri,15.0,0.0,69.0,+1 LAP,,False,False,False
+2023,12,Budapest,2023-07-23 13:00:00+00:00,24,ZHOU Guanyu,Alfa Romeo,16.0,0.0,69.0,+1 LAP,,False,False,False
+2023,12,Budapest,2023-07-23 13:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,17.0,0.0,69.0,+1 LAP,,False,False,False
+2023,12,Budapest,2023-07-23 13:00:00+00:00,2,Logan SARGEANT,Williams,18.0,0.0,67.0,,,True,False,False
+2023,12,Budapest,2023-07-23 13:00:00+00:00,31,Esteban OCON,Alpine,,0.0,2.0,,,True,False,False
+2023,12,Budapest,2023-07-23 13:00:00+00:00,10,Pierre GASLY,Alpine,,0.0,1.0,,,True,False,False
+2023,13,Spa-Francorchamps,2023-07-30 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,44.0,0,4950.45,False,False,False
+2023,13,Spa-Francorchamps,2023-07-30 13:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,2.0,18.0,44.0,22.305,4972.755,False,False,False
+2023,13,Spa-Francorchamps,2023-07-30 13:00:00+00:00,16,Charles LECLERC,Ferrari,3.0,15.0,44.0,32.259,4982.709,False,False,False
+2023,13,Spa-Francorchamps,2023-07-30 13:00:00+00:00,44,Lewis HAMILTON,Mercedes,4.0,13.0,44.0,49.671,5000.121,False,False,False
+2023,13,Spa-Francorchamps,2023-07-30 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,5.0,10.0,44.0,56.184,5006.634,False,False,False
+2023,13,Spa-Francorchamps,2023-07-30 13:00:00+00:00,63,George RUSSELL,Mercedes,6.0,8.0,44.0,63.101,5013.551,False,False,False
+2023,13,Spa-Francorchamps,2023-07-30 13:00:00+00:00,4,Lando NORRIS,McLaren,7.0,6.0,44.0,73.719,5024.169,False,False,False
+2023,13,Spa-Francorchamps,2023-07-30 13:00:00+00:00,31,Esteban OCON,Alpine,8.0,4.0,44.0,74.719,5025.169,False,False,False
+2023,13,Spa-Francorchamps,2023-07-30 13:00:00+00:00,18,Lance STROLL,Aston Martin,9.0,2.0,44.0,79.34,5029.79,False,False,False
+2023,13,Spa-Francorchamps,2023-07-30 13:00:00+00:00,22,Yuki TSUNODA,AlphaTauri,10.0,1.0,44.0,80.221,5030.671,False,False,False
+2023,13,Spa-Francorchamps,2023-07-30 13:00:00+00:00,10,Pierre GASLY,Alpine,11.0,0.0,44.0,83.084,5033.534,False,False,False
+2023,13,Spa-Francorchamps,2023-07-30 13:00:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,12.0,0.0,44.0,85.191,5035.641,False,False,False
+2023,13,Spa-Francorchamps,2023-07-30 13:00:00+00:00,24,ZHOU Guanyu,Alfa Romeo,13.0,0.0,44.0,95.441,5045.891,False,False,False
+2023,13,Spa-Francorchamps,2023-07-30 13:00:00+00:00,23,Alexander ALBON,Williams,14.0,0.0,44.0,96.184,5046.634,False,False,False
+2023,13,Spa-Francorchamps,2023-07-30 13:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,15.0,0.0,44.0,101.754,5052.204,False,False,False
+2023,13,Spa-Francorchamps,2023-07-30 13:00:00+00:00,3,Daniel RICCIARDO,AlphaTauri,16.0,0.0,44.0,103.071,5053.521,False,False,False
+2023,13,Spa-Francorchamps,2023-07-30 13:00:00+00:00,2,Logan SARGEANT,Williams,17.0,0.0,44.0,104.476,5054.926,False,False,False
+2023,13,Spa-Francorchamps,2023-07-30 13:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,18.0,0.0,44.0,110.45,5060.9,False,False,False
+2023,13,Spa-Francorchamps,2023-07-30 13:00:00+00:00,55,Carlos SAINZ,Ferrari,,0.0,23.0,,,True,False,False
+2023,13,Spa-Francorchamps,2023-07-30 13:00:00+00:00,81,Oscar PIASTRI,McLaren,,0.0,0.0,,,True,False,False
+2023,14,Zandvoort,2023-08-27 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,72.0,0,8644.411,False,False,False
+2023,14,Zandvoort,2023-08-27 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,2.0,19.0,72.0,3.744,8648.155,False,False,False
+2023,14,Zandvoort,2023-08-27 13:00:00+00:00,10,Pierre GASLY,Alpine,3.0,15.0,72.0,7.058,8651.469,False,False,False
+2023,14,Zandvoort,2023-08-27 13:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,4.0,12.0,72.0,10.068,8654.479,False,False,False
+2023,14,Zandvoort,2023-08-27 13:00:00+00:00,55,Carlos SAINZ,Ferrari,5.0,10.0,72.0,12.541,8656.952,False,False,False
+2023,14,Zandvoort,2023-08-27 13:00:00+00:00,44,Lewis HAMILTON,Mercedes,6.0,8.0,72.0,13.209,8657.62,False,False,False
+2023,14,Zandvoort,2023-08-27 13:00:00+00:00,4,Lando NORRIS,McLaren,7.0,6.0,72.0,13.232,8657.643,False,False,False
+2023,14,Zandvoort,2023-08-27 13:00:00+00:00,23,Alexander ALBON,Williams,8.0,4.0,72.0,15.155,8659.566,False,False,False
+2023,14,Zandvoort,2023-08-27 13:00:00+00:00,81,Oscar PIASTRI,McLaren,9.0,2.0,72.0,16.58,8660.991,False,False,False
+2023,14,Zandvoort,2023-08-27 13:00:00+00:00,31,Esteban OCON,Alpine,10.0,1.0,72.0,18.346,8662.757,False,False,False
+2023,14,Zandvoort,2023-08-27 13:00:00+00:00,18,Lance STROLL,Aston Martin,11.0,0.0,72.0,20.087,8664.498,False,False,False
+2023,14,Zandvoort,2023-08-27 13:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,12.0,0.0,72.0,20.84,8665.251,False,False,False
+2023,14,Zandvoort,2023-08-27 13:00:00+00:00,40,Liam LAWSON,AlphaTauri,13.0,0.0,72.0,26.147,8670.558,False,False,False
+2023,14,Zandvoort,2023-08-27 13:00:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,14.0,0.0,72.0,27.388,8671.799,False,False,False
+2023,14,Zandvoort,2023-08-27 13:00:00+00:00,22,Yuki TSUNODA,AlphaTauri,15.0,0.0,72.0,29.893,8674.304,False,False,False
+2023,14,Zandvoort,2023-08-27 13:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,16.0,0.0,72.0,31.41,8675.821,False,False,False
+2023,14,Zandvoort,2023-08-27 13:00:00+00:00,63,George RUSSELL,Mercedes,17.0,0.0,72.0,55.754,8700.165,False,False,False
+2023,14,Zandvoort,2023-08-27 13:00:00+00:00,24,ZHOU Guanyu,Alfa Romeo,,0.0,62.0,,,True,False,False
+2023,14,Zandvoort,2023-08-27 13:00:00+00:00,16,Charles LECLERC,Ferrari,,0.0,41.0,,,True,False,False
+2023,14,Zandvoort,2023-08-27 13:00:00+00:00,2,Logan SARGEANT,Williams,,0.0,14.0,,,True,False,False
+2023,15,Monza,2023-09-03 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,51.0,0,4421.143,False,False,False
+2023,15,Monza,2023-09-03 13:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,2.0,18.0,51.0,6.064,4427.207,False,False,False
+2023,15,Monza,2023-09-03 13:00:00+00:00,55,Carlos SAINZ,Ferrari,3.0,15.0,51.0,11.193,4432.336,False,False,False
+2023,15,Monza,2023-09-03 13:00:00+00:00,16,Charles LECLERC,Ferrari,4.0,12.0,51.0,11.377,4432.52,False,False,False
+2023,15,Monza,2023-09-03 13:00:00+00:00,63,George RUSSELL,Mercedes,5.0,10.0,51.0,23.028,4444.171,False,False,False
+2023,15,Monza,2023-09-03 13:00:00+00:00,44,Lewis HAMILTON,Mercedes,6.0,8.0,51.0,42.679,4463.822,False,False,False
+2023,15,Monza,2023-09-03 13:00:00+00:00,23,Alexander ALBON,Williams,7.0,6.0,51.0,45.106,4466.249,False,False,False
+2023,15,Monza,2023-09-03 13:00:00+00:00,4,Lando NORRIS,McLaren,8.0,4.0,51.0,45.449,4466.592,False,False,False
+2023,15,Monza,2023-09-03 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,9.0,2.0,51.0,46.294,4467.437,False,False,False
+2023,15,Monza,2023-09-03 13:00:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,10.0,1.0,51.0,64.056,4485.199,False,False,False
+2023,15,Monza,2023-09-03 13:00:00+00:00,40,Liam LAWSON,AlphaTauri,11.0,0.0,51.0,70.638,4491.781,False,False,False
+2023,15,Monza,2023-09-03 13:00:00+00:00,81,Oscar PIASTRI,McLaren,12.0,0.0,51.0,73.074,4494.217,False,False,False
+2023,15,Monza,2023-09-03 13:00:00+00:00,2,Logan SARGEANT,Williams,13.0,0.0,51.0,78.557,4499.7,False,False,False
+2023,15,Monza,2023-09-03 13:00:00+00:00,24,ZHOU Guanyu,Alfa Romeo,14.0,0.0,51.0,80.164,4501.307,False,False,False
+2023,15,Monza,2023-09-03 13:00:00+00:00,10,Pierre GASLY,Alpine,15.0,0.0,51.0,82.51,4503.653,False,False,False
+2023,15,Monza,2023-09-03 13:00:00+00:00,18,Lance STROLL,Aston Martin,16.0,0.0,51.0,87.266,4508.409,False,False,False
+2023,15,Monza,2023-09-03 13:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,17.0,0.0,50.0,+1 LAP,,False,False,False
+2023,15,Monza,2023-09-03 13:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,18.0,0.0,50.0,+1 LAP,,False,False,False
+2023,15,Monza,2023-09-03 13:00:00+00:00,31,Esteban OCON,Alpine,,0.0,39.0,,,True,False,False
+2023,15,Monza,2023-09-03 13:00:00+00:00,22,Yuki TSUNODA,AlphaTauri,,0.0,0.0,,,False,True,False
+2023,16,Marina Bay,2023-09-17 12:00:00+00:00,55,Carlos SAINZ,Ferrari,1.0,25.0,62.0,0,6397.418,False,False,False
+2023,16,Marina Bay,2023-09-17 12:00:00+00:00,4,Lando NORRIS,McLaren,2.0,18.0,62.0,0.812,6398.23,False,False,False
+2023,16,Marina Bay,2023-09-17 12:00:00+00:00,44,Lewis HAMILTON,Mercedes,3.0,16.0,62.0,1.269,6398.687,False,False,False
+2023,16,Marina Bay,2023-09-17 12:00:00+00:00,16,Charles LECLERC,Ferrari,4.0,12.0,62.0,21.177,6418.595,False,False,False
+2023,16,Marina Bay,2023-09-17 12:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,5.0,10.0,62.0,21.441,6418.859,False,False,False
+2023,16,Marina Bay,2023-09-17 12:00:00+00:00,10,Pierre GASLY,Alpine,6.0,8.0,62.0,38.441,6435.859,False,False,False
+2023,16,Marina Bay,2023-09-17 12:00:00+00:00,81,Oscar PIASTRI,McLaren,7.0,6.0,62.0,41.479,6438.897,False,False,False
+2023,16,Marina Bay,2023-09-17 12:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,8.0,4.0,62.0,59.534,6456.952,False,False,False
+2023,16,Marina Bay,2023-09-17 12:00:00+00:00,40,Liam LAWSON,AlphaTauri,9.0,2.0,62.0,65.918,6463.336,False,False,False
+2023,16,Marina Bay,2023-09-17 12:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,10.0,1.0,62.0,72.116,6469.534,False,False,False
+2023,16,Marina Bay,2023-09-17 12:00:00+00:00,23,Alexander ALBON,Williams,11.0,0.0,62.0,73.417,6470.835,False,False,False
+2023,16,Marina Bay,2023-09-17 12:00:00+00:00,24,ZHOU Guanyu,Alfa Romeo,12.0,0.0,62.0,83.649,6481.067,False,False,False
+2023,16,Marina Bay,2023-09-17 12:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,13.0,0.0,62.0,86.201,6483.619,False,False,False
+2023,16,Marina Bay,2023-09-17 12:00:00+00:00,2,Logan SARGEANT,Williams,14.0,0.0,62.0,86.889,6484.307,False,False,False
+2023,16,Marina Bay,2023-09-17 12:00:00+00:00,14,Fernando ALONSO,Aston Martin,15.0,0.0,62.0,87.603,6485.021,False,False,False
+2023,16,Marina Bay,2023-09-17 12:00:00+00:00,63,George RUSSELL,Mercedes,16.0,0.0,61.0,,,True,False,False
+2023,16,Marina Bay,2023-09-17 12:00:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,,0.0,51.0,,,True,False,False
+2023,16,Marina Bay,2023-09-17 12:00:00+00:00,31,Esteban OCON,Alpine,,0.0,42.0,,,True,False,False
+2023,16,Marina Bay,2023-09-17 12:00:00+00:00,22,Yuki TSUNODA,AlphaTauri,,0.0,0.0,,,True,False,False
+2023,17,Suzuka,2023-09-24 05:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,26.0,53.0,0,5458.421,False,False,False
+2023,17,Suzuka,2023-09-24 05:00:00+00:00,4,Lando NORRIS,McLaren,2.0,18.0,53.0,19.387,5477.808,False,False,False
+2023,17,Suzuka,2023-09-24 05:00:00+00:00,81,Oscar PIASTRI,McLaren,3.0,15.0,53.0,36.494,5494.915,False,False,False
+2023,17,Suzuka,2023-09-24 05:00:00+00:00,16,Charles LECLERC,Ferrari,4.0,12.0,53.0,43.998,5502.419,False,False,False
+2023,17,Suzuka,2023-09-24 05:00:00+00:00,44,Lewis HAMILTON,Mercedes,5.0,10.0,53.0,49.376,5507.797,False,False,False
+2023,17,Suzuka,2023-09-24 05:00:00+00:00,55,Carlos SAINZ,Ferrari,6.0,8.0,53.0,50.221,5508.642,False,False,False
+2023,17,Suzuka,2023-09-24 05:00:00+00:00,63,George RUSSELL,Mercedes,7.0,6.0,53.0,57.659,5516.08,False,False,False
+2023,17,Suzuka,2023-09-24 05:00:00+00:00,14,Fernando ALONSO,Aston Martin,8.0,4.0,53.0,74.725,5533.146,False,False,False
+2023,17,Suzuka,2023-09-24 05:00:00+00:00,31,Esteban OCON,Alpine,9.0,2.0,53.0,79.678,5538.099,False,False,False
+2023,17,Suzuka,2023-09-24 05:00:00+00:00,10,Pierre GASLY,Alpine,10.0,1.0,53.0,83.155,5541.576,False,False,False
+2023,17,Suzuka,2023-09-24 05:00:00+00:00,40,Liam LAWSON,AlphaTauri,11.0,0.0,52.0,+1 LAP,,False,False,False
+2023,17,Suzuka,2023-09-24 05:00:00+00:00,22,Yuki TSUNODA,AlphaTauri,12.0,0.0,52.0,+1 LAP,,False,False,False
+2023,17,Suzuka,2023-09-24 05:00:00+00:00,24,ZHOU Guanyu,Alfa Romeo,13.0,0.0,52.0,+1 LAP,,False,False,False
+2023,17,Suzuka,2023-09-24 05:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,14.0,0.0,52.0,+1 LAP,,False,False,False
+2023,17,Suzuka,2023-09-24 05:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,15.0,0.0,52.0,+1 LAP,,False,False,False
+2023,17,Suzuka,2023-09-24 05:00:00+00:00,23,Alexander ALBON,Williams,,0.0,26.0,,,True,False,False
+2023,17,Suzuka,2023-09-24 05:00:00+00:00,2,Logan SARGEANT,Williams,,0.0,22.0,,,True,False,False
+2023,17,Suzuka,2023-09-24 05:00:00+00:00,18,Lance STROLL,Aston Martin,,0.0,20.0,,,True,False,False
+2023,17,Suzuka,2023-09-24 05:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,,0.0,15.0,,,True,False,False
+2023,17,Suzuka,2023-09-24 05:00:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,,0.0,7.0,,,True,False,False
+2023,18,Lusail,2023-10-08 17:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,26.0,57.0,0,5259.168,False,False,False
+2023,18,Lusail,2023-10-08 17:00:00+00:00,81,Oscar PIASTRI,McLaren,2.0,18.0,57.0,4.833,5264.001,False,False,False
+2023,18,Lusail,2023-10-08 17:00:00+00:00,4,Lando NORRIS,McLaren,3.0,15.0,57.0,5.969,5265.137,False,False,False
+2023,18,Lusail,2023-10-08 17:00:00+00:00,63,George RUSSELL,Mercedes,4.0,12.0,57.0,34.119,5293.287,False,False,False
+2023,18,Lusail,2023-10-08 17:00:00+00:00,16,Charles LECLERC,Ferrari,5.0,10.0,57.0,38.976,5298.144,False,False,False
+2023,18,Lusail,2023-10-08 17:00:00+00:00,14,Fernando ALONSO,Aston Martin,6.0,8.0,57.0,49.032,5308.2,False,False,False
+2023,18,Lusail,2023-10-08 17:00:00+00:00,31,Esteban OCON,Alpine,7.0,6.0,57.0,62.39,5321.558,False,False,False
+2023,18,Lusail,2023-10-08 17:00:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,8.0,4.0,57.0,66.563,5325.731,False,False,False
+2023,18,Lusail,2023-10-08 17:00:00+00:00,24,ZHOU Guanyu,Alfa Romeo,9.0,2.0,57.0,76.127,5335.295,False,False,False
+2023,18,Lusail,2023-10-08 17:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,10.0,1.0,57.0,80.181,5339.349,False,False,False
+2023,18,Lusail,2023-10-08 17:00:00+00:00,18,Lance STROLL,Aston Martin,11.0,0.0,57.0,81.652,5340.82,False,False,False
+2023,18,Lusail,2023-10-08 17:00:00+00:00,10,Pierre GASLY,Alpine,12.0,0.0,57.0,82.3,5341.468,False,False,False
+2023,18,Lusail,2023-10-08 17:00:00+00:00,23,Alexander ALBON,Williams,13.0,0.0,57.0,91.014,5350.182,False,False,False
+2023,18,Lusail,2023-10-08 17:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,14.0,0.0,56.0,+1 LAP,,False,False,False
+2023,18,Lusail,2023-10-08 17:00:00+00:00,22,Yuki TSUNODA,AlphaTauri,15.0,0.0,56.0,+1 LAP,,False,False,False
+2023,18,Lusail,2023-10-08 17:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,16.0,0.0,56.0,+1 LAP,,False,False,False
+2023,18,Lusail,2023-10-08 17:00:00+00:00,40,Liam LAWSON,AlphaTauri,17.0,0.0,56.0,+1 LAP,,False,False,False
+2023,18,Lusail,2023-10-08 17:00:00+00:00,2,Logan SARGEANT,Williams,,0.0,40.0,,,True,False,False
+2023,18,Lusail,2023-10-08 17:00:00+00:00,44,Lewis HAMILTON,Mercedes,,0.0,0.0,,,True,False,False
+2023,18,Lusail,2023-10-08 17:00:00+00:00,55,Carlos SAINZ,Ferrari,,0.0,0.0,,,False,True,False
+2023,19,Austin,2023-10-22 19:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,56.0,0,5721.362,False,False,False
+2023,19,Austin,2023-10-22 19:00:00+00:00,4,Lando NORRIS,McLaren,2.0,0.0,56.0,10.73,5732.092,False,False,False
+2023,19,Austin,2023-10-22 19:00:00+00:00,55,Carlos SAINZ,Ferrari,3.0,0.0,56.0,15.134,5736.496,False,False,False
+2023,19,Austin,2023-10-22 19:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,4.0,0.0,56.0,18.46,5739.822,False,False,False
+2023,19,Austin,2023-10-22 19:00:00+00:00,63,George RUSSELL,Mercedes,5.0,0.0,56.0,24.999,5746.361,False,False,False
+2023,19,Austin,2023-10-22 19:00:00+00:00,10,Pierre GASLY,Alpine,6.0,0.0,56.0,47.996,5769.358,False,False,False
+2023,19,Austin,2023-10-22 19:00:00+00:00,18,Lance STROLL,Aston Martin,7.0,0.0,56.0,48.696,5770.058,False,False,False
+2023,19,Austin,2023-10-22 19:00:00+00:00,22,Yuki TSUNODA,AlphaTauri,8.0,0.0,56.0,74.385,5795.747,False,False,False
+2023,19,Austin,2023-10-22 19:00:00+00:00,23,Alexander ALBON,Williams,9.0,0.0,56.0,86.714,5808.076,False,False,False
+2023,19,Austin,2023-10-22 19:00:00+00:00,2,Logan SARGEANT,Williams,10.0,0.0,56.0,87.998,5809.36,False,False,False
+2023,19,Austin,2023-10-22 19:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,11.0,0.0,56.0,89.904,5811.266,False,False,False
+2023,19,Austin,2023-10-22 19:00:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,12.0,0.0,56.0,98.601,5819.963,False,False,False
+2023,19,Austin,2023-10-22 19:00:00+00:00,24,ZHOU Guanyu,Alfa Romeo,13.0,0.0,55.0,+1 LAP,,False,False,False
+2023,19,Austin,2023-10-22 19:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,14.0,0.0,55.0,+1 LAP,,False,False,False
+2023,19,Austin,2023-10-22 19:00:00+00:00,3,Daniel RICCIARDO,AlphaTauri,15.0,0.0,55.0,+1 LAP,,False,False,False
+2023,19,Austin,2023-10-22 19:00:00+00:00,44,Lewis HAMILTON,Mercedes,,0.0,56.0,2.225,5723.587,False,False,False
+2023,19,Austin,2023-10-22 19:00:00+00:00,16,Charles LECLERC,Ferrari,,0.0,56.0,24.662,5746.024,False,False,False
+2023,19,Austin,2023-10-22 19:00:00+00:00,14,Fernando ALONSO,Aston Martin,,0.0,49.0,,,True,False,False
+2023,19,Austin,2023-10-22 19:00:00+00:00,81,Oscar PIASTRI,McLaren,,0.0,10.0,,,True,False,False
+2023,19,Austin,2023-10-22 19:00:00+00:00,31,Esteban OCON,Alpine,,0.0,6.0,,,True,False,False
+2023,20,Mexico City,2023-10-29 20:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,71.0,0,7350.814,False,False,False
+2023,20,Mexico City,2023-10-29 20:00:00+00:00,44,Lewis HAMILTON,Mercedes,2.0,19.0,71.0,13.875,7364.689,False,False,False
+2023,20,Mexico City,2023-10-29 20:00:00+00:00,16,Charles LECLERC,Ferrari,3.0,15.0,71.0,23.124,7373.938,False,False,False
+2023,20,Mexico City,2023-10-29 20:00:00+00:00,55,Carlos SAINZ,Ferrari,4.0,12.0,71.0,27.154,7377.968,False,False,False
+2023,20,Mexico City,2023-10-29 20:00:00+00:00,4,Lando NORRIS,McLaren,5.0,10.0,71.0,33.266,7384.08,False,False,False
+2023,20,Mexico City,2023-10-29 20:00:00+00:00,63,George RUSSELL,Mercedes,6.0,8.0,71.0,41.02,7391.834,False,False,False
+2023,20,Mexico City,2023-10-29 20:00:00+00:00,3,Daniel RICCIARDO,AlphaTauri,7.0,6.0,71.0,41.57,7392.384,False,False,False
+2023,20,Mexico City,2023-10-29 20:00:00+00:00,81,Oscar PIASTRI,McLaren,8.0,4.0,71.0,43.104,7393.918,False,False,False
+2023,20,Mexico City,2023-10-29 20:00:00+00:00,23,Alexander ALBON,Williams,9.0,2.0,71.0,48.573,7399.387,False,False,False
+2023,20,Mexico City,2023-10-29 20:00:00+00:00,31,Esteban OCON,Alpine,10.0,1.0,71.0,62.879,7413.693,False,False,False
+2023,20,Mexico City,2023-10-29 20:00:00+00:00,10,Pierre GASLY,Alpine,11.0,0.0,71.0,66.208,7417.022,False,False,False
+2023,20,Mexico City,2023-10-29 20:00:00+00:00,22,Yuki TSUNODA,AlphaTauri,12.0,0.0,71.0,78.982,7429.796,False,False,False
+2023,20,Mexico City,2023-10-29 20:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,13.0,0.0,71.0,80.309,7431.123,False,False,False
+2023,20,Mexico City,2023-10-29 20:00:00+00:00,24,ZHOU Guanyu,Alfa Romeo,14.0,0.0,71.0,81.676,7432.49,False,False,False
+2023,20,Mexico City,2023-10-29 20:00:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,15.0,0.0,71.0,85.597,7436.411,False,False,False
+2023,20,Mexico City,2023-10-29 20:00:00+00:00,2,Logan SARGEANT,Williams,16.0,0.0,70.0,,,True,False,False
+2023,20,Mexico City,2023-10-29 20:00:00+00:00,18,Lance STROLL,Aston Martin,17.0,0.0,66.0,,,True,False,False
+2023,20,Mexico City,2023-10-29 20:00:00+00:00,14,Fernando ALONSO,Aston Martin,,0.0,47.0,,,True,False,False
+2023,20,Mexico City,2023-10-29 20:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,,0.0,31.0,,,True,False,False
+2023,20,Mexico City,2023-10-29 20:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,,0.0,1.0,,,True,False,False
+2023,21,São Paulo,2023-11-05 17:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,71.0,0,7008.894,False,False,False
+2023,21,São Paulo,2023-11-05 17:00:00+00:00,4,Lando NORRIS,McLaren,2.0,19.0,71.0,8.277,7017.171,False,False,False
+2023,21,São Paulo,2023-11-05 17:00:00+00:00,14,Fernando ALONSO,Aston Martin,3.0,15.0,71.0,34.155,7043.049,False,False,False
+2023,21,São Paulo,2023-11-05 17:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,4.0,12.0,71.0,34.208,7043.102,False,False,False
+2023,21,São Paulo,2023-11-05 17:00:00+00:00,18,Lance STROLL,Aston Martin,5.0,10.0,71.0,40.845,7049.739,False,False,False
+2023,21,São Paulo,2023-11-05 17:00:00+00:00,55,Carlos SAINZ,Ferrari,6.0,8.0,71.0,50.188,7059.082,False,False,False
+2023,21,São Paulo,2023-11-05 17:00:00+00:00,10,Pierre GASLY,Alpine,7.0,6.0,71.0,56.093,7064.987,False,False,False
+2023,21,São Paulo,2023-11-05 17:00:00+00:00,44,Lewis HAMILTON,Mercedes,8.0,4.0,71.0,62.859,7071.753,False,False,False
+2023,21,São Paulo,2023-11-05 17:00:00+00:00,22,Yuki TSUNODA,AlphaTauri,9.0,2.0,71.0,69.88,7078.774,False,False,False
+2023,21,São Paulo,2023-11-05 17:00:00+00:00,31,Esteban OCON,Alpine,10.0,1.0,70.0,+1 LAP,,False,False,False
+2023,21,São Paulo,2023-11-05 17:00:00+00:00,2,Logan SARGEANT,Williams,11.0,0.0,70.0,+1 LAP,,False,False,False
+2023,21,São Paulo,2023-11-05 17:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,12.0,0.0,70.0,+1 LAP,,False,False,False
+2023,21,São Paulo,2023-11-05 17:00:00+00:00,3,Daniel RICCIARDO,AlphaTauri,13.0,0.0,70.0,+1 LAP,,False,False,False
+2023,21,São Paulo,2023-11-05 17:00:00+00:00,81,Oscar PIASTRI,McLaren,14.0,0.0,69.0,+2 LAPS,,False,False,False
+2023,21,São Paulo,2023-11-05 17:00:00+00:00,63,George RUSSELL,Mercedes,,0.0,57.0,,,True,False,False
+2023,21,São Paulo,2023-11-05 17:00:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,,0.0,39.0,,,True,False,False
+2023,21,São Paulo,2023-11-05 17:00:00+00:00,24,ZHOU Guanyu,Alfa Romeo,,0.0,22.0,,,True,False,False
+2023,21,São Paulo,2023-11-05 17:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,,0.0,0.0,,,True,False,False
+2023,21,São Paulo,2023-11-05 17:00:00+00:00,23,Alexander ALBON,Williams,,0.0,0.0,,,True,False,False
+2023,21,São Paulo,2023-11-05 17:00:00+00:00,16,Charles LECLERC,Ferrari,,0.0,0.0,,,False,True,False
+2023,22,Las Vegas,2023-11-19 06:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,50.0,0,5348.289,False,False,False
+2023,22,Las Vegas,2023-11-19 06:00:00+00:00,16,Charles LECLERC,Ferrari,2.0,18.0,50.0,2.07,5350.359,False,False,False
+2023,22,Las Vegas,2023-11-19 06:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,3.0,15.0,50.0,2.241,5350.53,False,False,False
+2023,22,Las Vegas,2023-11-19 06:00:00+00:00,31,Esteban OCON,Alpine,4.0,12.0,50.0,18.665,5366.954,False,False,False
+2023,22,Las Vegas,2023-11-19 06:00:00+00:00,18,Lance STROLL,Aston Martin,5.0,10.0,50.0,20.067,5368.356,False,False,False
+2023,22,Las Vegas,2023-11-19 06:00:00+00:00,55,Carlos SAINZ,Ferrari,6.0,8.0,50.0,20.834,5369.123,False,False,False
+2023,22,Las Vegas,2023-11-19 06:00:00+00:00,44,Lewis HAMILTON,Mercedes,7.0,6.0,50.0,21.755,5370.044,False,False,False
+2023,22,Las Vegas,2023-11-19 06:00:00+00:00,63,George RUSSELL,Mercedes,8.0,4.0,50.0,23.091,5371.38,False,False,False
+2023,22,Las Vegas,2023-11-19 06:00:00+00:00,14,Fernando ALONSO,Aston Martin,9.0,2.0,50.0,25.964,5374.253,False,False,False
+2023,22,Las Vegas,2023-11-19 06:00:00+00:00,81,Oscar PIASTRI,McLaren,10.0,2.0,50.0,29.496,5377.785,False,False,False
+2023,22,Las Vegas,2023-11-19 06:00:00+00:00,10,Pierre GASLY,Alpine,11.0,0.0,50.0,34.27,5382.559,False,False,False
+2023,22,Las Vegas,2023-11-19 06:00:00+00:00,23,Alexander ALBON,Williams,12.0,0.0,50.0,43.398,5391.687,False,False,False
+2023,22,Las Vegas,2023-11-19 06:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,13.0,0.0,50.0,44.825,5393.114,False,False,False
+2023,22,Las Vegas,2023-11-19 06:00:00+00:00,3,Daniel RICCIARDO,AlphaTauri,14.0,0.0,50.0,48.525,5396.814,False,False,False
+2023,22,Las Vegas,2023-11-19 06:00:00+00:00,24,ZHOU Guanyu,Alfa Romeo,15.0,0.0,50.0,50.162,5398.451,False,False,False
+2023,22,Las Vegas,2023-11-19 06:00:00+00:00,2,Logan SARGEANT,Williams,16.0,0.0,50.0,50.882,5399.171,False,False,False
+2023,22,Las Vegas,2023-11-19 06:00:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,17.0,0.0,50.0,85.35,5433.639,False,False,False
+2023,22,Las Vegas,2023-11-19 06:00:00+00:00,22,Yuki TSUNODA,AlphaTauri,18.0,0.0,46.0,,,True,False,False
+2023,22,Las Vegas,2023-11-19 06:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,19.0,0.0,45.0,,,True,False,False
+2023,22,Las Vegas,2023-11-19 06:00:00+00:00,4,Lando NORRIS,McLaren,,0.0,2.0,,,True,False,False
+2023,23,Yas Island,2023-11-26 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,26.0,58.0,0,5222.624,False,False,False
+2023,23,Yas Island,2023-11-26 13:00:00+00:00,16,Charles LECLERC,Ferrari,2.0,18.0,58.0,17.993,5240.617,False,False,False
+2023,23,Yas Island,2023-11-26 13:00:00+00:00,63,George RUSSELL,Mercedes,3.0,15.0,58.0,20.328,5242.952,False,False,False
+2023,23,Yas Island,2023-11-26 13:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,4.0,12.0,58.0,21.453,5244.077,False,False,False
+2023,23,Yas Island,2023-11-26 13:00:00+00:00,4,Lando NORRIS,McLaren,5.0,10.0,58.0,24.284,5246.908,False,False,False
+2023,23,Yas Island,2023-11-26 13:00:00+00:00,81,Oscar PIASTRI,McLaren,6.0,8.0,58.0,31.487,5254.111,False,False,False
+2023,23,Yas Island,2023-11-26 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,7.0,6.0,58.0,39.512,5262.136,False,False,False
+2023,23,Yas Island,2023-11-26 13:00:00+00:00,22,Yuki TSUNODA,AlphaTauri,8.0,4.0,58.0,43.088,5265.712,False,False,False
+2023,23,Yas Island,2023-11-26 13:00:00+00:00,44,Lewis HAMILTON,Mercedes,9.0,2.0,58.0,44.424,5267.048,False,False,False
+2023,23,Yas Island,2023-11-26 13:00:00+00:00,18,Lance STROLL,Aston Martin,10.0,1.0,58.0,55.632,5278.256,False,False,False
+2023,23,Yas Island,2023-11-26 13:00:00+00:00,3,Daniel RICCIARDO,AlphaTauri,11.0,0.0,58.0,56.229,5278.853,False,False,False
+2023,23,Yas Island,2023-11-26 13:00:00+00:00,31,Esteban OCON,Alpine,12.0,0.0,58.0,66.373,5288.997,False,False,False
+2023,23,Yas Island,2023-11-26 13:00:00+00:00,10,Pierre GASLY,Alpine,13.0,0.0,58.0,70.36,5292.984,False,False,False
+2023,23,Yas Island,2023-11-26 13:00:00+00:00,23,Alexander ALBON,Williams,14.0,0.0,58.0,73.184,5295.808,False,False,False
+2023,23,Yas Island,2023-11-26 13:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,15.0,0.0,58.0,83.696,5306.32,False,False,False
+2023,23,Yas Island,2023-11-26 13:00:00+00:00,2,Logan SARGEANT,Williams,16.0,0.0,58.0,87.791,5310.415,False,False,False
+2023,23,Yas Island,2023-11-26 13:00:00+00:00,24,ZHOU Guanyu,Alfa Romeo,17.0,0.0,58.0,89.422,5312.046,False,False,False
+2023,23,Yas Island,2023-11-26 13:00:00+00:00,55,Carlos SAINZ,Ferrari,18.0,0.0,57.0,,,True,False,False
+2023,23,Yas Island,2023-11-26 13:00:00+00:00,77,Valtteri BOTTAS,Alfa Romeo,19.0,0.0,57.0,+1 LAP,,False,False,False
+2023,23,Yas Island,2023-11-26 13:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,20.0,0.0,57.0,+1 LAP,,False,False,False
+2024,1,Sakhir,2024-03-02 15:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,26.0,57.0,0,5504.742,False,False,False
+2024,1,Sakhir,2024-03-02 15:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,2.0,18.0,57.0,22.457,5527.199,False,False,False
+2024,1,Sakhir,2024-03-02 15:00:00+00:00,55,Carlos SAINZ,Ferrari,3.0,15.0,57.0,25.11,5529.852,False,False,False
+2024,1,Sakhir,2024-03-02 15:00:00+00:00,16,Charles LECLERC,Ferrari,4.0,12.0,57.0,39.669,5544.411,False,False,False
+2024,1,Sakhir,2024-03-02 15:00:00+00:00,63,George RUSSELL,Mercedes,5.0,10.0,57.0,46.788,5551.53,False,False,False
+2024,1,Sakhir,2024-03-02 15:00:00+00:00,4,Lando NORRIS,McLaren,6.0,8.0,57.0,48.458,5553.2,False,False,False
+2024,1,Sakhir,2024-03-02 15:00:00+00:00,44,Lewis HAMILTON,Mercedes,7.0,6.0,57.0,50.324,5555.066,False,False,False
+2024,1,Sakhir,2024-03-02 15:00:00+00:00,81,Oscar PIASTRI,McLaren,8.0,4.0,57.0,56.082,5560.824,False,False,False
+2024,1,Sakhir,2024-03-02 15:00:00+00:00,14,Fernando ALONSO,Aston Martin,9.0,2.0,57.0,74.887,5579.629,False,False,False
+2024,1,Sakhir,2024-03-02 15:00:00+00:00,18,Lance STROLL,Aston Martin,10.0,1.0,57.0,93.216,5597.958,False,False,False
+2024,1,Sakhir,2024-03-02 15:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,11.0,0.0,56.0,+1 LAP,,False,False,False
+2024,1,Sakhir,2024-03-02 15:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,12.0,0.0,56.0,+1 LAP,,False,False,False
+2024,1,Sakhir,2024-03-02 15:00:00+00:00,3,Daniel RICCIARDO,RB,13.0,0.0,56.0,+1 LAP,,False,False,False
+2024,1,Sakhir,2024-03-02 15:00:00+00:00,22,Yuki TSUNODA,RB,14.0,0.0,56.0,+1 LAP,,False,False,False
+2024,1,Sakhir,2024-03-02 15:00:00+00:00,23,Alexander ALBON,Williams,15.0,0.0,56.0,+1 LAP,,False,False,False
+2024,1,Sakhir,2024-03-02 15:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,16.0,0.0,56.0,+1 LAP,,False,False,False
+2024,1,Sakhir,2024-03-02 15:00:00+00:00,31,Esteban OCON,Alpine,17.0,0.0,56.0,+1 LAP,,False,False,False
+2024,1,Sakhir,2024-03-02 15:00:00+00:00,10,Pierre GASLY,Alpine,18.0,0.0,56.0,+1 LAP,,False,False,False
+2024,1,Sakhir,2024-03-02 15:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,19.0,0.0,56.0,+1 LAP,,False,False,False
+2024,1,Sakhir,2024-03-02 15:00:00+00:00,2,Logan SARGEANT,Williams,20.0,0.0,55.0,+2 LAPS,,False,False,False
+2024,2,Jeddah,2024-03-09 17:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,50.0,0,4843.273,False,False,False
+2024,2,Jeddah,2024-03-09 17:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,2.0,18.0,50.0,13.643,4856.916,False,False,False
+2024,2,Jeddah,2024-03-09 17:00:00+00:00,16,Charles LECLERC,Ferrari,3.0,16.0,50.0,18.639,4861.912,False,False,False
+2024,2,Jeddah,2024-03-09 17:00:00+00:00,81,Oscar PIASTRI,McLaren,4.0,12.0,50.0,32.007,4875.28,False,False,False
+2024,2,Jeddah,2024-03-09 17:00:00+00:00,14,Fernando ALONSO,Aston Martin,5.0,10.0,50.0,35.759,4879.032,False,False,False
+2024,2,Jeddah,2024-03-09 17:00:00+00:00,63,George RUSSELL,Mercedes,6.0,8.0,50.0,39.936,4883.209,False,False,False
+2024,2,Jeddah,2024-03-09 17:00:00+00:00,38,Oliver BEARMAN,Ferrari,7.0,6.0,50.0,42.679,4885.952,False,False,False
+2024,2,Jeddah,2024-03-09 17:00:00+00:00,4,Lando NORRIS,McLaren,8.0,4.0,50.0,45.708,4888.981,False,False,False
+2024,2,Jeddah,2024-03-09 17:00:00+00:00,44,Lewis HAMILTON,Mercedes,9.0,2.0,50.0,47.391,4890.664,False,False,False
+2024,2,Jeddah,2024-03-09 17:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,10.0,1.0,50.0,76.996,4920.269,False,False,False
+2024,2,Jeddah,2024-03-09 17:00:00+00:00,23,Alexander ALBON,Williams,11.0,0.0,50.0,88.354,4931.627,False,False,False
+2024,2,Jeddah,2024-03-09 17:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,12.0,0.0,50.0,105.737,4949.01,False,False,False
+2024,2,Jeddah,2024-03-09 17:00:00+00:00,31,Esteban OCON,Alpine,13.0,0.0,49.0,+1 LAP,,False,False,False
+2024,2,Jeddah,2024-03-09 17:00:00+00:00,2,Logan SARGEANT,Williams,14.0,0.0,49.0,+1 LAP,,False,False,False
+2024,2,Jeddah,2024-03-09 17:00:00+00:00,22,Yuki TSUNODA,RB,15.0,0.0,49.0,+1 LAP,,False,False,False
+2024,2,Jeddah,2024-03-09 17:00:00+00:00,3,Daniel RICCIARDO,RB,16.0,0.0,49.0,+1 LAP,,False,False,False
+2024,2,Jeddah,2024-03-09 17:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,17.0,0.0,49.0,+1 LAP,,False,False,False
+2024,2,Jeddah,2024-03-09 17:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,18.0,0.0,49.0,+1 LAP,,False,False,False
+2024,2,Jeddah,2024-03-09 17:00:00+00:00,18,Lance STROLL,Aston Martin,,0.0,5.0,,,True,False,False
+2024,2,Jeddah,2024-03-09 17:00:00+00:00,10,Pierre GASLY,Alpine,,0.0,1.0,,,True,False,False
+2024,3,Melbourne,2024-03-24 04:00:00+00:00,55,Carlos SAINZ,Ferrari,1.0,25.0,58.0,0,4826.843,False,False,False
+2024,3,Melbourne,2024-03-24 04:00:00+00:00,16,Charles LECLERC,Ferrari,2.0,19.0,58.0,2.366,4829.209,False,False,False
+2024,3,Melbourne,2024-03-24 04:00:00+00:00,4,Lando NORRIS,McLaren,3.0,15.0,58.0,5.904,4832.747,False,False,False
+2024,3,Melbourne,2024-03-24 04:00:00+00:00,81,Oscar PIASTRI,McLaren,4.0,12.0,58.0,35.77,4862.613,False,False,False
+2024,3,Melbourne,2024-03-24 04:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,5.0,10.0,58.0,56.309,4883.152,False,False,False
+2024,3,Melbourne,2024-03-24 04:00:00+00:00,18,Lance STROLL,Aston Martin,6.0,8.0,58.0,93.222,4920.065,False,False,False
+2024,3,Melbourne,2024-03-24 04:00:00+00:00,22,Yuki TSUNODA,RB,7.0,6.0,58.0,95.601,4922.444,False,False,False
+2024,3,Melbourne,2024-03-24 04:00:00+00:00,14,Fernando ALONSO,Aston Martin,8.0,4.0,58.0,100.992,4927.835,False,False,False
+2024,3,Melbourne,2024-03-24 04:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,9.0,2.0,58.0,104.553,4931.396,False,False,False
+2024,3,Melbourne,2024-03-24 04:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,10.0,1.0,57.0,+1 LAP,,False,False,False
+2024,3,Melbourne,2024-03-24 04:00:00+00:00,23,Alexander ALBON,Williams,11.0,0.0,57.0,+1 LAP,,False,False,False
+2024,3,Melbourne,2024-03-24 04:00:00+00:00,3,Daniel RICCIARDO,RB,12.0,0.0,57.0,+1 LAP,,False,False,False
+2024,3,Melbourne,2024-03-24 04:00:00+00:00,10,Pierre GASLY,Alpine,13.0,0.0,57.0,+1 LAP,,False,False,False
+2024,3,Melbourne,2024-03-24 04:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,14.0,0.0,57.0,+1 LAP,,False,False,False
+2024,3,Melbourne,2024-03-24 04:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,15.0,0.0,57.0,+1 LAP,,False,False,False
+2024,3,Melbourne,2024-03-24 04:00:00+00:00,31,Esteban OCON,Alpine,16.0,0.0,57.0,+1 LAP,,False,False,False
+2024,3,Melbourne,2024-03-24 04:00:00+00:00,63,George RUSSELL,Mercedes,17.0,0.0,56.0,,,True,False,False
+2024,3,Melbourne,2024-03-24 04:00:00+00:00,44,Lewis HAMILTON,Mercedes,,0.0,15.0,,,True,False,False
+2024,3,Melbourne,2024-03-24 04:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,,0.0,3.0,,,True,False,False
+2024,4,Suzuka,2024-04-07 05:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,26.0,53.0,0,6863.566,False,False,False
+2024,4,Suzuka,2024-04-07 05:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,2.0,18.0,53.0,12.535,6876.101,False,False,False
+2024,4,Suzuka,2024-04-07 05:00:00+00:00,55,Carlos SAINZ,Ferrari,3.0,15.0,53.0,20.866,6884.432,False,False,False
+2024,4,Suzuka,2024-04-07 05:00:00+00:00,16,Charles LECLERC,Ferrari,4.0,12.0,53.0,26.522,6890.088,False,False,False
+2024,4,Suzuka,2024-04-07 05:00:00+00:00,4,Lando NORRIS,McLaren,5.0,10.0,53.0,29.7,6893.266,False,False,False
+2024,4,Suzuka,2024-04-07 05:00:00+00:00,14,Fernando ALONSO,Aston Martin,6.0,8.0,53.0,44.272,6907.838,False,False,False
+2024,4,Suzuka,2024-04-07 05:00:00+00:00,63,George RUSSELL,Mercedes,7.0,6.0,53.0,45.951,6909.517,False,False,False
+2024,4,Suzuka,2024-04-07 05:00:00+00:00,81,Oscar PIASTRI,McLaren,8.0,4.0,53.0,47.525,6911.091,False,False,False
+2024,4,Suzuka,2024-04-07 05:00:00+00:00,44,Lewis HAMILTON,Mercedes,9.0,2.0,53.0,48.626,6912.192,False,False,False
+2024,4,Suzuka,2024-04-07 05:00:00+00:00,22,Yuki TSUNODA,RB,10.0,1.0,52.0,+1 LAP,,False,False,False
+2024,4,Suzuka,2024-04-07 05:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,11.0,0.0,52.0,+1 LAP,,False,False,False
+2024,4,Suzuka,2024-04-07 05:00:00+00:00,18,Lance STROLL,Aston Martin,12.0,0.0,52.0,+1 LAP,,False,False,False
+2024,4,Suzuka,2024-04-07 05:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,13.0,0.0,52.0,+1 LAP,,False,False,False
+2024,4,Suzuka,2024-04-07 05:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,14.0,0.0,52.0,+1 LAP,,False,False,False
+2024,4,Suzuka,2024-04-07 05:00:00+00:00,31,Esteban OCON,Alpine,15.0,0.0,52.0,+1 LAP,,False,False,False
+2024,4,Suzuka,2024-04-07 05:00:00+00:00,10,Pierre GASLY,Alpine,16.0,0.0,52.0,+1 LAP,,False,False,False
+2024,4,Suzuka,2024-04-07 05:00:00+00:00,2,Logan SARGEANT,Williams,17.0,0.0,52.0,+1 LAP,,False,False,False
+2024,4,Suzuka,2024-04-07 05:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,,0.0,12.0,,,True,False,False
+2024,4,Suzuka,2024-04-07 05:00:00+00:00,3,Daniel RICCIARDO,RB,,0.0,0.0,,,True,False,False
+2024,4,Suzuka,2024-04-07 05:00:00+00:00,23,Alexander ALBON,Williams,,0.0,0.0,,,True,False,False
+2024,5,Shanghai,2024-04-21 07:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,56.0,0,6052.554,False,False,False
+2024,5,Shanghai,2024-04-21 07:00:00+00:00,4,Lando NORRIS,McLaren,2.0,18.0,56.0,13.773,6066.327,False,False,False
+2024,5,Shanghai,2024-04-21 07:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,3.0,15.0,56.0,19.16,6071.714,False,False,False
+2024,5,Shanghai,2024-04-21 07:00:00+00:00,16,Charles LECLERC,Ferrari,4.0,12.0,56.0,23.623,6076.177,False,False,False
+2024,5,Shanghai,2024-04-21 07:00:00+00:00,55,Carlos SAINZ,Ferrari,5.0,10.0,56.0,33.983,6086.537,False,False,False
+2024,5,Shanghai,2024-04-21 07:00:00+00:00,63,George RUSSELL,Mercedes,6.0,8.0,56.0,38.724,6091.278,False,False,False
+2024,5,Shanghai,2024-04-21 07:00:00+00:00,14,Fernando ALONSO,Aston Martin,7.0,7.0,56.0,43.414,6095.968,False,False,False
+2024,5,Shanghai,2024-04-21 07:00:00+00:00,81,Oscar PIASTRI,McLaren,8.0,4.0,56.0,56.198,6108.752,False,False,False
+2024,5,Shanghai,2024-04-21 07:00:00+00:00,44,Lewis HAMILTON,Mercedes,9.0,2.0,56.0,57.986,6110.54,False,False,False
+2024,5,Shanghai,2024-04-21 07:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,10.0,1.0,56.0,60.476,6113.03,False,False,False
+2024,5,Shanghai,2024-04-21 07:00:00+00:00,31,Esteban OCON,Alpine,11.0,0.0,56.0,62.812,6115.366,False,False,False
+2024,5,Shanghai,2024-04-21 07:00:00+00:00,23,Alexander ALBON,Williams,12.0,0.0,56.0,65.506,6118.06,False,False,False
+2024,5,Shanghai,2024-04-21 07:00:00+00:00,10,Pierre GASLY,Alpine,13.0,0.0,56.0,69.223,6121.777,False,False,False
+2024,5,Shanghai,2024-04-21 07:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,14.0,0.0,56.0,71.689,6124.243,False,False,False
+2024,5,Shanghai,2024-04-21 07:00:00+00:00,18,Lance STROLL,Aston Martin,15.0,0.0,56.0,82.786,6135.34,False,False,False
+2024,5,Shanghai,2024-04-21 07:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,16.0,0.0,56.0,87.533,6140.087,False,False,False
+2024,5,Shanghai,2024-04-21 07:00:00+00:00,2,Logan SARGEANT,Williams,17.0,0.0,56.0,95.11,6147.664,False,False,False
+2024,5,Shanghai,2024-04-21 07:00:00+00:00,3,Daniel RICCIARDO,RB,,0.0,33.0,,,True,False,False
+2024,5,Shanghai,2024-04-21 07:00:00+00:00,22,Yuki TSUNODA,RB,,0.0,26.0,,,True,False,False
+2024,5,Shanghai,2024-04-21 07:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,,0.0,19.0,,,True,False,False
+2024,6,Miami,2024-05-05 20:00:00+00:00,4,Lando NORRIS,McLaren,1.0,25.0,57.0,0,5449.876,False,False,False
+2024,6,Miami,2024-05-05 20:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,2.0,18.0,57.0,7.612,5457.488,False,False,False
+2024,6,Miami,2024-05-05 20:00:00+00:00,16,Charles LECLERC,Ferrari,3.0,15.0,57.0,9.92,5459.796,False,False,False
+2024,6,Miami,2024-05-05 20:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,4.0,12.0,57.0,14.65,5464.526,False,False,False
+2024,6,Miami,2024-05-05 20:00:00+00:00,55,Carlos SAINZ,Ferrari,5.0,10.0,57.0,16.407,5466.283,False,False,False
+2024,6,Miami,2024-05-05 20:00:00+00:00,44,Lewis HAMILTON,Mercedes,6.0,8.0,57.0,16.585,5466.461,False,False,False
+2024,6,Miami,2024-05-05 20:00:00+00:00,22,Yuki TSUNODA,RB,7.0,6.0,57.0,26.185,5476.061,False,False,False
+2024,6,Miami,2024-05-05 20:00:00+00:00,63,George RUSSELL,Mercedes,8.0,4.0,57.0,34.789,5484.665,False,False,False
+2024,6,Miami,2024-05-05 20:00:00+00:00,14,Fernando ALONSO,Aston Martin,9.0,2.0,57.0,37.107,5486.983,False,False,False
+2024,6,Miami,2024-05-05 20:00:00+00:00,31,Esteban OCON,Alpine,10.0,1.0,57.0,39.746,5489.622,False,False,False
+2024,6,Miami,2024-05-05 20:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,11.0,0.0,57.0,40.789,5490.665,False,False,False
+2024,6,Miami,2024-05-05 20:00:00+00:00,10,Pierre GASLY,Alpine,12.0,0.0,57.0,44.958,5494.834,False,False,False
+2024,6,Miami,2024-05-05 20:00:00+00:00,81,Oscar PIASTRI,McLaren,13.0,0.0,57.0,49.756,5499.632,False,False,False
+2024,6,Miami,2024-05-05 20:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,14.0,0.0,57.0,49.979,5499.855,False,False,False
+2024,6,Miami,2024-05-05 20:00:00+00:00,3,Daniel RICCIARDO,RB,15.0,0.0,57.0,50.956,5500.832,False,False,False
+2024,6,Miami,2024-05-05 20:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,16.0,0.0,57.0,52.356,5502.232,False,False,False
+2024,6,Miami,2024-05-05 20:00:00+00:00,18,Lance STROLL,Aston Martin,17.0,0.0,57.0,55.173,5505.049,False,False,False
+2024,6,Miami,2024-05-05 20:00:00+00:00,23,Alexander ALBON,Williams,18.0,0.0,57.0,76.091,5525.967,False,False,False
+2024,6,Miami,2024-05-05 20:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,19.0,0.0,57.0,84.683,5534.559,False,False,False
+2024,6,Miami,2024-05-05 20:00:00+00:00,2,Logan SARGEANT,Williams,,0.0,27.0,,,True,False,False
+2024,7,Imola,2024-05-19 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,63.0,0,5125.252,False,False,False
+2024,7,Imola,2024-05-19 13:00:00+00:00,4,Lando NORRIS,McLaren,2.0,18.0,63.0,0.725,5125.977,False,False,False
+2024,7,Imola,2024-05-19 13:00:00+00:00,16,Charles LECLERC,Ferrari,3.0,15.0,63.0,7.916,5133.168,False,False,False
+2024,7,Imola,2024-05-19 13:00:00+00:00,81,Oscar PIASTRI,McLaren,4.0,12.0,63.0,14.132,5139.384,False,False,False
+2024,7,Imola,2024-05-19 13:00:00+00:00,55,Carlos SAINZ,Ferrari,5.0,10.0,63.0,22.325,5147.577,False,False,False
+2024,7,Imola,2024-05-19 13:00:00+00:00,44,Lewis HAMILTON,Mercedes,6.0,8.0,63.0,35.104,5160.356,False,False,False
+2024,7,Imola,2024-05-19 13:00:00+00:00,63,George RUSSELL,Mercedes,7.0,7.0,63.0,47.154,5172.406,False,False,False
+2024,7,Imola,2024-05-19 13:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,8.0,4.0,63.0,54.776,5180.028,False,False,False
+2024,7,Imola,2024-05-19 13:00:00+00:00,18,Lance STROLL,Aston Martin,9.0,2.0,63.0,79.556,5204.808,False,False,False
+2024,7,Imola,2024-05-19 13:00:00+00:00,22,Yuki TSUNODA,RB,10.0,1.0,62.0,+1 LAP,,False,False,False
+2024,7,Imola,2024-05-19 13:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,11.0,0.0,62.0,+1 LAP,,False,False,False
+2024,7,Imola,2024-05-19 13:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,12.0,0.0,62.0,+1 LAP,,False,False,False
+2024,7,Imola,2024-05-19 13:00:00+00:00,3,Daniel RICCIARDO,RB,13.0,0.0,62.0,+1 LAP,,False,False,False
+2024,7,Imola,2024-05-19 13:00:00+00:00,31,Esteban OCON,Alpine,14.0,0.0,62.0,+1 LAP,,False,False,False
+2024,7,Imola,2024-05-19 13:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,15.0,0.0,62.0,+1 LAP,,False,False,False
+2024,7,Imola,2024-05-19 13:00:00+00:00,10,Pierre GASLY,Alpine,16.0,0.0,62.0,+1 LAP,,False,False,False
+2024,7,Imola,2024-05-19 13:00:00+00:00,2,Logan SARGEANT,Williams,17.0,0.0,62.0,+1 LAP,,False,False,False
+2024,7,Imola,2024-05-19 13:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,18.0,0.0,62.0,+1 LAP,,False,False,False
+2024,7,Imola,2024-05-19 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,19.0,0.0,62.0,+1 LAP,,False,False,False
+2024,7,Imola,2024-05-19 13:00:00+00:00,23,Alexander ALBON,Williams,,0.0,51.0,,,True,False,False
+2024,8,Monaco,2024-05-26 13:00:00+00:00,16,Charles LECLERC,Ferrari,1.0,25.0,78.0,0,8595.554,False,False,False
+2024,8,Monaco,2024-05-26 13:00:00+00:00,81,Oscar PIASTRI,McLaren,2.0,18.0,78.0,7.152,8602.706,False,False,False
+2024,8,Monaco,2024-05-26 13:00:00+00:00,55,Carlos SAINZ,Ferrari,3.0,15.0,78.0,7.585,8603.139,False,False,False
+2024,8,Monaco,2024-05-26 13:00:00+00:00,4,Lando NORRIS,McLaren,4.0,12.0,78.0,8.65,8604.204,False,False,False
+2024,8,Monaco,2024-05-26 13:00:00+00:00,63,George RUSSELL,Mercedes,5.0,10.0,78.0,13.309,8608.863,False,False,False
+2024,8,Monaco,2024-05-26 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,6.0,8.0,78.0,13.853,8609.407,False,False,False
+2024,8,Monaco,2024-05-26 13:00:00+00:00,44,Lewis HAMILTON,Mercedes,7.0,7.0,78.0,14.908,8610.462,False,False,False
+2024,8,Monaco,2024-05-26 13:00:00+00:00,22,Yuki TSUNODA,RB,8.0,4.0,77.0,+1 LAP,,False,False,False
+2024,8,Monaco,2024-05-26 13:00:00+00:00,23,Alexander ALBON,Williams,9.0,2.0,77.0,+1 LAP,,False,False,False
+2024,8,Monaco,2024-05-26 13:00:00+00:00,10,Pierre GASLY,Alpine,10.0,1.0,77.0,+1 LAP,,False,False,False
+2024,8,Monaco,2024-05-26 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,11.0,0.0,76.0,+2 LAPS,,False,False,False
+2024,8,Monaco,2024-05-26 13:00:00+00:00,3,Daniel RICCIARDO,RB,12.0,0.0,76.0,+2 LAPS,,False,False,False
+2024,8,Monaco,2024-05-26 13:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,13.0,0.0,76.0,+2 LAPS,,False,False,False
+2024,8,Monaco,2024-05-26 13:00:00+00:00,18,Lance STROLL,Aston Martin,14.0,0.0,76.0,+2 LAPS,,False,False,False
+2024,8,Monaco,2024-05-26 13:00:00+00:00,2,Logan SARGEANT,Williams,15.0,0.0,76.0,+2 LAPS,,False,False,False
+2024,8,Monaco,2024-05-26 13:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,16.0,0.0,76.0,+2 LAPS,,False,False,False
+2024,8,Monaco,2024-05-26 13:00:00+00:00,31,Esteban OCON,Alpine,,0.0,0.0,,,True,False,False
+2024,8,Monaco,2024-05-26 13:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,,0.0,0.0,,,True,False,False
+2024,8,Monaco,2024-05-26 13:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,,0.0,0.0,,,True,False,False
+2024,8,Monaco,2024-05-26 13:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,,0.0,0.0,,,True,False,False
+2024,9,Montréal,2024-06-09 18:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,70.0,0,6347.927,False,False,False
+2024,9,Montréal,2024-06-09 18:00:00+00:00,4,Lando NORRIS,McLaren,2.0,18.0,70.0,3.879,6351.806,False,False,False
+2024,9,Montréal,2024-06-09 18:00:00+00:00,63,George RUSSELL,Mercedes,3.0,15.0,70.0,4.317,6352.244,False,False,False
+2024,9,Montréal,2024-06-09 18:00:00+00:00,44,Lewis HAMILTON,Mercedes,4.0,13.0,70.0,4.915,6352.842,False,False,False
+2024,9,Montréal,2024-06-09 18:00:00+00:00,81,Oscar PIASTRI,McLaren,5.0,10.0,70.0,10.199,6358.126,False,False,False
+2024,9,Montréal,2024-06-09 18:00:00+00:00,14,Fernando ALONSO,Aston Martin,6.0,8.0,70.0,17.51,6365.437,False,False,False
+2024,9,Montréal,2024-06-09 18:00:00+00:00,18,Lance STROLL,Aston Martin,7.0,6.0,70.0,23.625,6371.552,False,False,False
+2024,9,Montréal,2024-06-09 18:00:00+00:00,3,Daniel RICCIARDO,RB,8.0,4.0,70.0,28.672,6376.599,False,False,False
+2024,9,Montréal,2024-06-09 18:00:00+00:00,10,Pierre GASLY,Alpine,9.0,2.0,70.0,30.021,6377.948,False,False,False
+2024,9,Montréal,2024-06-09 18:00:00+00:00,31,Esteban OCON,Alpine,10.0,1.0,70.0,30.313,6378.24,False,False,False
+2024,9,Montréal,2024-06-09 18:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,11.0,0.0,70.0,30.824,6378.751,False,False,False
+2024,9,Montréal,2024-06-09 18:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,12.0,0.0,70.0,31.253,6379.18,False,False,False
+2024,9,Montréal,2024-06-09 18:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,13.0,0.0,70.0,40.487,6388.414,False,False,False
+2024,9,Montréal,2024-06-09 18:00:00+00:00,22,Yuki TSUNODA,RB,14.0,0.0,70.0,52.694,6400.621,False,False,False
+2024,9,Montréal,2024-06-09 18:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,15.0,0.0,69.0,+1 LAP,,False,False,False
+2024,9,Montréal,2024-06-09 18:00:00+00:00,55,Carlos SAINZ,Ferrari,,0.0,52.0,,,True,False,False
+2024,9,Montréal,2024-06-09 18:00:00+00:00,23,Alexander ALBON,Williams,,0.0,52.0,,,True,False,False
+2024,9,Montréal,2024-06-09 18:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,,0.0,51.0,,,True,False,False
+2024,9,Montréal,2024-06-09 18:00:00+00:00,16,Charles LECLERC,Ferrari,,0.0,40.0,,,True,False,False
+2024,9,Montréal,2024-06-09 18:00:00+00:00,2,Logan SARGEANT,Williams,,0.0,23.0,,,True,False,False
+2024,10,Barcelona,2024-06-23 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,66.0,0,5300.227,False,False,False
+2024,10,Barcelona,2024-06-23 13:00:00+00:00,4,Lando NORRIS,McLaren,2.0,19.0,66.0,2.219,5302.446,False,False,False
+2024,10,Barcelona,2024-06-23 13:00:00+00:00,44,Lewis HAMILTON,Mercedes,3.0,15.0,66.0,17.79,5318.017,False,False,False
+2024,10,Barcelona,2024-06-23 13:00:00+00:00,63,George RUSSELL,Mercedes,4.0,12.0,66.0,22.32,5322.547,False,False,False
+2024,10,Barcelona,2024-06-23 13:00:00+00:00,16,Charles LECLERC,Ferrari,5.0,10.0,66.0,22.709,5322.936,False,False,False
+2024,10,Barcelona,2024-06-23 13:00:00+00:00,55,Carlos SAINZ,Ferrari,6.0,8.0,66.0,31.028,5331.255,False,False,False
+2024,10,Barcelona,2024-06-23 13:00:00+00:00,81,Oscar PIASTRI,McLaren,7.0,6.0,66.0,33.76,5333.987,False,False,False
+2024,10,Barcelona,2024-06-23 13:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,8.0,4.0,66.0,59.524,5359.751,False,False,False
+2024,10,Barcelona,2024-06-23 13:00:00+00:00,10,Pierre GASLY,Alpine,9.0,2.0,66.0,62.025,5362.252,False,False,False
+2024,10,Barcelona,2024-06-23 13:00:00+00:00,31,Esteban OCON,Alpine,10.0,1.0,66.0,71.889,5372.116,False,False,False
+2024,10,Barcelona,2024-06-23 13:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,11.0,0.0,66.0,79.215,5379.442,False,False,False
+2024,10,Barcelona,2024-06-23 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,12.0,0.0,65.0,+1 LAP,,False,False,False
+2024,10,Barcelona,2024-06-23 13:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,13.0,0.0,65.0,+1 LAP,,False,False,False
+2024,10,Barcelona,2024-06-23 13:00:00+00:00,18,Lance STROLL,Aston Martin,14.0,0.0,65.0,+1 LAP,,False,False,False
+2024,10,Barcelona,2024-06-23 13:00:00+00:00,3,Daniel RICCIARDO,RB,15.0,0.0,65.0,+1 LAP,,False,False,False
+2024,10,Barcelona,2024-06-23 13:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,16.0,0.0,65.0,+1 LAP,,False,False,False
+2024,10,Barcelona,2024-06-23 13:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,17.0,0.0,65.0,+1 LAP,,False,False,False
+2024,10,Barcelona,2024-06-23 13:00:00+00:00,23,Alexander ALBON,Williams,18.0,0.0,65.0,+1 LAP,,False,False,False
+2024,10,Barcelona,2024-06-23 13:00:00+00:00,22,Yuki TSUNODA,RB,19.0,0.0,65.0,+1 LAP,,False,False,False
+2024,10,Barcelona,2024-06-23 13:00:00+00:00,2,Logan SARGEANT,Williams,20.0,0.0,64.0,+2 LAPS,,False,False,False
+2024,11,Spielberg,2024-06-30 13:00:00+00:00,63,George RUSSELL,Mercedes,1.0,25.0,71.0,0,5062.798,False,False,False
+2024,11,Spielberg,2024-06-30 13:00:00+00:00,81,Oscar PIASTRI,McLaren,2.0,18.0,71.0,1.906,5064.704,False,False,False
+2024,11,Spielberg,2024-06-30 13:00:00+00:00,55,Carlos SAINZ,Ferrari,3.0,15.0,71.0,4.533,5067.331,False,False,False
+2024,11,Spielberg,2024-06-30 13:00:00+00:00,44,Lewis HAMILTON,Mercedes,4.0,12.0,71.0,23.142,5085.94,False,False,False
+2024,11,Spielberg,2024-06-30 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,5.0,10.0,71.0,37.253,5100.051,False,False,False
+2024,11,Spielberg,2024-06-30 13:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,6.0,8.0,71.0,54.088,5116.886,False,False,False
+2024,11,Spielberg,2024-06-30 13:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,7.0,6.0,71.0,54.672,5117.47,False,False,False
+2024,11,Spielberg,2024-06-30 13:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,8.0,4.0,71.0,60.355,5123.153,False,False,False
+2024,11,Spielberg,2024-06-30 13:00:00+00:00,3,Daniel RICCIARDO,RB,9.0,2.0,71.0,61.169,5123.967,False,False,False
+2024,11,Spielberg,2024-06-30 13:00:00+00:00,10,Pierre GASLY,Alpine,10.0,1.0,71.0,61.766,5124.564,False,False,False
+2024,11,Spielberg,2024-06-30 13:00:00+00:00,16,Charles LECLERC,Ferrari,11.0,0.0,71.0,67.056,5129.854,False,False,False
+2024,11,Spielberg,2024-06-30 13:00:00+00:00,31,Esteban OCON,Alpine,12.0,0.0,71.0,68.325,5131.123,False,False,False
+2024,11,Spielberg,2024-06-30 13:00:00+00:00,18,Lance STROLL,Aston Martin,13.0,0.0,70.0,+1 LAP,,False,False,False
+2024,11,Spielberg,2024-06-30 13:00:00+00:00,22,Yuki TSUNODA,RB,14.0,0.0,70.0,+1 LAP,,False,False,False
+2024,11,Spielberg,2024-06-30 13:00:00+00:00,23,Alexander ALBON,Williams,15.0,0.0,70.0,+1 LAP,,False,False,False
+2024,11,Spielberg,2024-06-30 13:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,16.0,0.0,70.0,+1 LAP,,False,False,False
+2024,11,Spielberg,2024-06-30 13:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,17.0,0.0,70.0,+1 LAP,,False,False,False
+2024,11,Spielberg,2024-06-30 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,18.0,0.0,70.0,+1 LAP,,False,False,False
+2024,11,Spielberg,2024-06-30 13:00:00+00:00,2,Logan SARGEANT,Williams,19.0,0.0,69.0,+2 LAPS,,False,False,False
+2024,11,Spielberg,2024-06-30 13:00:00+00:00,4,Lando NORRIS,McLaren,20.0,0.0,64.0,+7 LAPS,,False,False,False
+2024,12,Silverstone,2024-07-07 14:00:00+00:00,44,Lewis HAMILTON,Mercedes,1.0,25.0,52.0,0,4947.059,False,False,False
+2024,12,Silverstone,2024-07-07 14:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,2.0,18.0,52.0,1.465,4948.524,False,False,False
+2024,12,Silverstone,2024-07-07 14:00:00+00:00,4,Lando NORRIS,McLaren,3.0,15.0,52.0,7.547,4954.606,False,False,False
+2024,12,Silverstone,2024-07-07 14:00:00+00:00,81,Oscar PIASTRI,McLaren,4.0,12.0,52.0,12.429,4959.488,False,False,False
+2024,12,Silverstone,2024-07-07 14:00:00+00:00,55,Carlos SAINZ,Ferrari,5.0,11.0,52.0,47.318,4994.377,False,False,False
+2024,12,Silverstone,2024-07-07 14:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,6.0,8.0,52.0,55.722,5002.781,False,False,False
+2024,12,Silverstone,2024-07-07 14:00:00+00:00,18,Lance STROLL,Aston Martin,7.0,6.0,52.0,56.569,5003.628,False,False,False
+2024,12,Silverstone,2024-07-07 14:00:00+00:00,14,Fernando ALONSO,Aston Martin,8.0,4.0,52.0,63.577,5010.636,False,False,False
+2024,12,Silverstone,2024-07-07 14:00:00+00:00,23,Alexander ALBON,Williams,9.0,2.0,52.0,68.387,5015.446,False,False,False
+2024,12,Silverstone,2024-07-07 14:00:00+00:00,22,Yuki TSUNODA,RB,10.0,1.0,52.0,79.303,5026.362,False,False,False
+2024,12,Silverstone,2024-07-07 14:00:00+00:00,2,Logan SARGEANT,Williams,11.0,0.0,52.0,88.96,5036.019,False,False,False
+2024,12,Silverstone,2024-07-07 14:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,12.0,0.0,52.0,90.153,5037.212,False,False,False
+2024,12,Silverstone,2024-07-07 14:00:00+00:00,3,Daniel RICCIARDO,RB,13.0,0.0,51.0,+1 LAP,,False,False,False
+2024,12,Silverstone,2024-07-07 14:00:00+00:00,16,Charles LECLERC,Ferrari,14.0,0.0,51.0,+1 LAP,,False,False,False
+2024,12,Silverstone,2024-07-07 14:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,15.0,0.0,51.0,+1 LAP,,False,False,False
+2024,12,Silverstone,2024-07-07 14:00:00+00:00,31,Esteban OCON,Alpine,16.0,0.0,50.0,+2 LAPS,,False,False,False
+2024,12,Silverstone,2024-07-07 14:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,17.0,0.0,50.0,+2 LAPS,,False,False,False
+2024,12,Silverstone,2024-07-07 14:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,18.0,0.0,50.0,+2 LAPS,,False,False,False
+2024,12,Silverstone,2024-07-07 14:00:00+00:00,63,George RUSSELL,Mercedes,,0.0,33.0,,,True,False,False
+2024,12,Silverstone,2024-07-07 14:00:00+00:00,10,Pierre GASLY,Alpine,,0.0,0.0,,,False,True,False
+2024,13,Budapest,2024-07-21 13:00:00+00:00,81,Oscar PIASTRI,McLaren,1.0,25.0,70.0,0,5881.989,False,False,False
+2024,13,Budapest,2024-07-21 13:00:00+00:00,4,Lando NORRIS,McLaren,2.0,18.0,70.0,2.141,5884.13,False,False,False
+2024,13,Budapest,2024-07-21 13:00:00+00:00,44,Lewis HAMILTON,Mercedes,3.0,15.0,70.0,14.88,5896.869,False,False,False
+2024,13,Budapest,2024-07-21 13:00:00+00:00,16,Charles LECLERC,Ferrari,4.0,12.0,70.0,19.686,5901.675,False,False,False
+2024,13,Budapest,2024-07-21 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,5.0,10.0,70.0,21.349,5903.338,False,False,False
+2024,13,Budapest,2024-07-21 13:00:00+00:00,55,Carlos SAINZ,Ferrari,6.0,8.0,70.0,23.073,5905.062,False,False,False
+2024,13,Budapest,2024-07-21 13:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,7.0,6.0,70.0,39.792,5921.781,False,False,False
+2024,13,Budapest,2024-07-21 13:00:00+00:00,63,George RUSSELL,Mercedes,8.0,5.0,70.0,42.368,5924.357,False,False,False
+2024,13,Budapest,2024-07-21 13:00:00+00:00,22,Yuki TSUNODA,RB,9.0,2.0,70.0,77.259,5959.248,False,False,False
+2024,13,Budapest,2024-07-21 13:00:00+00:00,18,Lance STROLL,Aston Martin,10.0,1.0,70.0,77.976,5959.965,False,False,False
+2024,13,Budapest,2024-07-21 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,11.0,0.0,70.0,82.46,5964.449,False,False,False
+2024,13,Budapest,2024-07-21 13:00:00+00:00,3,Daniel RICCIARDO,RB,12.0,0.0,69.0,+1 LAP,,False,False,False
+2024,13,Budapest,2024-07-21 13:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,13.0,0.0,69.0,+1 LAP,,False,False,False
+2024,13,Budapest,2024-07-21 13:00:00+00:00,23,Alexander ALBON,Williams,14.0,0.0,69.0,+1 LAP,,False,False,False
+2024,13,Budapest,2024-07-21 13:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,15.0,0.0,69.0,+1 LAP,,False,False,False
+2024,13,Budapest,2024-07-21 13:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,16.0,0.0,69.0,+1 LAP,,False,False,False
+2024,13,Budapest,2024-07-21 13:00:00+00:00,2,Logan SARGEANT,Williams,17.0,0.0,69.0,+1 LAP,,False,False,False
+2024,13,Budapest,2024-07-21 13:00:00+00:00,31,Esteban OCON,Alpine,18.0,0.0,69.0,+1 LAP,,False,False,False
+2024,13,Budapest,2024-07-21 13:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,19.0,0.0,69.0,+1 LAP,,False,False,False
+2024,13,Budapest,2024-07-21 13:00:00+00:00,10,Pierre GASLY,Alpine,,0.0,33.0,,,True,False,False
+2024,14,Spa-Francorchamps,2024-07-28 13:00:00+00:00,44,Lewis HAMILTON,Mercedes,1.0,25.0,44.0,0,4797.566,False,False,False
+2024,14,Spa-Francorchamps,2024-07-28 13:00:00+00:00,81,Oscar PIASTRI,McLaren,2.0,18.0,44.0,0.647,4798.213,False,False,False
+2024,14,Spa-Francorchamps,2024-07-28 13:00:00+00:00,16,Charles LECLERC,Ferrari,3.0,15.0,44.0,8.023,4805.589,False,False,False
+2024,14,Spa-Francorchamps,2024-07-28 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,4.0,12.0,44.0,8.7,4806.266,False,False,False
+2024,14,Spa-Francorchamps,2024-07-28 13:00:00+00:00,4,Lando NORRIS,McLaren,5.0,10.0,44.0,9.324,4806.89,False,False,False
+2024,14,Spa-Francorchamps,2024-07-28 13:00:00+00:00,55,Carlos SAINZ,Ferrari,6.0,8.0,44.0,19.269,4816.835,False,False,False
+2024,14,Spa-Francorchamps,2024-07-28 13:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,7.0,7.0,44.0,42.669,4840.235,False,False,False
+2024,14,Spa-Francorchamps,2024-07-28 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,8.0,4.0,44.0,49.437,4847.003,False,False,False
+2024,14,Spa-Francorchamps,2024-07-28 13:00:00+00:00,31,Esteban OCON,Alpine,9.0,2.0,44.0,52.026,4849.592,False,False,False
+2024,14,Spa-Francorchamps,2024-07-28 13:00:00+00:00,3,Daniel RICCIARDO,RB,10.0,1.0,44.0,54.4,4851.966,False,False,False
+2024,14,Spa-Francorchamps,2024-07-28 13:00:00+00:00,18,Lance STROLL,Aston Martin,11.0,0.0,44.0,62.485,4860.051,False,False,False
+2024,14,Spa-Francorchamps,2024-07-28 13:00:00+00:00,23,Alexander ALBON,Williams,12.0,0.0,44.0,63.125,4860.691,False,False,False
+2024,14,Spa-Francorchamps,2024-07-28 13:00:00+00:00,10,Pierre GASLY,Alpine,13.0,0.0,44.0,63.839,4861.405,False,False,False
+2024,14,Spa-Francorchamps,2024-07-28 13:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,14.0,0.0,44.0,66.105,4863.671,False,False,False
+2024,14,Spa-Francorchamps,2024-07-28 13:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,15.0,0.0,44.0,70.112,4867.678,False,False,False
+2024,14,Spa-Francorchamps,2024-07-28 13:00:00+00:00,22,Yuki TSUNODA,RB,16.0,0.0,44.0,76.211,4873.777,False,False,False
+2024,14,Spa-Francorchamps,2024-07-28 13:00:00+00:00,2,Logan SARGEANT,Williams,17.0,0.0,44.0,85.531,4883.097,False,False,False
+2024,14,Spa-Francorchamps,2024-07-28 13:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,18.0,0.0,44.0,88.307,4885.873,False,False,False
+2024,14,Spa-Francorchamps,2024-07-28 13:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,,0.0,5.0,,,True,False,False
+2024,14,Spa-Francorchamps,2024-07-28 13:00:00+00:00,63,George RUSSELL,Mercedes,,0.0,44.0,,4797.04,False,False,True
+2024,15,Zandvoort,2024-08-25 13:00:00+00:00,4,Lando NORRIS,McLaren,1.0,26.0,72.0,0,5445.519,False,False,False
+2024,15,Zandvoort,2024-08-25 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,2.0,18.0,72.0,22.896,5468.415,False,False,False
+2024,15,Zandvoort,2024-08-25 13:00:00+00:00,16,Charles LECLERC,Ferrari,3.0,15.0,72.0,25.439,5470.958,False,False,False
+2024,15,Zandvoort,2024-08-25 13:00:00+00:00,81,Oscar PIASTRI,McLaren,4.0,12.0,72.0,27.337,5472.856,False,False,False
+2024,15,Zandvoort,2024-08-25 13:00:00+00:00,55,Carlos SAINZ,Ferrari,5.0,10.0,72.0,32.137,5477.656,False,False,False
+2024,15,Zandvoort,2024-08-25 13:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,6.0,8.0,72.0,39.542,5485.061,False,False,False
+2024,15,Zandvoort,2024-08-25 13:00:00+00:00,63,George RUSSELL,Mercedes,7.0,6.0,72.0,44.617,5490.136,False,False,False
+2024,15,Zandvoort,2024-08-25 13:00:00+00:00,44,Lewis HAMILTON,Mercedes,8.0,4.0,72.0,49.599,5495.118,False,False,False
+2024,15,Zandvoort,2024-08-25 13:00:00+00:00,10,Pierre GASLY,Alpine,9.0,2.0,71.0,+1 LAP,,False,False,False
+2024,15,Zandvoort,2024-08-25 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,10.0,1.0,71.0,+1 LAP,,False,False,False
+2024,15,Zandvoort,2024-08-25 13:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,11.0,0.0,71.0,+1 LAP,,False,False,False
+2024,15,Zandvoort,2024-08-25 13:00:00+00:00,3,Daniel RICCIARDO,RB,12.0,0.0,71.0,+1 LAP,,False,False,False
+2024,15,Zandvoort,2024-08-25 13:00:00+00:00,18,Lance STROLL,Aston Martin,13.0,0.0,71.0,+1 LAP,,False,False,False
+2024,15,Zandvoort,2024-08-25 13:00:00+00:00,23,Alexander ALBON,Williams,14.0,0.0,71.0,+1 LAP,,False,False,False
+2024,15,Zandvoort,2024-08-25 13:00:00+00:00,31,Esteban OCON,Alpine,15.0,0.0,71.0,+1 LAP,,False,False,False
+2024,15,Zandvoort,2024-08-25 13:00:00+00:00,2,Logan SARGEANT,Williams,16.0,0.0,71.0,+1 LAP,,False,False,False
+2024,15,Zandvoort,2024-08-25 13:00:00+00:00,22,Yuki TSUNODA,RB,17.0,0.0,71.0,+1 LAP,,False,False,False
+2024,15,Zandvoort,2024-08-25 13:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,18.0,0.0,71.0,+1 LAP,,False,False,False
+2024,15,Zandvoort,2024-08-25 13:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,19.0,0.0,70.0,+2 LAPS,,False,False,False
+2024,15,Zandvoort,2024-08-25 13:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,20.0,0.0,70.0,+2 LAPS,,False,False,False
+2024,16,Monza,2024-09-01 13:00:00+00:00,16,Charles LECLERC,Ferrari,1.0,25.0,53.0,0,4480.727,False,False,False
+2024,16,Monza,2024-09-01 13:00:00+00:00,81,Oscar PIASTRI,McLaren,2.0,18.0,53.0,2.664,4483.391,False,False,False
+2024,16,Monza,2024-09-01 13:00:00+00:00,4,Lando NORRIS,McLaren,3.0,16.0,53.0,6.153,4486.88,False,False,False
+2024,16,Monza,2024-09-01 13:00:00+00:00,55,Carlos SAINZ,Ferrari,4.0,12.0,53.0,15.621,4496.348,False,False,False
+2024,16,Monza,2024-09-01 13:00:00+00:00,44,Lewis HAMILTON,Mercedes,5.0,10.0,53.0,22.82,4503.547,False,False,False
+2024,16,Monza,2024-09-01 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,6.0,8.0,53.0,37.932,4518.659,False,False,False
+2024,16,Monza,2024-09-01 13:00:00+00:00,63,George RUSSELL,Mercedes,7.0,6.0,53.0,39.715,4520.442,False,False,False
+2024,16,Monza,2024-09-01 13:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,8.0,4.0,53.0,54.148,4534.875,False,False,False
+2024,16,Monza,2024-09-01 13:00:00+00:00,23,Alexander ALBON,Williams,9.0,2.0,53.0,67.456,4548.183,False,False,False
+2024,16,Monza,2024-09-01 13:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,10.0,1.0,53.0,68.302,4549.029,False,False,False
+2024,16,Monza,2024-09-01 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,11.0,0.0,53.0,68.495,4549.222,False,False,False
+2024,16,Monza,2024-09-01 13:00:00+00:00,43,Franco COLAPINTO,Williams,12.0,0.0,53.0,81.308,4562.035,False,False,False
+2024,16,Monza,2024-09-01 13:00:00+00:00,3,Daniel RICCIARDO,RB,13.0,0.0,53.0,93.452,4574.179,False,False,False
+2024,16,Monza,2024-09-01 13:00:00+00:00,31,Esteban OCON,Alpine,14.0,0.0,52.0,+1 LAP,,False,False,False
+2024,16,Monza,2024-09-01 13:00:00+00:00,10,Pierre GASLY,Alpine,15.0,0.0,52.0,+1 LAP,,False,False,False
+2024,16,Monza,2024-09-01 13:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,16.0,0.0,52.0,+1 LAP,,False,False,False
+2024,16,Monza,2024-09-01 13:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,17.0,0.0,52.0,+1 LAP,,False,False,False
+2024,16,Monza,2024-09-01 13:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,18.0,0.0,52.0,+1 LAP,,False,False,False
+2024,16,Monza,2024-09-01 13:00:00+00:00,18,Lance STROLL,Aston Martin,19.0,0.0,52.0,+1 LAP,,False,False,False
+2024,16,Monza,2024-09-01 13:00:00+00:00,22,Yuki TSUNODA,RB,,0.0,7.0,,,True,False,False
+2024,17,Baku,2024-09-15 11:00:00+00:00,81,Oscar PIASTRI,McLaren,1.0,25.0,51.0,0,5578.007,False,False,False
+2024,17,Baku,2024-09-15 11:00:00+00:00,16,Charles LECLERC,Ferrari,2.0,18.0,51.0,10.91,5588.917,False,False,False
+2024,17,Baku,2024-09-15 11:00:00+00:00,63,George RUSSELL,Mercedes,3.0,15.0,51.0,31.328,5609.335,False,False,False
+2024,17,Baku,2024-09-15 11:00:00+00:00,4,Lando NORRIS,McLaren,4.0,13.0,51.0,36.143,5614.15,False,False,False
+2024,17,Baku,2024-09-15 11:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,5.0,10.0,51.0,77.098,5655.105,False,False,False
+2024,17,Baku,2024-09-15 11:00:00+00:00,14,Fernando ALONSO,Aston Martin,6.0,8.0,51.0,85.468,5663.475,False,False,False
+2024,17,Baku,2024-09-15 11:00:00+00:00,23,Alexander ALBON,Williams,7.0,6.0,51.0,87.396,5665.403,False,False,False
+2024,17,Baku,2024-09-15 11:00:00+00:00,43,Franco COLAPINTO,Williams,8.0,4.0,51.0,89.541,5667.548,False,False,False
+2024,17,Baku,2024-09-15 11:00:00+00:00,44,Lewis HAMILTON,Mercedes,9.0,2.0,51.0,92.401,5670.408,False,False,False
+2024,17,Baku,2024-09-15 11:00:00+00:00,50,Oliver BEARMAN,Haas F1 Team,10.0,1.0,51.0,93.127,5671.134,False,False,False
+2024,17,Baku,2024-09-15 11:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,11.0,0.0,51.0,93.465,5671.472,False,False,False
+2024,17,Baku,2024-09-15 11:00:00+00:00,10,Pierre GASLY,Alpine,12.0,0.0,51.0,117.189,5695.196,False,False,False
+2024,17,Baku,2024-09-15 11:00:00+00:00,3,Daniel RICCIARDO,RB,13.0,0.0,51.0,146.907,5724.914,False,False,False
+2024,17,Baku,2024-09-15 11:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,14.0,0.0,51.0,148.841,5726.848,False,False,False
+2024,17,Baku,2024-09-15 11:00:00+00:00,31,Esteban OCON,Alpine,15.0,0.0,50.0,+1 LAP,,False,False,False
+2024,17,Baku,2024-09-15 11:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,16.0,0.0,50.0,+1 LAP,,False,False,False
+2024,17,Baku,2024-09-15 11:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,17.0,0.0,49.0,,,True,False,False
+2024,17,Baku,2024-09-15 11:00:00+00:00,55,Carlos SAINZ,Ferrari,18.0,0.0,49.0,,,True,False,False
+2024,17,Baku,2024-09-15 11:00:00+00:00,18,Lance STROLL,Aston Martin,19.0,0.0,45.0,,,True,False,False
+2024,17,Baku,2024-09-15 11:00:00+00:00,22,Yuki TSUNODA,RB,,0.0,14.0,,,True,False,False
+2024,18,Marina Bay,2024-09-22 12:00:00+00:00,4,Lando NORRIS,McLaren,1.0,25.0,62.0,0,6052.571,False,False,False
+2024,18,Marina Bay,2024-09-22 12:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,2.0,18.0,62.0,20.945,6073.516,False,False,False
+2024,18,Marina Bay,2024-09-22 12:00:00+00:00,81,Oscar PIASTRI,McLaren,3.0,15.0,62.0,41.823,6094.394,False,False,False
+2024,18,Marina Bay,2024-09-22 12:00:00+00:00,63,George RUSSELL,Mercedes,4.0,12.0,62.0,61.04,6113.611,False,False,False
+2024,18,Marina Bay,2024-09-22 12:00:00+00:00,16,Charles LECLERC,Ferrari,5.0,10.0,62.0,62.43,6115.001,False,False,False
+2024,18,Marina Bay,2024-09-22 12:00:00+00:00,44,Lewis HAMILTON,Mercedes,6.0,8.0,62.0,85.248,6137.819,False,False,False
+2024,18,Marina Bay,2024-09-22 12:00:00+00:00,55,Carlos SAINZ,Ferrari,7.0,6.0,62.0,96.039,6148.61,False,False,False
+2024,18,Marina Bay,2024-09-22 12:00:00+00:00,14,Fernando ALONSO,Aston Martin,8.0,4.0,61.0,+1 LAP,,False,False,False
+2024,18,Marina Bay,2024-09-22 12:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,9.0,2.0,61.0,+1 LAP,,False,False,False
+2024,18,Marina Bay,2024-09-22 12:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,10.0,1.0,61.0,+1 LAP,,False,False,False
+2024,18,Marina Bay,2024-09-22 12:00:00+00:00,43,Franco COLAPINTO,Williams,11.0,0.0,61.0,+1 LAP,,False,False,False
+2024,18,Marina Bay,2024-09-22 12:00:00+00:00,22,Yuki TSUNODA,RB,12.0,0.0,61.0,+1 LAP,,False,False,False
+2024,18,Marina Bay,2024-09-22 12:00:00+00:00,31,Esteban OCON,Alpine,13.0,0.0,61.0,+1 LAP,,False,False,False
+2024,18,Marina Bay,2024-09-22 12:00:00+00:00,18,Lance STROLL,Aston Martin,14.0,0.0,61.0,+1 LAP,,False,False,False
+2024,18,Marina Bay,2024-09-22 12:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,15.0,0.0,61.0,+1 LAP,,False,False,False
+2024,18,Marina Bay,2024-09-22 12:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,16.0,0.0,61.0,+1 LAP,,False,False,False
+2024,18,Marina Bay,2024-09-22 12:00:00+00:00,10,Pierre GASLY,Alpine,17.0,0.0,61.0,+1 LAP,,False,False,False
+2024,18,Marina Bay,2024-09-22 12:00:00+00:00,3,Daniel RICCIARDO,RB,18.0,0.0,61.0,+1 LAP,,False,False,False
+2024,18,Marina Bay,2024-09-22 12:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,19.0,0.0,57.0,,,True,False,False
+2024,18,Marina Bay,2024-09-22 12:00:00+00:00,23,Alexander ALBON,Williams,,0.0,15.0,,,True,False,False
+2024,19,Austin,2024-10-20 19:00:00+00:00,16,Charles LECLERC,Ferrari,1.0,25.0,56.0,0,5709.639,False,False,False
+2024,19,Austin,2024-10-20 19:00:00+00:00,55,Carlos SAINZ,Ferrari,2.0,18.0,56.0,8.562,5718.201,False,False,False
+2024,19,Austin,2024-10-20 19:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,3.0,15.0,56.0,19.412,5729.051,False,False,False
+2024,19,Austin,2024-10-20 19:00:00+00:00,4,Lando NORRIS,McLaren,4.0,12.0,56.0,20.354,5729.993,False,False,False
+2024,19,Austin,2024-10-20 19:00:00+00:00,81,Oscar PIASTRI,McLaren,5.0,10.0,56.0,21.921,5731.56,False,False,False
+2024,19,Austin,2024-10-20 19:00:00+00:00,63,George RUSSELL,Mercedes,6.0,8.0,56.0,56.295,5765.934,False,False,False
+2024,19,Austin,2024-10-20 19:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,7.0,6.0,56.0,59.072,5768.711,False,False,False
+2024,19,Austin,2024-10-20 19:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,8.0,4.0,56.0,62.957,5772.596,False,False,False
+2024,19,Austin,2024-10-20 19:00:00+00:00,30,Liam LAWSON,RB,9.0,2.0,56.0,70.563,5780.202,False,False,False
+2024,19,Austin,2024-10-20 19:00:00+00:00,43,Franco COLAPINTO,Williams,10.0,1.0,56.0,71.979,5781.618,False,False,False
+2024,19,Austin,2024-10-20 19:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,11.0,0.0,56.0,79.782,5789.421,False,False,False
+2024,19,Austin,2024-10-20 19:00:00+00:00,10,Pierre GASLY,Alpine,12.0,0.0,56.0,90.558,5800.197,False,False,False
+2024,19,Austin,2024-10-20 19:00:00+00:00,14,Fernando ALONSO,Aston Martin,13.0,0.0,55.0,+1 LAP,,False,False,False
+2024,19,Austin,2024-10-20 19:00:00+00:00,22,Yuki TSUNODA,RB,14.0,0.0,55.0,+1 LAP,,False,False,False
+2024,19,Austin,2024-10-20 19:00:00+00:00,18,Lance STROLL,Aston Martin,15.0,0.0,55.0,+1 LAP,,False,False,False
+2024,19,Austin,2024-10-20 19:00:00+00:00,23,Alexander ALBON,Williams,16.0,0.0,55.0,+1 LAP,,False,False,False
+2024,19,Austin,2024-10-20 19:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,17.0,0.0,55.0,+1 LAP,,False,False,False
+2024,19,Austin,2024-10-20 19:00:00+00:00,31,Esteban OCON,Alpine,18.0,0.0,55.0,+1 LAP,,False,False,False
+2024,19,Austin,2024-10-20 19:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,19.0,0.0,55.0,+1 LAP,,False,False,False
+2024,19,Austin,2024-10-20 19:00:00+00:00,44,Lewis HAMILTON,Mercedes,,0.0,1.0,,,True,False,False
+2024,20,Mexico City,2024-10-27 20:00:00+00:00,55,Carlos SAINZ,Ferrari,1.0,25.0,71.0,0,6055.8,False,False,False
+2024,20,Mexico City,2024-10-27 20:00:00+00:00,4,Lando NORRIS,McLaren,2.0,18.0,71.0,4.705,6060.505,False,False,False
+2024,20,Mexico City,2024-10-27 20:00:00+00:00,16,Charles LECLERC,Ferrari,3.0,16.0,71.0,34.387,6090.187,False,False,False
+2024,20,Mexico City,2024-10-27 20:00:00+00:00,44,Lewis HAMILTON,Mercedes,4.0,12.0,71.0,44.78,6100.58,False,False,False
+2024,20,Mexico City,2024-10-27 20:00:00+00:00,63,George RUSSELL,Mercedes,5.0,10.0,71.0,48.536,6104.336,False,False,False
+2024,20,Mexico City,2024-10-27 20:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,6.0,8.0,71.0,59.558,6115.358,False,False,False
+2024,20,Mexico City,2024-10-27 20:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,7.0,6.0,71.0,63.642,6119.442,False,False,False
+2024,20,Mexico City,2024-10-27 20:00:00+00:00,81,Oscar PIASTRI,McLaren,8.0,4.0,71.0,64.928,6120.728,False,False,False
+2024,20,Mexico City,2024-10-27 20:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,9.0,2.0,70.0,+1 LAP,,False,False,False
+2024,20,Mexico City,2024-10-27 20:00:00+00:00,10,Pierre GASLY,Alpine,10.0,1.0,70.0,+1 LAP,,False,False,False
+2024,20,Mexico City,2024-10-27 20:00:00+00:00,18,Lance STROLL,Aston Martin,11.0,0.0,70.0,+1 LAP,,False,False,False
+2024,20,Mexico City,2024-10-27 20:00:00+00:00,43,Franco COLAPINTO,Williams,12.0,0.0,70.0,+1 LAP,,False,False,False
+2024,20,Mexico City,2024-10-27 20:00:00+00:00,31,Esteban OCON,Alpine,13.0,0.0,70.0,+1 LAP,,False,False,False
+2024,20,Mexico City,2024-10-27 20:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,14.0,0.0,70.0,+1 LAP,,False,False,False
+2024,20,Mexico City,2024-10-27 20:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,15.0,0.0,70.0,+1 LAP,,False,False,False
+2024,20,Mexico City,2024-10-27 20:00:00+00:00,30,Liam LAWSON,RB,16.0,0.0,70.0,+1 LAP,,False,False,False
+2024,20,Mexico City,2024-10-27 20:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,17.0,0.0,70.0,+1 LAP,,False,False,False
+2024,20,Mexico City,2024-10-27 20:00:00+00:00,14,Fernando ALONSO,Aston Martin,,0.0,15.0,,,True,False,False
+2024,20,Mexico City,2024-10-27 20:00:00+00:00,23,Alexander ALBON,Williams,,0.0,0.0,,,True,False,False
+2024,20,Mexico City,2024-10-27 20:00:00+00:00,22,Yuki TSUNODA,RB,,0.0,0.0,,,True,False,False
+2024,21,São Paulo,2024-11-03 15:30:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,26.0,69.0,0,7614.43,False,False,False
+2024,21,São Paulo,2024-11-03 15:30:00+00:00,31,Esteban OCON,Alpine,2.0,18.0,69.0,19.477,7633.907,False,False,False
+2024,21,São Paulo,2024-11-03 15:30:00+00:00,10,Pierre GASLY,Alpine,3.0,15.0,69.0,22.532,7636.962,False,False,False
+2024,21,São Paulo,2024-11-03 15:30:00+00:00,63,George RUSSELL,Mercedes,4.0,12.0,69.0,23.265,7637.695,False,False,False
+2024,21,São Paulo,2024-11-03 15:30:00+00:00,16,Charles LECLERC,Ferrari,5.0,10.0,69.0,30.177,7644.607,False,False,False
+2024,21,São Paulo,2024-11-03 15:30:00+00:00,4,Lando NORRIS,McLaren,6.0,8.0,69.0,31.372,7645.802,False,False,False
+2024,21,São Paulo,2024-11-03 15:30:00+00:00,22,Yuki TSUNODA,RB,7.0,6.0,69.0,42.056,7656.486,False,False,False
+2024,21,São Paulo,2024-11-03 15:30:00+00:00,81,Oscar PIASTRI,McLaren,8.0,4.0,69.0,44.943,7659.373,False,False,False
+2024,21,São Paulo,2024-11-03 15:30:00+00:00,30,Liam LAWSON,RB,9.0,2.0,69.0,50.452,7664.882,False,False,False
+2024,21,São Paulo,2024-11-03 15:30:00+00:00,44,Lewis HAMILTON,Mercedes,10.0,1.0,69.0,50.753,7665.183,False,False,False
+2024,21,São Paulo,2024-11-03 15:30:00+00:00,11,Sergio PEREZ,Red Bull Racing,11.0,0.0,69.0,51.531,7665.961,False,False,False
+2024,21,São Paulo,2024-11-03 15:30:00+00:00,50,Oliver BEARMAN,Haas F1 Team,12.0,0.0,69.0,57.085,7671.515,False,False,False
+2024,21,São Paulo,2024-11-03 15:30:00+00:00,77,Valtteri BOTTAS,Kick Sauber,13.0,0.0,69.0,63.588,7678.018,False,False,False
+2024,21,São Paulo,2024-11-03 15:30:00+00:00,14,Fernando ALONSO,Aston Martin,14.0,0.0,69.0,78.049,7692.479,False,False,False
+2024,21,São Paulo,2024-11-03 15:30:00+00:00,24,ZHOU Guanyu,Kick Sauber,15.0,0.0,69.0,79.649,7694.079,False,False,False
+2024,21,São Paulo,2024-11-03 15:30:00+00:00,55,Carlos SAINZ,Ferrari,,0.0,38.0,,,True,False,False
+2024,21,São Paulo,2024-11-03 15:30:00+00:00,43,Franco COLAPINTO,Williams,,0.0,30.0,,,True,False,False
+2024,21,São Paulo,2024-11-03 15:30:00+00:00,23,Alexander ALBON,Williams,,0.0,0.0,,,False,True,False
+2024,21,São Paulo,2024-11-03 15:30:00+00:00,18,Lance STROLL,Aston Martin,,0.0,0.0,,,False,True,False
+2024,21,São Paulo,2024-11-03 15:30:00+00:00,27,Nico HULKENBERG,Haas F1 Team,,0.0,,,,False,False,True
+2024,22,Las Vegas,2024-11-24 06:00:00+00:00,63,George RUSSELL,Mercedes,1.0,25.0,50.0,0,4925.969,False,False,False
+2024,22,Las Vegas,2024-11-24 06:00:00+00:00,44,Lewis HAMILTON,Mercedes,2.0,18.0,50.0,7.313,4933.282,False,False,False
+2024,22,Las Vegas,2024-11-24 06:00:00+00:00,55,Carlos SAINZ,Ferrari,3.0,15.0,50.0,11.906,4937.875,False,False,False
+2024,22,Las Vegas,2024-11-24 06:00:00+00:00,16,Charles LECLERC,Ferrari,4.0,12.0,50.0,14.283,4940.252,False,False,False
+2024,22,Las Vegas,2024-11-24 06:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,5.0,10.0,50.0,16.582,4942.551,False,False,False
+2024,22,Las Vegas,2024-11-24 06:00:00+00:00,4,Lando NORRIS,McLaren,6.0,9.0,50.0,43.385,4969.354,False,False,False
+2024,22,Las Vegas,2024-11-24 06:00:00+00:00,81,Oscar PIASTRI,McLaren,7.0,6.0,50.0,51.365,4977.334,False,False,False
+2024,22,Las Vegas,2024-11-24 06:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,8.0,4.0,50.0,59.808,4985.777,False,False,False
+2024,22,Las Vegas,2024-11-24 06:00:00+00:00,22,Yuki TSUNODA,RB,9.0,2.0,50.0,62.808,4988.777,False,False,False
+2024,22,Las Vegas,2024-11-24 06:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,10.0,1.0,50.0,63.114,4989.083,False,False,False
+2024,22,Las Vegas,2024-11-24 06:00:00+00:00,14,Fernando ALONSO,Aston Martin,11.0,0.0,50.0,69.195,4995.164,False,False,False
+2024,22,Las Vegas,2024-11-24 06:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,12.0,0.0,50.0,69.803,4995.772,False,False,False
+2024,22,Las Vegas,2024-11-24 06:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,13.0,0.0,50.0,74.085,5000.054,False,False,False
+2024,22,Las Vegas,2024-11-24 06:00:00+00:00,43,Franco COLAPINTO,Williams,14.0,0.0,50.0,75.172,5001.141,False,False,False
+2024,22,Las Vegas,2024-11-24 06:00:00+00:00,18,Lance STROLL,Aston Martin,15.0,0.0,50.0,84.102,5010.071,False,False,False
+2024,22,Las Vegas,2024-11-24 06:00:00+00:00,30,Liam LAWSON,RB,16.0,0.0,50.0,91.005,5016.974,False,False,False
+2024,22,Las Vegas,2024-11-24 06:00:00+00:00,31,Esteban OCON,Alpine,17.0,0.0,49.0,+1 LAP,,False,False,False
+2024,22,Las Vegas,2024-11-24 06:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,18.0,0.0,49.0,+1 LAP,,False,False,False
+2024,22,Las Vegas,2024-11-24 06:00:00+00:00,23,Alexander ALBON,Williams,,0.0,25.0,,,True,False,False
+2024,22,Las Vegas,2024-11-24 06:00:00+00:00,10,Pierre GASLY,Alpine,,0.0,15.0,,,True,False,False
+2024,23,Lusail,2024-12-01 16:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,57.0,0,5465.323,False,False,False
+2024,23,Lusail,2024-12-01 16:00:00+00:00,16,Charles LECLERC,Ferrari,2.0,18.0,57.0,6.031,5471.354,False,False,False
+2024,23,Lusail,2024-12-01 16:00:00+00:00,81,Oscar PIASTRI,McLaren,3.0,15.0,57.0,6.819,5472.142,False,False,False
+2024,23,Lusail,2024-12-01 16:00:00+00:00,63,George RUSSELL,Mercedes,4.0,12.0,57.0,14.104,5479.427,False,False,False
+2024,23,Lusail,2024-12-01 16:00:00+00:00,10,Pierre GASLY,Alpine,5.0,10.0,57.0,16.782,5482.105,False,False,False
+2024,23,Lusail,2024-12-01 16:00:00+00:00,55,Carlos SAINZ,Ferrari,6.0,8.0,57.0,17.476,5482.799,False,False,False
+2024,23,Lusail,2024-12-01 16:00:00+00:00,14,Fernando ALONSO,Aston Martin,7.0,6.0,57.0,19.867,5485.19,False,False,False
+2024,23,Lusail,2024-12-01 16:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,8.0,4.0,57.0,25.36,5490.683,False,False,False
+2024,23,Lusail,2024-12-01 16:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,9.0,2.0,57.0,32.177,5497.5,False,False,False
+2024,23,Lusail,2024-12-01 16:00:00+00:00,4,Lando NORRIS,McLaren,10.0,2.0,57.0,35.762,5501.085,False,False,False
+2024,23,Lusail,2024-12-01 16:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,11.0,0.0,57.0,50.243,5515.566,False,False,False
+2024,23,Lusail,2024-12-01 16:00:00+00:00,44,Lewis HAMILTON,Mercedes,12.0,0.0,57.0,56.122,5521.445,False,False,False
+2024,23,Lusail,2024-12-01 16:00:00+00:00,22,Yuki TSUNODA,RB,13.0,0.0,57.0,61.1,5526.423,False,False,False
+2024,23,Lusail,2024-12-01 16:00:00+00:00,30,Liam LAWSON,RB,14.0,0.0,57.0,62.656,5527.979,False,False,False
+2024,23,Lusail,2024-12-01 16:00:00+00:00,23,Alexander ALBON,Williams,15.0,0.0,56.0,+1 LAP,,False,False,False
+2024,23,Lusail,2024-12-01 16:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,,0.0,39.0,,,True,False,False
+2024,23,Lusail,2024-12-01 16:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,,0.0,38.0,,,True,False,False
+2024,23,Lusail,2024-12-01 16:00:00+00:00,18,Lance STROLL,Aston Martin,,0.0,8.0,,,True,False,False
+2024,23,Lusail,2024-12-01 16:00:00+00:00,43,Franco COLAPINTO,Williams,,0.0,0.0,,,True,False,False
+2024,23,Lusail,2024-12-01 16:00:00+00:00,31,Esteban OCON,Alpine,,0.0,0.0,,,True,False,False
+2024,24,Yas Island,2024-12-08 13:00:00+00:00,4,Lando NORRIS,McLaren,1.0,25.0,58.0,0,5193.291,False,False,False
+2024,24,Yas Island,2024-12-08 13:00:00+00:00,55,Carlos SAINZ,Ferrari,2.0,18.0,58.0,5.832,5199.123,False,False,False
+2024,24,Yas Island,2024-12-08 13:00:00+00:00,16,Charles LECLERC,Ferrari,3.0,15.0,58.0,31.928,5225.219,False,False,False
+2024,24,Yas Island,2024-12-08 13:00:00+00:00,44,Lewis HAMILTON,Mercedes,4.0,12.0,58.0,36.483,5229.774,False,False,False
+2024,24,Yas Island,2024-12-08 13:00:00+00:00,63,George RUSSELL,Mercedes,5.0,10.0,58.0,37.538,5230.829,False,False,False
+2024,24,Yas Island,2024-12-08 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,6.0,8.0,58.0,49.847,5243.138,False,False,False
+2024,24,Yas Island,2024-12-08 13:00:00+00:00,10,Pierre GASLY,Alpine,7.0,6.0,58.0,72.56,5265.851,False,False,False
+2024,24,Yas Island,2024-12-08 13:00:00+00:00,27,Nico HULKENBERG,Haas F1 Team,8.0,4.0,58.0,75.554,5268.845,False,False,False
+2024,24,Yas Island,2024-12-08 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,9.0,2.0,58.0,82.373,5275.664,False,False,False
+2024,24,Yas Island,2024-12-08 13:00:00+00:00,81,Oscar PIASTRI,McLaren,10.0,1.0,58.0,83.821,5277.112,False,False,False
+2024,24,Yas Island,2024-12-08 13:00:00+00:00,23,Alexander ALBON,Williams,11.0,0.0,57.0,+1 LAP,,False,False,False
+2024,24,Yas Island,2024-12-08 13:00:00+00:00,22,Yuki TSUNODA,RB,12.0,0.0,57.0,+1 LAP,,False,False,False
+2024,24,Yas Island,2024-12-08 13:00:00+00:00,24,ZHOU Guanyu,Kick Sauber,13.0,0.0,57.0,+1 LAP,,False,False,False
+2024,24,Yas Island,2024-12-08 13:00:00+00:00,18,Lance STROLL,Aston Martin,14.0,0.0,57.0,+1 LAP,,False,False,False
+2024,24,Yas Island,2024-12-08 13:00:00+00:00,61,Jack DOOHAN,Alpine,15.0,0.0,57.0,+1 LAP,,False,False,False
+2024,24,Yas Island,2024-12-08 13:00:00+00:00,20,Kevin MAGNUSSEN,Haas F1 Team,16.0,0.0,57.0,+1 LAP,,False,False,False
+2024,24,Yas Island,2024-12-08 13:00:00+00:00,30,Liam LAWSON,RB,17.0,0.0,55.0,,,True,False,False
+2024,24,Yas Island,2024-12-08 13:00:00+00:00,77,Valtteri BOTTAS,Kick Sauber,,0.0,30.0,,,True,False,False
+2024,24,Yas Island,2024-12-08 13:00:00+00:00,43,Franco COLAPINTO,Williams,,0.0,26.0,,,True,False,False
+2024,24,Yas Island,2024-12-08 13:00:00+00:00,11,Sergio PEREZ,Red Bull Racing,,0.0,0.0,,,True,False,False
+2025,1,Melbourne,2025-03-16 04:00:00+00:00,4,Lando NORRIS,McLaren,1.0,25.0,57.0,0,6126.304,False,False,False
+2025,1,Melbourne,2025-03-16 04:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,2.0,18.0,57.0,0.895,6127.199,False,False,False
+2025,1,Melbourne,2025-03-16 04:00:00+00:00,63,George RUSSELL,Mercedes,3.0,15.0,57.0,8.481,6134.785,False,False,False
+2025,1,Melbourne,2025-03-16 04:00:00+00:00,12,Kimi ANTONELLI,Mercedes,4.0,12.0,57.0,10.135,6136.439,False,False,False
+2025,1,Melbourne,2025-03-16 04:00:00+00:00,23,Alexander ALBON,Williams,5.0,10.0,57.0,12.773,6139.077,False,False,False
+2025,1,Melbourne,2025-03-16 04:00:00+00:00,18,Lance STROLL,Aston Martin,6.0,8.0,57.0,17.413,6143.717,False,False,False
+2025,1,Melbourne,2025-03-16 04:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,7.0,6.0,57.0,18.423,6144.727,False,False,False
+2025,1,Melbourne,2025-03-16 04:00:00+00:00,16,Charles LECLERC,Ferrari,8.0,4.0,57.0,19.826,6146.13,False,False,False
+2025,1,Melbourne,2025-03-16 04:00:00+00:00,81,Oscar PIASTRI,McLaren,9.0,2.0,57.0,20.448,6146.752,False,False,False
+2025,1,Melbourne,2025-03-16 04:00:00+00:00,44,Lewis HAMILTON,Ferrari,10.0,1.0,57.0,22.473,6148.777,False,False,False
+2025,1,Melbourne,2025-03-16 04:00:00+00:00,10,Pierre GASLY,Alpine,11.0,0.0,57.0,26.502,6152.806,False,False,False
+2025,1,Melbourne,2025-03-16 04:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,12.0,0.0,57.0,29.884,6156.188,False,False,False
+2025,1,Melbourne,2025-03-16 04:00:00+00:00,31,Esteban OCON,Haas F1 Team,13.0,0.0,57.0,33.161,6159.465,False,False,False
+2025,1,Melbourne,2025-03-16 04:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,14.0,0.0,57.0,40.351,6166.655,False,False,False
+2025,1,Melbourne,2025-03-16 04:00:00+00:00,30,Liam LAWSON,Racing Bulls,,0.0,46.0,,,True,False,False
+2025,1,Melbourne,2025-03-16 04:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,,0.0,45.0,,,True,False,False
+2025,1,Melbourne,2025-03-16 04:00:00+00:00,14,Fernando ALONSO,Aston Martin,,0.0,32.0,,,True,False,False
+2025,1,Melbourne,2025-03-16 04:00:00+00:00,55,Carlos SAINZ,Williams,,0.0,0.0,,,True,False,False
+2025,1,Melbourne,2025-03-16 04:00:00+00:00,7,Jack DOOHAN,Alpine,,0.0,0.0,,,True,False,False
+2025,1,Melbourne,2025-03-16 04:00:00+00:00,6,Isack HADJAR,Racing Bulls,,0.0,0.0,,,False,True,False
+2025,2,Shanghai,2025-03-23 07:00:00+00:00,81,Oscar PIASTRI,McLaren,1.0,25.0,56.0,0,5455.026,False,False,False
+2025,2,Shanghai,2025-03-23 07:00:00+00:00,4,Lando NORRIS,McLaren,2.0,18.0,56.0,9.748,5464.774,False,False,False
+2025,2,Shanghai,2025-03-23 07:00:00+00:00,63,George RUSSELL,Mercedes,3.0,15.0,56.0,11.097,5466.123,False,False,False
+2025,2,Shanghai,2025-03-23 07:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,4.0,12.0,56.0,16.656,5471.682,False,False,False
+2025,2,Shanghai,2025-03-23 07:00:00+00:00,31,Esteban OCON,Haas F1 Team,5.0,10.0,56.0,49.969,5504.995,False,False,False
+2025,2,Shanghai,2025-03-23 07:00:00+00:00,12,Kimi ANTONELLI,Mercedes,6.0,8.0,56.0,53.748,5508.774,False,False,False
+2025,2,Shanghai,2025-03-23 07:00:00+00:00,23,Alexander ALBON,Williams,7.0,6.0,56.0,56.321,5511.347,False,False,False
+2025,2,Shanghai,2025-03-23 07:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,8.0,4.0,56.0,61.303,5516.329,False,False,False
+2025,2,Shanghai,2025-03-23 07:00:00+00:00,18,Lance STROLL,Aston Martin,9.0,2.0,56.0,70.204,5525.23,False,False,False
+2025,2,Shanghai,2025-03-23 07:00:00+00:00,55,Carlos SAINZ,Williams,10.0,1.0,56.0,76.387,5531.413,False,False,False
+2025,2,Shanghai,2025-03-23 07:00:00+00:00,6,Isack HADJAR,Racing Bulls,11.0,0.0,56.0,78.875,5533.901,False,False,False
+2025,2,Shanghai,2025-03-23 07:00:00+00:00,30,Liam LAWSON,Racing Bulls,12.0,0.0,56.0,81.147,5536.173,False,False,False
+2025,2,Shanghai,2025-03-23 07:00:00+00:00,7,Jack DOOHAN,Alpine,13.0,0.0,56.0,88.401,5543.427,False,False,False
+2025,2,Shanghai,2025-03-23 07:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,14.0,0.0,55.0,+1 LAP,,False,False,False
+2025,2,Shanghai,2025-03-23 07:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,15.0,0.0,55.0,+1 LAP,,False,False,False
+2025,2,Shanghai,2025-03-23 07:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,16.0,0.0,55.0,+1 LAP,,False,False,False
+2025,2,Shanghai,2025-03-23 07:00:00+00:00,14,Fernando ALONSO,Aston Martin,,0.0,4.0,,,True,False,False
+2025,2,Shanghai,2025-03-23 07:00:00+00:00,16,Charles LECLERC,Ferrari,,0.0,,,,False,False,True
+2025,2,Shanghai,2025-03-23 07:00:00+00:00,44,Lewis HAMILTON,Ferrari,,0.0,,,,False,False,True
+2025,2,Shanghai,2025-03-23 07:00:00+00:00,10,Pierre GASLY,Alpine,,0.0,,,,False,False,True
+2025,3,Suzuka,2025-04-06 05:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,53.0,0,4926.983,False,False,False
+2025,3,Suzuka,2025-04-06 05:00:00+00:00,4,Lando NORRIS,McLaren,2.0,18.0,53.0,1.423,4928.406,False,False,False
+2025,3,Suzuka,2025-04-06 05:00:00+00:00,81,Oscar PIASTRI,McLaren,3.0,15.0,53.0,2.129,4929.112,False,False,False
+2025,3,Suzuka,2025-04-06 05:00:00+00:00,16,Charles LECLERC,Ferrari,4.0,12.0,53.0,16.097,4943.08,False,False,False
+2025,3,Suzuka,2025-04-06 05:00:00+00:00,63,George RUSSELL,Mercedes,5.0,10.0,53.0,17.362,4944.345,False,False,False
+2025,3,Suzuka,2025-04-06 05:00:00+00:00,12,Kimi ANTONELLI,Mercedes,6.0,8.0,53.0,18.671,4945.654,False,False,False
+2025,3,Suzuka,2025-04-06 05:00:00+00:00,44,Lewis HAMILTON,Ferrari,7.0,6.0,53.0,29.182,4956.165,False,False,False
+2025,3,Suzuka,2025-04-06 05:00:00+00:00,6,Isack HADJAR,Racing Bulls,8.0,4.0,53.0,37.134,4964.117,False,False,False
+2025,3,Suzuka,2025-04-06 05:00:00+00:00,23,Alexander ALBON,Williams,9.0,2.0,53.0,40.367,4967.35,False,False,False
+2025,3,Suzuka,2025-04-06 05:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,10.0,1.0,53.0,54.529,4981.512,False,False,False
+2025,3,Suzuka,2025-04-06 05:00:00+00:00,14,Fernando ALONSO,Aston Martin,11.0,0.0,53.0,57.333,4984.316,False,False,False
+2025,3,Suzuka,2025-04-06 05:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,12.0,0.0,53.0,58.401,4985.384,False,False,False
+2025,3,Suzuka,2025-04-06 05:00:00+00:00,10,Pierre GASLY,Alpine,13.0,0.0,53.0,62.122,4989.105,False,False,False
+2025,3,Suzuka,2025-04-06 05:00:00+00:00,55,Carlos SAINZ,Williams,14.0,0.0,53.0,74.129,5001.112,False,False,False
+2025,3,Suzuka,2025-04-06 05:00:00+00:00,7,Jack DOOHAN,Alpine,15.0,0.0,53.0,81.314,5008.297,False,False,False
+2025,3,Suzuka,2025-04-06 05:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,16.0,0.0,53.0,81.957,5008.94,False,False,False
+2025,3,Suzuka,2025-04-06 05:00:00+00:00,30,Liam LAWSON,Racing Bulls,17.0,0.0,53.0,82.734,5009.717,False,False,False
+2025,3,Suzuka,2025-04-06 05:00:00+00:00,31,Esteban OCON,Haas F1 Team,18.0,0.0,53.0,83.438,5010.421,False,False,False
+2025,3,Suzuka,2025-04-06 05:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,19.0,0.0,53.0,83.897,5010.88,False,False,False
+2025,3,Suzuka,2025-04-06 05:00:00+00:00,18,Lance STROLL,Aston Martin,20.0,0.0,52.0,+1 LAP,,False,False,False
+2025,4,Sakhir,2025-04-13 15:00:00+00:00,81,Oscar PIASTRI,McLaren,1.0,25.0,57.0,0,5739.435,False,False,False
+2025,4,Sakhir,2025-04-13 15:00:00+00:00,63,George RUSSELL,Mercedes,2.0,18.0,57.0,15.499,5754.934,False,False,False
+2025,4,Sakhir,2025-04-13 15:00:00+00:00,4,Lando NORRIS,McLaren,3.0,15.0,57.0,16.273,5755.708,False,False,False
+2025,4,Sakhir,2025-04-13 15:00:00+00:00,16,Charles LECLERC,Ferrari,4.0,12.0,57.0,19.679,5759.114,False,False,False
+2025,4,Sakhir,2025-04-13 15:00:00+00:00,44,Lewis HAMILTON,Ferrari,5.0,10.0,57.0,27.993,5767.428,False,False,False
+2025,4,Sakhir,2025-04-13 15:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,6.0,8.0,57.0,34.395,5773.83,False,False,False
+2025,4,Sakhir,2025-04-13 15:00:00+00:00,10,Pierre GASLY,Alpine,7.0,6.0,57.0,36.002,5775.437,False,False,False
+2025,4,Sakhir,2025-04-13 15:00:00+00:00,31,Esteban OCON,Haas F1 Team,8.0,4.0,57.0,44.244,5783.679,False,False,False
+2025,4,Sakhir,2025-04-13 15:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,9.0,2.0,57.0,45.061,5784.496,False,False,False
+2025,4,Sakhir,2025-04-13 15:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,10.0,1.0,57.0,47.594,5787.029,False,False,False
+2025,4,Sakhir,2025-04-13 15:00:00+00:00,12,Kimi ANTONELLI,Mercedes,11.0,0.0,57.0,48.016,5787.451,False,False,False
+2025,4,Sakhir,2025-04-13 15:00:00+00:00,23,Alexander ALBON,Williams,12.0,0.0,57.0,48.839,5788.274,False,False,False
+2025,4,Sakhir,2025-04-13 15:00:00+00:00,6,Isack HADJAR,Racing Bulls,13.0,0.0,57.0,56.314,5795.749,False,False,False
+2025,4,Sakhir,2025-04-13 15:00:00+00:00,7,Jack DOOHAN,Alpine,14.0,0.0,57.0,57.806,5797.241,False,False,False
+2025,4,Sakhir,2025-04-13 15:00:00+00:00,14,Fernando ALONSO,Aston Martin,15.0,0.0,57.0,60.34,5799.775,False,False,False
+2025,4,Sakhir,2025-04-13 15:00:00+00:00,30,Liam LAWSON,Racing Bulls,16.0,0.0,57.0,64.435,5803.87,False,False,False
+2025,4,Sakhir,2025-04-13 15:00:00+00:00,18,Lance STROLL,Aston Martin,17.0,0.0,57.0,65.489,5804.924,False,False,False
+2025,4,Sakhir,2025-04-13 15:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,18.0,0.0,57.0,66.872,5806.307,False,False,False
+2025,4,Sakhir,2025-04-13 15:00:00+00:00,55,Carlos SAINZ,Williams,,0.0,45.0,,,True,False,False
+2025,4,Sakhir,2025-04-13 15:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,,0.0,,,,False,False,True
+2025,5,Jeddah,2025-04-20 17:00:00+00:00,81,Oscar PIASTRI,McLaren,1.0,25.0,50.0,0,4866.758,False,False,False
+2025,5,Jeddah,2025-04-20 17:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,2.0,18.0,50.0,2.843,4869.601,False,False,False
+2025,5,Jeddah,2025-04-20 17:00:00+00:00,16,Charles LECLERC,Ferrari,3.0,15.0,50.0,8.104,4874.862,False,False,False
+2025,5,Jeddah,2025-04-20 17:00:00+00:00,4,Lando NORRIS,McLaren,4.0,12.0,50.0,9.196,4875.954,False,False,False
+2025,5,Jeddah,2025-04-20 17:00:00+00:00,63,George RUSSELL,Mercedes,5.0,10.0,50.0,27.236,4893.994,False,False,False
+2025,5,Jeddah,2025-04-20 17:00:00+00:00,12,Kimi ANTONELLI,Mercedes,6.0,8.0,50.0,34.688,4901.446,False,False,False
+2025,5,Jeddah,2025-04-20 17:00:00+00:00,44,Lewis HAMILTON,Ferrari,7.0,6.0,50.0,39.073,4905.831,False,False,False
+2025,5,Jeddah,2025-04-20 17:00:00+00:00,55,Carlos SAINZ,Williams,8.0,4.0,50.0,64.63,4931.388,False,False,False
+2025,5,Jeddah,2025-04-20 17:00:00+00:00,23,Alexander ALBON,Williams,9.0,2.0,50.0,66.515,4933.273,False,False,False
+2025,5,Jeddah,2025-04-20 17:00:00+00:00,6,Isack HADJAR,Racing Bulls,10.0,1.0,50.0,67.091,4933.849,False,False,False
+2025,5,Jeddah,2025-04-20 17:00:00+00:00,14,Fernando ALONSO,Aston Martin,11.0,0.0,50.0,75.917,4942.675,False,False,False
+2025,5,Jeddah,2025-04-20 17:00:00+00:00,30,Liam LAWSON,Racing Bulls,12.0,0.0,50.0,78.451,4945.209,False,False,False
+2025,5,Jeddah,2025-04-20 17:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,13.0,0.0,50.0,79.194,4945.952,False,False,False
+2025,5,Jeddah,2025-04-20 17:00:00+00:00,31,Esteban OCON,Haas F1 Team,14.0,0.0,50.0,99.723,4966.481,False,False,False
+2025,5,Jeddah,2025-04-20 17:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,15.0,0.0,49.0,+1 LAP,,False,False,False
+2025,5,Jeddah,2025-04-20 17:00:00+00:00,18,Lance STROLL,Aston Martin,16.0,0.0,49.0,+1 LAP,,False,False,False
+2025,5,Jeddah,2025-04-20 17:00:00+00:00,7,Jack DOOHAN,Alpine,17.0,0.0,49.0,+1 LAP,,False,False,False
+2025,5,Jeddah,2025-04-20 17:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,18.0,0.0,49.0,+1 LAP,,False,False,False
+2025,5,Jeddah,2025-04-20 17:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,,0.0,1.0,,,True,False,False
+2025,5,Jeddah,2025-04-20 17:00:00+00:00,10,Pierre GASLY,Alpine,,0.0,0.0,,,True,False,False
+2025,6,Miami Gardens,2025-05-04 20:00:00+00:00,81,Oscar PIASTRI,McLaren,1.0,25.0,57.0,0,5331.587,False,False,False
+2025,6,Miami Gardens,2025-05-04 20:00:00+00:00,4,Lando NORRIS,McLaren,2.0,18.0,57.0,4.63,5336.217,False,False,False
+2025,6,Miami Gardens,2025-05-04 20:00:00+00:00,63,George RUSSELL,Mercedes,3.0,15.0,57.0,37.644,5369.231,False,False,False
+2025,6,Miami Gardens,2025-05-04 20:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,4.0,12.0,57.0,39.956,5371.543,False,False,False
+2025,6,Miami Gardens,2025-05-04 20:00:00+00:00,23,Alexander ALBON,Williams,5.0,10.0,57.0,48.067,5379.654,False,False,False
+2025,6,Miami Gardens,2025-05-04 20:00:00+00:00,12,Kimi ANTONELLI,Mercedes,6.0,8.0,57.0,55.502,5387.089,False,False,False
+2025,6,Miami Gardens,2025-05-04 20:00:00+00:00,16,Charles LECLERC,Ferrari,7.0,6.0,57.0,57.036,5388.623,False,False,False
+2025,6,Miami Gardens,2025-05-04 20:00:00+00:00,44,Lewis HAMILTON,Ferrari,8.0,4.0,57.0,60.186,5391.773,False,False,False
+2025,6,Miami Gardens,2025-05-04 20:00:00+00:00,55,Carlos SAINZ,Williams,9.0,2.0,57.0,60.577,5392.164,False,False,False
+2025,6,Miami Gardens,2025-05-04 20:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,10.0,1.0,57.0,74.434,5406.021,False,False,False
+2025,6,Miami Gardens,2025-05-04 20:00:00+00:00,6,Isack HADJAR,Racing Bulls,11.0,0.0,57.0,74.602,5406.189,False,False,False
+2025,6,Miami Gardens,2025-05-04 20:00:00+00:00,31,Esteban OCON,Haas F1 Team,12.0,0.0,57.0,82.006,5413.593,False,False,False
+2025,6,Miami Gardens,2025-05-04 20:00:00+00:00,10,Pierre GASLY,Alpine,13.0,0.0,57.0,90.445,5422.032,False,False,False
+2025,6,Miami Gardens,2025-05-04 20:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,14.0,0.0,56.0,+1 LAP,,False,False,False
+2025,6,Miami Gardens,2025-05-04 20:00:00+00:00,14,Fernando ALONSO,Aston Martin,15.0,0.0,56.0,+1 LAP,,False,False,False
+2025,6,Miami Gardens,2025-05-04 20:00:00+00:00,18,Lance STROLL,Aston Martin,16.0,0.0,56.0,+1 LAP,,False,False,False
+2025,6,Miami Gardens,2025-05-04 20:00:00+00:00,30,Liam LAWSON,Racing Bulls,,0.0,36.0,,,True,False,False
+2025,6,Miami Gardens,2025-05-04 20:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,,0.0,30.0,,,True,False,False
+2025,6,Miami Gardens,2025-05-04 20:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,,0.0,27.0,,,True,False,False
+2025,6,Miami Gardens,2025-05-04 20:00:00+00:00,7,Jack DOOHAN,Alpine,,0.0,0.0,,,True,False,False
+2025,7,Imola,2025-05-18 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,63.0,0,5493.199,False,False,False
+2025,7,Imola,2025-05-18 13:00:00+00:00,4,Lando NORRIS,McLaren,2.0,18.0,63.0,6.109,5499.308,False,False,False
+2025,7,Imola,2025-05-18 13:00:00+00:00,81,Oscar PIASTRI,McLaren,3.0,15.0,63.0,12.956,5506.155,False,False,False
+2025,7,Imola,2025-05-18 13:00:00+00:00,44,Lewis HAMILTON,Ferrari,4.0,12.0,63.0,14.356,5507.555,False,False,False
+2025,7,Imola,2025-05-18 13:00:00+00:00,23,Alexander ALBON,Williams,5.0,10.0,63.0,17.945,5511.144,False,False,False
+2025,7,Imola,2025-05-18 13:00:00+00:00,16,Charles LECLERC,Ferrari,6.0,8.0,63.0,20.774,5513.973,False,False,False
+2025,7,Imola,2025-05-18 13:00:00+00:00,63,George RUSSELL,Mercedes,7.0,6.0,63.0,22.034,5515.233,False,False,False
+2025,7,Imola,2025-05-18 13:00:00+00:00,55,Carlos SAINZ,Williams,8.0,4.0,63.0,22.898,5516.097,False,False,False
+2025,7,Imola,2025-05-18 13:00:00+00:00,6,Isack HADJAR,Racing Bulls,9.0,2.0,63.0,23.586,5516.785,False,False,False
+2025,7,Imola,2025-05-18 13:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,10.0,1.0,63.0,26.446,5519.645,False,False,False
+2025,7,Imola,2025-05-18 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,11.0,0.0,63.0,27.25,5520.449,False,False,False
+2025,7,Imola,2025-05-18 13:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,12.0,0.0,63.0,30.296,5523.495,False,False,False
+2025,7,Imola,2025-05-18 13:00:00+00:00,10,Pierre GASLY,Alpine,13.0,0.0,63.0,31.424,5524.623,False,False,False
+2025,7,Imola,2025-05-18 13:00:00+00:00,30,Liam LAWSON,Racing Bulls,14.0,0.0,63.0,32.511,5525.71,False,False,False
+2025,7,Imola,2025-05-18 13:00:00+00:00,18,Lance STROLL,Aston Martin,15.0,0.0,63.0,32.993,5526.192,False,False,False
+2025,7,Imola,2025-05-18 13:00:00+00:00,43,Franco COLAPINTO,Alpine,16.0,0.0,63.0,33.411,5526.61,False,False,False
+2025,7,Imola,2025-05-18 13:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,17.0,0.0,63.0,33.808,5527.007,False,False,False
+2025,7,Imola,2025-05-18 13:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,18.0,0.0,63.0,38.572,5531.771,False,False,False
+2025,7,Imola,2025-05-18 13:00:00+00:00,12,Kimi ANTONELLI,Mercedes,,0.0,44.0,,,True,False,False
+2025,7,Imola,2025-05-18 13:00:00+00:00,31,Esteban OCON,Haas F1 Team,,0.0,27.0,,,True,False,False
+2025,8,Monaco,2025-05-25 13:00:00+00:00,4,Lando NORRIS,McLaren,1.0,25.0,78.0,0,6033.843,False,False,False
+2025,8,Monaco,2025-05-25 13:00:00+00:00,16,Charles LECLERC,Ferrari,2.0,18.0,78.0,3.131,6036.974,False,False,False
+2025,8,Monaco,2025-05-25 13:00:00+00:00,81,Oscar PIASTRI,McLaren,3.0,15.0,78.0,3.658,6037.501,False,False,False
+2025,8,Monaco,2025-05-25 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,4.0,12.0,78.0,20.572,6054.415,False,False,False
+2025,8,Monaco,2025-05-25 13:00:00+00:00,44,Lewis HAMILTON,Ferrari,5.0,10.0,78.0,51.387,6085.23,False,False,False
+2025,8,Monaco,2025-05-25 13:00:00+00:00,6,Isack HADJAR,Racing Bulls,6.0,8.0,77.0,+1 LAP,,False,False,False
+2025,8,Monaco,2025-05-25 13:00:00+00:00,31,Esteban OCON,Haas F1 Team,7.0,6.0,77.0,+1 LAP,,False,False,False
+2025,8,Monaco,2025-05-25 13:00:00+00:00,30,Liam LAWSON,Racing Bulls,8.0,4.0,77.0,+1 LAP,,False,False,False
+2025,8,Monaco,2025-05-25 13:00:00+00:00,23,Alexander ALBON,Williams,9.0,2.0,76.0,+2 LAPS,,False,False,False
+2025,8,Monaco,2025-05-25 13:00:00+00:00,55,Carlos SAINZ,Williams,10.0,1.0,76.0,+2 LAPS,,False,False,False
+2025,8,Monaco,2025-05-25 13:00:00+00:00,63,George RUSSELL,Mercedes,11.0,0.0,76.0,+2 LAPS,,False,False,False
+2025,8,Monaco,2025-05-25 13:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,12.0,0.0,76.0,+2 LAPS,,False,False,False
+2025,8,Monaco,2025-05-25 13:00:00+00:00,43,Franco COLAPINTO,Alpine,13.0,0.0,76.0,+2 LAPS,,False,False,False
+2025,8,Monaco,2025-05-25 13:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,14.0,0.0,76.0,+2 LAPS,,False,False,False
+2025,8,Monaco,2025-05-25 13:00:00+00:00,18,Lance STROLL,Aston Martin,15.0,0.0,76.0,+2 LAPS,,False,False,False
+2025,8,Monaco,2025-05-25 13:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,16.0,0.0,76.0,+2 LAPS,,False,False,False
+2025,8,Monaco,2025-05-25 13:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,17.0,0.0,76.0,+2 LAPS,,False,False,False
+2025,8,Monaco,2025-05-25 13:00:00+00:00,12,Kimi ANTONELLI,Mercedes,18.0,0.0,75.0,+3 LAPS,,False,False,False
+2025,8,Monaco,2025-05-25 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,,0.0,36.0,,,True,False,False
+2025,8,Monaco,2025-05-25 13:00:00+00:00,10,Pierre GASLY,Alpine,,0.0,7.0,,,True,False,False
+2025,9,Barcelona,2025-06-01 13:00:00+00:00,81,Oscar PIASTRI,McLaren,1.0,25.0,66.0,0,5577.375,False,False,False
+2025,9,Barcelona,2025-06-01 13:00:00+00:00,4,Lando NORRIS,McLaren,2.0,18.0,66.0,2.471,5579.846,False,False,False
+2025,9,Barcelona,2025-06-01 13:00:00+00:00,16,Charles LECLERC,Ferrari,3.0,15.0,66.0,10.455,5587.83,False,False,False
+2025,9,Barcelona,2025-06-01 13:00:00+00:00,63,George RUSSELL,Mercedes,4.0,12.0,66.0,11.359,5588.734,False,False,False
+2025,9,Barcelona,2025-06-01 13:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,5.0,10.0,66.0,13.648,5591.023,False,False,False
+2025,9,Barcelona,2025-06-01 13:00:00+00:00,44,Lewis HAMILTON,Ferrari,6.0,8.0,66.0,15.508,5592.883,False,False,False
+2025,9,Barcelona,2025-06-01 13:00:00+00:00,6,Isack HADJAR,Racing Bulls,7.0,6.0,66.0,16.022,5593.397,False,False,False
+2025,9,Barcelona,2025-06-01 13:00:00+00:00,10,Pierre GASLY,Alpine,8.0,4.0,66.0,17.882,5595.257,False,False,False
+2025,9,Barcelona,2025-06-01 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,9.0,2.0,66.0,21.564,5598.939,False,False,False
+2025,9,Barcelona,2025-06-01 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,10.0,1.0,66.0,21.826,5599.201,False,False,False
+2025,9,Barcelona,2025-06-01 13:00:00+00:00,30,Liam LAWSON,Racing Bulls,11.0,0.0,66.0,25.532,5602.907,False,False,False
+2025,9,Barcelona,2025-06-01 13:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,12.0,0.0,66.0,25.996,5603.371,False,False,False
+2025,9,Barcelona,2025-06-01 13:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,13.0,0.0,66.0,28.822,5606.197,False,False,False
+2025,9,Barcelona,2025-06-01 13:00:00+00:00,55,Carlos SAINZ,Williams,14.0,0.0,66.0,29.309,5606.684,False,False,False
+2025,9,Barcelona,2025-06-01 13:00:00+00:00,43,Franco COLAPINTO,Alpine,15.0,0.0,66.0,31.381,5608.756,False,False,False
+2025,9,Barcelona,2025-06-01 13:00:00+00:00,31,Esteban OCON,Haas F1 Team,16.0,0.0,66.0,32.197,5609.572,False,False,False
+2025,9,Barcelona,2025-06-01 13:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,17.0,0.0,66.0,37.065,5614.44,False,False,False
+2025,9,Barcelona,2025-06-01 13:00:00+00:00,12,Kimi ANTONELLI,Mercedes,,0.0,53.0,,,True,False,False
+2025,9,Barcelona,2025-06-01 13:00:00+00:00,23,Alexander ALBON,Williams,,0.0,27.0,,,True,False,False
+2025,10,Montréal,2025-06-15 18:00:00+00:00,63,George RUSSELL,Mercedes,1.0,25.0,70.0,0,5512.688,False,False,False
+2025,10,Montréal,2025-06-15 18:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,2.0,18.0,70.0,0.228,5512.916,False,False,False
+2025,10,Montréal,2025-06-15 18:00:00+00:00,12,Kimi ANTONELLI,Mercedes,3.0,15.0,70.0,1.014,5513.702,False,False,False
+2025,10,Montréal,2025-06-15 18:00:00+00:00,81,Oscar PIASTRI,McLaren,4.0,12.0,70.0,2.109,5514.797,False,False,False
+2025,10,Montréal,2025-06-15 18:00:00+00:00,16,Charles LECLERC,Ferrari,5.0,10.0,70.0,3.442,5516.13,False,False,False
+2025,10,Montréal,2025-06-15 18:00:00+00:00,44,Lewis HAMILTON,Ferrari,6.0,8.0,70.0,10.713,5523.401,False,False,False
+2025,10,Montréal,2025-06-15 18:00:00+00:00,14,Fernando ALONSO,Aston Martin,7.0,6.0,70.0,10.972,5523.66,False,False,False
+2025,10,Montréal,2025-06-15 18:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,8.0,4.0,70.0,15.364,5528.052,False,False,False
+2025,10,Montréal,2025-06-15 18:00:00+00:00,31,Esteban OCON,Haas F1 Team,9.0,2.0,69.0,+1 LAP,,False,False,False
+2025,10,Montréal,2025-06-15 18:00:00+00:00,55,Carlos SAINZ,Williams,10.0,1.0,69.0,+1 LAP,,False,False,False
+2025,10,Montréal,2025-06-15 18:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,11.0,0.0,69.0,+1 LAP,,False,False,False
+2025,10,Montréal,2025-06-15 18:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,12.0,0.0,69.0,+1 LAP,,False,False,False
+2025,10,Montréal,2025-06-15 18:00:00+00:00,43,Franco COLAPINTO,Alpine,13.0,0.0,69.0,+1 LAP,,False,False,False
+2025,10,Montréal,2025-06-15 18:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,14.0,0.0,69.0,+1 LAP,,False,False,False
+2025,10,Montréal,2025-06-15 18:00:00+00:00,10,Pierre GASLY,Alpine,15.0,0.0,69.0,+1 LAP,,False,False,False
+2025,10,Montréal,2025-06-15 18:00:00+00:00,6,Isack HADJAR,Racing Bulls,16.0,0.0,69.0,+1 LAP,,False,False,False
+2025,10,Montréal,2025-06-15 18:00:00+00:00,18,Lance STROLL,Aston Martin,17.0,0.0,69.0,+1 LAP,,False,False,False
+2025,10,Montréal,2025-06-15 18:00:00+00:00,4,Lando NORRIS,McLaren,18.0,0.0,66.0,,,True,False,False
+2025,10,Montréal,2025-06-15 18:00:00+00:00,30,Liam LAWSON,Racing Bulls,,0.0,53.0,,,True,False,False
+2025,10,Montréal,2025-06-15 18:00:00+00:00,23,Alexander ALBON,Williams,,0.0,46.0,,,True,False,False
+2025,11,Spielberg,2025-06-29 13:00:00+00:00,4,Lando NORRIS,McLaren,1.0,25.0,70.0,0,5027.693,False,False,False
+2025,11,Spielberg,2025-06-29 13:00:00+00:00,81,Oscar PIASTRI,McLaren,2.0,18.0,70.0,2.695,5030.388,False,False,False
+2025,11,Spielberg,2025-06-29 13:00:00+00:00,16,Charles LECLERC,Ferrari,3.0,15.0,70.0,19.82,5047.513,False,False,False
+2025,11,Spielberg,2025-06-29 13:00:00+00:00,44,Lewis HAMILTON,Ferrari,4.0,12.0,70.0,29.02,5056.713,False,False,False
+2025,11,Spielberg,2025-06-29 13:00:00+00:00,63,George RUSSELL,Mercedes,5.0,10.0,70.0,62.396,5090.089,False,False,False
+2025,11,Spielberg,2025-06-29 13:00:00+00:00,30,Liam LAWSON,Racing Bulls,6.0,8.0,70.0,67.754,5095.447,False,False,False
+2025,11,Spielberg,2025-06-29 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,7.0,6.0,69.0,+1 LAP,,False,False,False
+2025,11,Spielberg,2025-06-29 13:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,8.0,4.0,69.0,+1 LAP,,False,False,False
+2025,11,Spielberg,2025-06-29 13:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,9.0,2.0,69.0,+1 LAP,,False,False,False
+2025,11,Spielberg,2025-06-29 13:00:00+00:00,31,Esteban OCON,Haas F1 Team,10.0,1.0,69.0,+1 LAP,,False,False,False
+2025,11,Spielberg,2025-06-29 13:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,11.0,0.0,69.0,+1 LAP,,False,False,False
+2025,11,Spielberg,2025-06-29 13:00:00+00:00,6,Isack HADJAR,Racing Bulls,12.0,0.0,69.0,+1 LAP,,False,False,False
+2025,11,Spielberg,2025-06-29 13:00:00+00:00,10,Pierre GASLY,Alpine,13.0,0.0,69.0,+1 LAP,,False,False,False
+2025,11,Spielberg,2025-06-29 13:00:00+00:00,18,Lance STROLL,Aston Martin,14.0,0.0,69.0,+1 LAP,,False,False,False
+2025,11,Spielberg,2025-06-29 13:00:00+00:00,43,Franco COLAPINTO,Alpine,15.0,0.0,69.0,+1 LAP,,False,False,False
+2025,11,Spielberg,2025-06-29 13:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,16.0,0.0,68.0,+2 LAPS,,False,False,False
+2025,11,Spielberg,2025-06-29 13:00:00+00:00,23,Alexander ALBON,Williams,,0.0,15.0,,,True,False,False
+2025,11,Spielberg,2025-06-29 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,,0.0,0.0,,,True,False,False
+2025,11,Spielberg,2025-06-29 13:00:00+00:00,12,Kimi ANTONELLI,Mercedes,,0.0,0.0,,,True,False,False
+2025,11,Spielberg,2025-06-29 13:00:00+00:00,55,Carlos SAINZ,Williams,,0.0,0.0,,,False,True,False
+2025,12,Silverstone,2025-07-06 14:00:00+00:00,4,Lando NORRIS,McLaren,1.0,25.0,52.0,0,5835.735,False,False,False
+2025,12,Silverstone,2025-07-06 14:00:00+00:00,81,Oscar PIASTRI,McLaren,2.0,18.0,52.0,6.812,5842.547,False,False,False
+2025,12,Silverstone,2025-07-06 14:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,3.0,15.0,52.0,34.742,5870.477,False,False,False
+2025,12,Silverstone,2025-07-06 14:00:00+00:00,44,Lewis HAMILTON,Ferrari,4.0,12.0,52.0,39.812,5875.547,False,False,False
+2025,12,Silverstone,2025-07-06 14:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,5.0,10.0,52.0,56.781,5892.516,False,False,False
+2025,12,Silverstone,2025-07-06 14:00:00+00:00,10,Pierre GASLY,Alpine,6.0,8.0,52.0,59.857,5895.592,False,False,False
+2025,12,Silverstone,2025-07-06 14:00:00+00:00,18,Lance STROLL,Aston Martin,7.0,6.0,52.0,60.603,5896.338,False,False,False
+2025,12,Silverstone,2025-07-06 14:00:00+00:00,23,Alexander ALBON,Williams,8.0,4.0,52.0,64.135,5899.87,False,False,False
+2025,12,Silverstone,2025-07-06 14:00:00+00:00,14,Fernando ALONSO,Aston Martin,9.0,2.0,52.0,65.858,5901.593,False,False,False
+2025,12,Silverstone,2025-07-06 14:00:00+00:00,63,George RUSSELL,Mercedes,10.0,1.0,52.0,70.674,5906.409,False,False,False
+2025,12,Silverstone,2025-07-06 14:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,11.0,0.0,52.0,72.095,5907.83,False,False,False
+2025,12,Silverstone,2025-07-06 14:00:00+00:00,55,Carlos SAINZ,Williams,12.0,0.0,52.0,76.592,5912.327,False,False,False
+2025,12,Silverstone,2025-07-06 14:00:00+00:00,31,Esteban OCON,Haas F1 Team,13.0,0.0,52.0,77.301,5913.036,False,False,False
+2025,12,Silverstone,2025-07-06 14:00:00+00:00,16,Charles LECLERC,Ferrari,14.0,0.0,52.0,84.477,5920.212,False,False,False
+2025,12,Silverstone,2025-07-06 14:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,15.0,0.0,51.0,+1 LAP,,False,False,False
+2025,12,Silverstone,2025-07-06 14:00:00+00:00,12,Kimi ANTONELLI,Mercedes,,0.0,23.0,,,True,False,False
+2025,12,Silverstone,2025-07-06 14:00:00+00:00,6,Isack HADJAR,Racing Bulls,,0.0,17.0,,,True,False,False
+2025,12,Silverstone,2025-07-06 14:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,,0.0,3.0,,,True,False,False
+2025,12,Silverstone,2025-07-06 14:00:00+00:00,30,Liam LAWSON,Racing Bulls,,0.0,0.0,,,True,False,False
+2025,12,Silverstone,2025-07-06 14:00:00+00:00,43,Franco COLAPINTO,Alpine,,0.0,0.0,,,False,True,False
+2025,13,Spa-Francorchamps,2025-07-27 13:00:00+00:00,81,Oscar PIASTRI,McLaren,1.0,25.0,44.0,0,5122.601,False,False,False
+2025,13,Spa-Francorchamps,2025-07-27 13:00:00+00:00,4,Lando NORRIS,McLaren,2.0,18.0,44.0,3.415,5126.016,False,False,False
+2025,13,Spa-Francorchamps,2025-07-27 13:00:00+00:00,16,Charles LECLERC,Ferrari,3.0,15.0,44.0,20.185,5142.786,False,False,False
+2025,13,Spa-Francorchamps,2025-07-27 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,4.0,12.0,44.0,21.731,5144.332,False,False,False
+2025,13,Spa-Francorchamps,2025-07-27 13:00:00+00:00,63,George RUSSELL,Mercedes,5.0,10.0,44.0,34.863,5157.464,False,False,False
+2025,13,Spa-Francorchamps,2025-07-27 13:00:00+00:00,23,Alexander ALBON,Williams,6.0,8.0,44.0,39.926,5162.527,False,False,False
+2025,13,Spa-Francorchamps,2025-07-27 13:00:00+00:00,44,Lewis HAMILTON,Ferrari,7.0,6.0,44.0,40.679,5163.28,False,False,False
+2025,13,Spa-Francorchamps,2025-07-27 13:00:00+00:00,30,Liam LAWSON,Racing Bulls,8.0,4.0,44.0,52.033,5174.634,False,False,False
+2025,13,Spa-Francorchamps,2025-07-27 13:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,9.0,2.0,44.0,56.434,5179.035,False,False,False
+2025,13,Spa-Francorchamps,2025-07-27 13:00:00+00:00,10,Pierre GASLY,Alpine,10.0,1.0,44.0,72.714,5195.315,False,False,False
+2025,13,Spa-Francorchamps,2025-07-27 13:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,11.0,0.0,44.0,73.145,5195.746,False,False,False
+2025,13,Spa-Francorchamps,2025-07-27 13:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,12.0,0.0,44.0,73.628,5196.229,False,False,False
+2025,13,Spa-Francorchamps,2025-07-27 13:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,13.0,0.0,44.0,75.395,5197.996,False,False,False
+2025,13,Spa-Francorchamps,2025-07-27 13:00:00+00:00,18,Lance STROLL,Aston Martin,14.0,0.0,44.0,79.831,5202.432,False,False,False
+2025,13,Spa-Francorchamps,2025-07-27 13:00:00+00:00,31,Esteban OCON,Haas F1 Team,15.0,0.0,44.0,86.063,5208.664,False,False,False
+2025,13,Spa-Francorchamps,2025-07-27 13:00:00+00:00,12,Kimi ANTONELLI,Mercedes,16.0,0.0,44.0,86.721,5209.322,False,False,False
+2025,13,Spa-Francorchamps,2025-07-27 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,17.0,0.0,44.0,87.924,5210.525,False,False,False
+2025,13,Spa-Francorchamps,2025-07-27 13:00:00+00:00,55,Carlos SAINZ,Williams,18.0,0.0,44.0,92.024,5214.625,False,False,False
+2025,13,Spa-Francorchamps,2025-07-27 13:00:00+00:00,43,Franco COLAPINTO,Alpine,19.0,0.0,44.0,95.25,5217.851,False,False,False
+2025,13,Spa-Francorchamps,2025-07-27 13:00:00+00:00,6,Isack HADJAR,Racing Bulls,20.0,0.0,43.0,+1 LAP,,False,False,False
+2025,14,Budapest,2025-08-03 13:00:00+00:00,4,Lando NORRIS,McLaren,1.0,25.0,70.0,0,5721.231,False,False,False
+2025,14,Budapest,2025-08-03 13:00:00+00:00,81,Oscar PIASTRI,McLaren,2.0,18.0,70.0,0.698,5721.929,False,False,False
+2025,14,Budapest,2025-08-03 13:00:00+00:00,63,George RUSSELL,Mercedes,3.0,15.0,70.0,21.916,5743.147,False,False,False
+2025,14,Budapest,2025-08-03 13:00:00+00:00,16,Charles LECLERC,Ferrari,4.0,12.0,70.0,42.56,5763.791,False,False,False
+2025,14,Budapest,2025-08-03 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,5.0,10.0,70.0,59.04,5780.271,False,False,False
+2025,14,Budapest,2025-08-03 13:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,6.0,8.0,70.0,66.169,5787.4,False,False,False
+2025,14,Budapest,2025-08-03 13:00:00+00:00,18,Lance STROLL,Aston Martin,7.0,6.0,70.0,68.174,5789.405,False,False,False
+2025,14,Budapest,2025-08-03 13:00:00+00:00,30,Liam LAWSON,Racing Bulls,8.0,4.0,70.0,69.451,5790.682,False,False,False
+2025,14,Budapest,2025-08-03 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,9.0,2.0,70.0,72.645,5793.876,False,False,False
+2025,14,Budapest,2025-08-03 13:00:00+00:00,12,Kimi ANTONELLI,Mercedes,10.0,1.0,69.0,+1 LAP,,False,False,False
+2025,14,Budapest,2025-08-03 13:00:00+00:00,6,Isack HADJAR,Racing Bulls,11.0,0.0,69.0,+1 LAP,,False,False,False
+2025,14,Budapest,2025-08-03 13:00:00+00:00,44,Lewis HAMILTON,Ferrari,12.0,0.0,69.0,+1 LAP,,False,False,False
+2025,14,Budapest,2025-08-03 13:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,13.0,0.0,69.0,+1 LAP,,False,False,False
+2025,14,Budapest,2025-08-03 13:00:00+00:00,55,Carlos SAINZ,Williams,14.0,0.0,69.0,+1 LAP,,False,False,False
+2025,14,Budapest,2025-08-03 13:00:00+00:00,23,Alexander ALBON,Williams,15.0,0.0,69.0,+1 LAP,,False,False,False
+2025,14,Budapest,2025-08-03 13:00:00+00:00,31,Esteban OCON,Haas F1 Team,16.0,0.0,69.0,+1 LAP,,False,False,False
+2025,14,Budapest,2025-08-03 13:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,17.0,0.0,69.0,+1 LAP,,False,False,False
+2025,14,Budapest,2025-08-03 13:00:00+00:00,43,Franco COLAPINTO,Alpine,18.0,0.0,69.0,+1 LAP,,False,False,False
+2025,14,Budapest,2025-08-03 13:00:00+00:00,10,Pierre GASLY,Alpine,19.0,0.0,69.0,+1 LAP,,False,False,False
+2025,14,Budapest,2025-08-03 13:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,,0.0,48.0,,,True,False,False
+2025,15,Zandvoort,2025-08-31 13:00:00+00:00,81,Oscar PIASTRI,McLaren,1.0,25.0,72.0,0,5909.849,False,False,False
+2025,15,Zandvoort,2025-08-31 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,2.0,18.0,72.0,1.271,5911.12,False,False,False
+2025,15,Zandvoort,2025-08-31 13:00:00+00:00,6,Isack HADJAR,Racing Bulls,3.0,15.0,72.0,3.233,5913.082,False,False,False
+2025,15,Zandvoort,2025-08-31 13:00:00+00:00,63,George RUSSELL,Mercedes,4.0,12.0,72.0,5.654,5915.503,False,False,False
+2025,15,Zandvoort,2025-08-31 13:00:00+00:00,23,Alexander ALBON,Williams,5.0,10.0,72.0,6.327,5916.176,False,False,False
+2025,15,Zandvoort,2025-08-31 13:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,6.0,8.0,72.0,9.044,5918.893,False,False,False
+2025,15,Zandvoort,2025-08-31 13:00:00+00:00,18,Lance STROLL,Aston Martin,7.0,6.0,72.0,9.497,5919.346,False,False,False
+2025,15,Zandvoort,2025-08-31 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,8.0,4.0,72.0,11.709,5921.558,False,False,False
+2025,15,Zandvoort,2025-08-31 13:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,9.0,2.0,72.0,13.597,5923.446,False,False,False
+2025,15,Zandvoort,2025-08-31 13:00:00+00:00,31,Esteban OCON,Haas F1 Team,10.0,1.0,72.0,14.063,5923.912,False,False,False
+2025,15,Zandvoort,2025-08-31 13:00:00+00:00,43,Franco COLAPINTO,Alpine,11.0,0.0,72.0,14.511,5924.36,False,False,False
+2025,15,Zandvoort,2025-08-31 13:00:00+00:00,30,Liam LAWSON,Racing Bulls,12.0,0.0,72.0,17.063,5926.912,False,False,False
+2025,15,Zandvoort,2025-08-31 13:00:00+00:00,55,Carlos SAINZ,Williams,13.0,0.0,72.0,17.376,5927.225,False,False,False
+2025,15,Zandvoort,2025-08-31 13:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,14.0,0.0,72.0,19.725,5929.574,False,False,False
+2025,15,Zandvoort,2025-08-31 13:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,15.0,0.0,72.0,21.565,5931.414,False,False,False
+2025,15,Zandvoort,2025-08-31 13:00:00+00:00,12,Kimi ANTONELLI,Mercedes,16.0,0.0,72.0,22.029,5931.878,False,False,False
+2025,15,Zandvoort,2025-08-31 13:00:00+00:00,10,Pierre GASLY,Alpine,17.0,0.0,72.0,23.629,5933.478,False,False,False
+2025,15,Zandvoort,2025-08-31 13:00:00+00:00,4,Lando NORRIS,McLaren,18.0,0.0,64.0,,,True,False,False
+2025,15,Zandvoort,2025-08-31 13:00:00+00:00,16,Charles LECLERC,Ferrari,,0.0,52.0,,,True,False,False
+2025,15,Zandvoort,2025-08-31 13:00:00+00:00,44,Lewis HAMILTON,Ferrari,,0.0,22.0,,,True,False,False
+2025,16,Monza,2025-09-07 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,53.0,0,4404.325,False,False,False
+2025,16,Monza,2025-09-07 13:00:00+00:00,4,Lando NORRIS,McLaren,2.0,18.0,53.0,19.207,4423.532,False,False,False
+2025,16,Monza,2025-09-07 13:00:00+00:00,81,Oscar PIASTRI,McLaren,3.0,15.0,53.0,21.351,4425.676,False,False,False
+2025,16,Monza,2025-09-07 13:00:00+00:00,16,Charles LECLERC,Ferrari,4.0,12.0,53.0,25.624,4429.949,False,False,False
+2025,16,Monza,2025-09-07 13:00:00+00:00,63,George RUSSELL,Mercedes,5.0,10.0,53.0,32.881,4437.206,False,False,False
+2025,16,Monza,2025-09-07 13:00:00+00:00,44,Lewis HAMILTON,Ferrari,6.0,8.0,53.0,37.449,4441.774,False,False,False
+2025,16,Monza,2025-09-07 13:00:00+00:00,23,Alexander ALBON,Williams,7.0,6.0,53.0,50.537,4454.862,False,False,False
+2025,16,Monza,2025-09-07 13:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,8.0,4.0,53.0,58.484,4462.809,False,False,False
+2025,16,Monza,2025-09-07 13:00:00+00:00,12,Kimi ANTONELLI,Mercedes,9.0,2.0,53.0,59.762,4464.087,False,False,False
+2025,16,Monza,2025-09-07 13:00:00+00:00,6,Isack HADJAR,Racing Bulls,10.0,1.0,53.0,63.891,4468.216,False,False,False
+2025,16,Monza,2025-09-07 13:00:00+00:00,55,Carlos SAINZ,Williams,11.0,0.0,53.0,64.469,4468.794,False,False,False
+2025,16,Monza,2025-09-07 13:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,12.0,0.0,53.0,79.288,4483.613,False,False,False
+2025,16,Monza,2025-09-07 13:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,13.0,0.0,53.0,80.701,4485.026,False,False,False
+2025,16,Monza,2025-09-07 13:00:00+00:00,30,Liam LAWSON,Racing Bulls,14.0,0.0,53.0,82.351,4486.676,False,False,False
+2025,16,Monza,2025-09-07 13:00:00+00:00,31,Esteban OCON,Haas F1 Team,15.0,0.0,52.0,+1 LAP,,False,False,False
+2025,16,Monza,2025-09-07 13:00:00+00:00,10,Pierre GASLY,Alpine,16.0,0.0,52.0,+1 LAP,,False,False,False
+2025,16,Monza,2025-09-07 13:00:00+00:00,43,Franco COLAPINTO,Alpine,17.0,0.0,52.0,+1 LAP,,False,False,False
+2025,16,Monza,2025-09-07 13:00:00+00:00,18,Lance STROLL,Aston Martin,18.0,0.0,52.0,+1 LAP,,False,False,False
+2025,16,Monza,2025-09-07 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,,0.0,24.0,,,True,False,False
+2025,16,Monza,2025-09-07 13:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,,0.0,0.0,,,False,True,False
+2025,17,Baku,2025-09-21 11:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,51.0,0,5606.408,False,False,False
+2025,17,Baku,2025-09-21 11:00:00+00:00,63,George RUSSELL,Mercedes,2.0,18.0,51.0,14.609,5621.017,False,False,False
+2025,17,Baku,2025-09-21 11:00:00+00:00,55,Carlos SAINZ,Williams,3.0,15.0,51.0,19.199,5625.607,False,False,False
+2025,17,Baku,2025-09-21 11:00:00+00:00,12,Kimi ANTONELLI,Mercedes,4.0,12.0,51.0,21.76,5628.168,False,False,False
+2025,17,Baku,2025-09-21 11:00:00+00:00,30,Liam LAWSON,Racing Bulls,5.0,10.0,51.0,33.29,5639.698,False,False,False
+2025,17,Baku,2025-09-21 11:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,6.0,8.0,51.0,33.808,5640.216,False,False,False
+2025,17,Baku,2025-09-21 11:00:00+00:00,4,Lando NORRIS,McLaren,7.0,6.0,51.0,34.227,5640.635,False,False,False
+2025,17,Baku,2025-09-21 11:00:00+00:00,44,Lewis HAMILTON,Ferrari,8.0,4.0,51.0,36.31,5642.718,False,False,False
+2025,17,Baku,2025-09-21 11:00:00+00:00,16,Charles LECLERC,Ferrari,9.0,2.0,51.0,36.774,5643.182,False,False,False
+2025,17,Baku,2025-09-21 11:00:00+00:00,6,Isack HADJAR,Racing Bulls,10.0,1.0,51.0,38.982,5645.39,False,False,False
+2025,17,Baku,2025-09-21 11:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,11.0,0.0,51.0,67.606,5674.014,False,False,False
+2025,17,Baku,2025-09-21 11:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,12.0,0.0,51.0,68.262,5674.67,False,False,False
+2025,17,Baku,2025-09-21 11:00:00+00:00,23,Alexander ALBON,Williams,13.0,0.0,51.0,72.87,5679.278,False,False,False
+2025,17,Baku,2025-09-21 11:00:00+00:00,31,Esteban OCON,Haas F1 Team,14.0,0.0,51.0,77.58,5683.988,False,False,False
+2025,17,Baku,2025-09-21 11:00:00+00:00,14,Fernando ALONSO,Aston Martin,15.0,0.0,51.0,78.707,5685.115,False,False,False
+2025,17,Baku,2025-09-21 11:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,16.0,0.0,51.0,80.237,5686.645,False,False,False
+2025,17,Baku,2025-09-21 11:00:00+00:00,18,Lance STROLL,Aston Martin,17.0,0.0,51.0,96.392,5702.8,False,False,False
+2025,17,Baku,2025-09-21 11:00:00+00:00,10,Pierre GASLY,Alpine,18.0,0.0,50.0,+1 LAP,,False,False,False
+2025,17,Baku,2025-09-21 11:00:00+00:00,43,Franco COLAPINTO,Alpine,19.0,0.0,50.0,+1 LAP,,False,False,False
+2025,17,Baku,2025-09-21 11:00:00+00:00,81,Oscar PIASTRI,McLaren,,0.0,0.0,,,True,False,False
+2025,18,Marina Bay,2025-10-05 12:00:00+00:00,63,George RUSSELL,Mercedes,1.0,25.0,62.0,0,6022.367,False,False,False
+2025,18,Marina Bay,2025-10-05 12:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,2.0,18.0,62.0,5.43,6027.797,False,False,False
+2025,18,Marina Bay,2025-10-05 12:00:00+00:00,4,Lando NORRIS,McLaren,3.0,15.0,62.0,6.066,6028.433,False,False,False
+2025,18,Marina Bay,2025-10-05 12:00:00+00:00,81,Oscar PIASTRI,McLaren,4.0,12.0,62.0,8.146,6030.513,False,False,False
+2025,18,Marina Bay,2025-10-05 12:00:00+00:00,12,Kimi ANTONELLI,Mercedes,5.0,10.0,62.0,33.681,6056.048,False,False,False
+2025,18,Marina Bay,2025-10-05 12:00:00+00:00,16,Charles LECLERC,Ferrari,6.0,8.0,62.0,45.996,6068.363,False,False,False
+2025,18,Marina Bay,2025-10-05 12:00:00+00:00,14,Fernando ALONSO,Aston Martin,7.0,6.0,62.0,80.667,6103.034,False,False,False
+2025,18,Marina Bay,2025-10-05 12:00:00+00:00,44,Lewis HAMILTON,Ferrari,8.0,4.0,62.0,85.251,6107.618,False,False,False
+2025,18,Marina Bay,2025-10-05 12:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,9.0,2.0,62.0,93.527,6115.894,False,False,False
+2025,18,Marina Bay,2025-10-05 12:00:00+00:00,55,Carlos SAINZ,Williams,10.0,1.0,61.0,+1 LAP,,False,False,False
+2025,18,Marina Bay,2025-10-05 12:00:00+00:00,6,Isack HADJAR,Racing Bulls,11.0,0.0,61.0,+1 LAP,,False,False,False
+2025,18,Marina Bay,2025-10-05 12:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,12.0,0.0,61.0,+1 LAP,,False,False,False
+2025,18,Marina Bay,2025-10-05 12:00:00+00:00,18,Lance STROLL,Aston Martin,13.0,0.0,61.0,+1 LAP,,False,False,False
+2025,18,Marina Bay,2025-10-05 12:00:00+00:00,23,Alexander ALBON,Williams,14.0,0.0,61.0,+1 LAP,,False,False,False
+2025,18,Marina Bay,2025-10-05 12:00:00+00:00,30,Liam LAWSON,Racing Bulls,15.0,0.0,61.0,+1 LAP,,False,False,False
+2025,18,Marina Bay,2025-10-05 12:00:00+00:00,43,Franco COLAPINTO,Alpine,16.0,0.0,61.0,+1 LAP,,False,False,False
+2025,18,Marina Bay,2025-10-05 12:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,17.0,0.0,61.0,+1 LAP,,False,False,False
+2025,18,Marina Bay,2025-10-05 12:00:00+00:00,31,Esteban OCON,Haas F1 Team,18.0,0.0,61.0,+1 LAP,,False,False,False
+2025,18,Marina Bay,2025-10-05 12:00:00+00:00,10,Pierre GASLY,Alpine,19.0,0.0,61.0,+1 LAP,,False,False,False
+2025,18,Marina Bay,2025-10-05 12:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,20.0,0.0,61.0,+1 LAP,,False,False,False
+2025,19,Austin,2025-10-19 19:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,56.0,0,5640.161,False,False,False
+2025,19,Austin,2025-10-19 19:00:00+00:00,4,Lando NORRIS,McLaren,2.0,18.0,56.0,7.959,5648.12,False,False,False
+2025,19,Austin,2025-10-19 19:00:00+00:00,16,Charles LECLERC,Ferrari,3.0,15.0,56.0,15.373,5655.534,False,False,False
+2025,19,Austin,2025-10-19 19:00:00+00:00,44,Lewis HAMILTON,Ferrari,4.0,12.0,56.0,28.536,5668.697,False,False,False
+2025,19,Austin,2025-10-19 19:00:00+00:00,81,Oscar PIASTRI,McLaren,5.0,10.0,56.0,29.678,5669.839,False,False,False
+2025,19,Austin,2025-10-19 19:00:00+00:00,63,George RUSSELL,Mercedes,6.0,8.0,56.0,33.456,5673.617,False,False,False
+2025,19,Austin,2025-10-19 19:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,7.0,6.0,56.0,52.714,5692.875,False,False,False
+2025,19,Austin,2025-10-19 19:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,8.0,4.0,56.0,57.249,5697.41,False,False,False
+2025,19,Austin,2025-10-19 19:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,9.0,2.0,56.0,64.722,5704.883,False,False,False
+2025,19,Austin,2025-10-19 19:00:00+00:00,14,Fernando ALONSO,Aston Martin,10.0,1.0,56.0,70.001,5710.162,False,False,False
+2025,19,Austin,2025-10-19 19:00:00+00:00,30,Liam LAWSON,Racing Bulls,11.0,0.0,56.0,73.209,5713.37,False,False,False
+2025,19,Austin,2025-10-19 19:00:00+00:00,18,Lance STROLL,Aston Martin,12.0,0.0,56.0,74.778,5714.939,False,False,False
+2025,19,Austin,2025-10-19 19:00:00+00:00,12,Kimi ANTONELLI,Mercedes,13.0,0.0,56.0,75.746,5715.907,False,False,False
+2025,19,Austin,2025-10-19 19:00:00+00:00,23,Alexander ALBON,Williams,14.0,0.0,56.0,80.0,5720.161,False,False,False
+2025,19,Austin,2025-10-19 19:00:00+00:00,31,Esteban OCON,Haas F1 Team,15.0,0.0,56.0,83.043,5723.204,False,False,False
+2025,19,Austin,2025-10-19 19:00:00+00:00,6,Isack HADJAR,Racing Bulls,16.0,0.0,56.0,92.807,5732.968,False,False,False
+2025,19,Austin,2025-10-19 19:00:00+00:00,43,Franco COLAPINTO,Alpine,17.0,0.0,55.0,+1 LAP,,False,False,False
+2025,19,Austin,2025-10-19 19:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,18.0,0.0,55.0,+1 LAP,,False,False,False
+2025,19,Austin,2025-10-19 19:00:00+00:00,10,Pierre GASLY,Alpine,19.0,0.0,55.0,+1 LAP,,False,False,False
+2025,19,Austin,2025-10-19 19:00:00+00:00,55,Carlos SAINZ,Williams,,0.0,5.0,,,True,False,False
+2025,20,Mexico City,2025-10-26 20:00:00+00:00,4,Lando NORRIS,McLaren,1.0,25.0,71.0,0,5878.574,False,False,False
+2025,20,Mexico City,2025-10-26 20:00:00+00:00,16,Charles LECLERC,Ferrari,2.0,18.0,71.0,30.324,5908.898,False,False,False
+2025,20,Mexico City,2025-10-26 20:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,3.0,15.0,71.0,31.049,5909.623,False,False,False
+2025,20,Mexico City,2025-10-26 20:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,4.0,12.0,71.0,40.955,5919.529,False,False,False
+2025,20,Mexico City,2025-10-26 20:00:00+00:00,81,Oscar PIASTRI,McLaren,5.0,10.0,71.0,42.065,5920.639,False,False,False
+2025,20,Mexico City,2025-10-26 20:00:00+00:00,12,Kimi ANTONELLI,Mercedes,6.0,8.0,71.0,47.837,5926.411,False,False,False
+2025,20,Mexico City,2025-10-26 20:00:00+00:00,63,George RUSSELL,Mercedes,7.0,6.0,71.0,50.287,5928.861,False,False,False
+2025,20,Mexico City,2025-10-26 20:00:00+00:00,44,Lewis HAMILTON,Ferrari,8.0,4.0,71.0,56.446,5935.02,False,False,False
+2025,20,Mexico City,2025-10-26 20:00:00+00:00,31,Esteban OCON,Haas F1 Team,9.0,2.0,71.0,75.464,5954.038,False,False,False
+2025,20,Mexico City,2025-10-26 20:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,10.0,1.0,71.0,76.863,5955.437,False,False,False
+2025,20,Mexico City,2025-10-26 20:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,11.0,0.0,71.0,79.048,5957.622,False,False,False
+2025,20,Mexico City,2025-10-26 20:00:00+00:00,23,Alexander ALBON,Williams,12.0,0.0,70.0,+1 LAP,,False,False,False
+2025,20,Mexico City,2025-10-26 20:00:00+00:00,6,Isack HADJAR,Racing Bulls,13.0,0.0,70.0,+1 LAP,,False,False,False
+2025,20,Mexico City,2025-10-26 20:00:00+00:00,18,Lance STROLL,Aston Martin,14.0,0.0,70.0,+1 LAP,,False,False,False
+2025,20,Mexico City,2025-10-26 20:00:00+00:00,10,Pierre GASLY,Alpine,15.0,0.0,70.0,+1 LAP,,False,False,False
+2025,20,Mexico City,2025-10-26 20:00:00+00:00,43,Franco COLAPINTO,Alpine,16.0,0.0,70.0,+1 LAP,,False,False,False
+2025,20,Mexico City,2025-10-26 20:00:00+00:00,55,Carlos SAINZ,Williams,17.0,0.0,67.0,,,True,False,False
+2025,20,Mexico City,2025-10-26 20:00:00+00:00,14,Fernando ALONSO,Aston Martin,,0.0,34.0,,,True,False,False
+2025,20,Mexico City,2025-10-26 20:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,,0.0,25.0,,,True,False,False
+2025,20,Mexico City,2025-10-26 20:00:00+00:00,30,Liam LAWSON,Racing Bulls,,0.0,5.0,,,True,False,False
+2025,21,São Paulo,2025-11-09 17:00:00+00:00,4,Lando NORRIS,McLaren,1.0,25.0,71.0,0,5521.596,False,False,False
+2025,21,São Paulo,2025-11-09 17:00:00+00:00,12,Kimi ANTONELLI,Mercedes,2.0,18.0,71.0,10.388,5531.984,False,False,False
+2025,21,São Paulo,2025-11-09 17:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,3.0,15.0,71.0,10.75,5532.346,False,False,False
+2025,21,São Paulo,2025-11-09 17:00:00+00:00,63,George RUSSELL,Mercedes,4.0,12.0,71.0,15.267,5536.863,False,False,False
+2025,21,São Paulo,2025-11-09 17:00:00+00:00,81,Oscar PIASTRI,McLaren,5.0,10.0,71.0,15.749,5537.345,False,False,False
+2025,21,São Paulo,2025-11-09 17:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,6.0,8.0,71.0,29.63,5551.226,False,False,False
+2025,21,São Paulo,2025-11-09 17:00:00+00:00,30,Liam LAWSON,Racing Bulls,7.0,6.0,71.0,52.642,5574.238,False,False,False
+2025,21,São Paulo,2025-11-09 17:00:00+00:00,6,Isack HADJAR,Racing Bulls,8.0,4.0,71.0,52.873,5574.469,False,False,False
+2025,21,São Paulo,2025-11-09 17:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,9.0,2.0,71.0,53.324,5574.92,False,False,False
+2025,21,São Paulo,2025-11-09 17:00:00+00:00,10,Pierre GASLY,Alpine,10.0,1.0,71.0,53.914,5575.51,False,False,False
+2025,21,São Paulo,2025-11-09 17:00:00+00:00,23,Alexander ALBON,Williams,11.0,0.0,71.0,54.184,5575.78,False,False,False
+2025,21,São Paulo,2025-11-09 17:00:00+00:00,31,Esteban OCON,Haas F1 Team,12.0,0.0,71.0,54.696,5576.292,False,False,False
+2025,21,São Paulo,2025-11-09 17:00:00+00:00,55,Carlos SAINZ,Williams,13.0,0.0,71.0,55.42,5577.016,False,False,False
+2025,21,São Paulo,2025-11-09 17:00:00+00:00,14,Fernando ALONSO,Aston Martin,14.0,0.0,71.0,55.766,5577.362,False,False,False
+2025,21,São Paulo,2025-11-09 17:00:00+00:00,43,Franco COLAPINTO,Alpine,15.0,0.0,71.0,57.777,5579.373,False,False,False
+2025,21,São Paulo,2025-11-09 17:00:00+00:00,18,Lance STROLL,Aston Martin,16.0,0.0,71.0,58.247,5579.843,False,False,False
+2025,21,São Paulo,2025-11-09 17:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,17.0,0.0,71.0,69.176,5590.772,False,False,False
+2025,21,São Paulo,2025-11-09 17:00:00+00:00,44,Lewis HAMILTON,Ferrari,,0.0,37.0,,,True,False,False
+2025,21,São Paulo,2025-11-09 17:00:00+00:00,16,Charles LECLERC,Ferrari,,0.0,5.0,,,True,False,False
+2025,21,São Paulo,2025-11-09 17:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,,0.0,0.0,,,True,False,False
+2025,22,Las Vegas,2025-11-23 04:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,50.0,0,4868.429,False,False,False
+2025,22,Las Vegas,2025-11-23 04:00:00+00:00,63,George RUSSELL,Mercedes,2.0,18.0,50.0,23.546,4891.975,False,False,False
+2025,22,Las Vegas,2025-11-23 04:00:00+00:00,12,Kimi ANTONELLI,Mercedes,3.0,15.0,50.0,30.488,4898.917,False,False,False
+2025,22,Las Vegas,2025-11-23 04:00:00+00:00,16,Charles LECLERC,Ferrari,4.0,12.0,50.0,30.678,4899.107,False,False,False
+2025,22,Las Vegas,2025-11-23 04:00:00+00:00,55,Carlos SAINZ,Williams,5.0,10.0,50.0,34.924,4903.353,False,False,False
+2025,22,Las Vegas,2025-11-23 04:00:00+00:00,6,Isack HADJAR,Racing Bulls,6.0,8.0,50.0,45.257,4913.686,False,False,False
+2025,22,Las Vegas,2025-11-23 04:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,7.0,6.0,50.0,51.134,4919.563,False,False,False
+2025,22,Las Vegas,2025-11-23 04:00:00+00:00,44,Lewis HAMILTON,Ferrari,8.0,4.0,50.0,59.369,4927.798,False,False,False
+2025,22,Las Vegas,2025-11-23 04:00:00+00:00,31,Esteban OCON,Haas F1 Team,9.0,2.0,50.0,60.635,4929.064,False,False,False
+2025,22,Las Vegas,2025-11-23 04:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,10.0,1.0,50.0,70.549,4938.978,False,False,False
+2025,22,Las Vegas,2025-11-23 04:00:00+00:00,14,Fernando ALONSO,Aston Martin,11.0,0.0,50.0,85.308,4953.737,False,False,False
+2025,22,Las Vegas,2025-11-23 04:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,12.0,0.0,50.0,86.974,4955.403,False,False,False
+2025,22,Las Vegas,2025-11-23 04:00:00+00:00,10,Pierre GASLY,Alpine,13.0,0.0,50.0,91.702,4960.131,False,False,False
+2025,22,Las Vegas,2025-11-23 04:00:00+00:00,30,Liam LAWSON,Racing Bulls,14.0,0.0,49.0,+1 LAP,,False,False,False
+2025,22,Las Vegas,2025-11-23 04:00:00+00:00,43,Franco COLAPINTO,Alpine,15.0,0.0,49.0,+1 LAP,,False,False,False
+2025,22,Las Vegas,2025-11-23 04:00:00+00:00,23,Alexander ALBON,Williams,,0.0,35.0,,,True,False,False
+2025,22,Las Vegas,2025-11-23 04:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,,0.0,2.0,,,True,False,False
+2025,22,Las Vegas,2025-11-23 04:00:00+00:00,18,Lance STROLL,Aston Martin,,0.0,0.0,,,True,False,False
+2025,22,Las Vegas,2025-11-23 04:00:00+00:00,4,Lando NORRIS,McLaren,,0.0,,,,False,False,True
+2025,22,Las Vegas,2025-11-23 04:00:00+00:00,81,Oscar PIASTRI,McLaren,,0.0,,,,False,False,True
+2025,23,Lusail,2025-11-30 16:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,57.0,0,5078.241,False,False,False
+2025,23,Lusail,2025-11-30 16:00:00+00:00,81,Oscar PIASTRI,McLaren,2.0,18.0,57.0,7.995,5086.236,False,False,False
+2025,23,Lusail,2025-11-30 16:00:00+00:00,55,Carlos SAINZ,Williams,3.0,15.0,57.0,22.665,5100.906,False,False,False
+2025,23,Lusail,2025-11-30 16:00:00+00:00,4,Lando NORRIS,McLaren,4.0,12.0,57.0,23.315,5101.556,False,False,False
+2025,23,Lusail,2025-11-30 16:00:00+00:00,12,Kimi ANTONELLI,Mercedes,5.0,10.0,57.0,28.317,5106.558,False,False,False
+2025,23,Lusail,2025-11-30 16:00:00+00:00,63,George RUSSELL,Mercedes,6.0,8.0,57.0,48.599,5126.84,False,False,False
+2025,23,Lusail,2025-11-30 16:00:00+00:00,14,Fernando ALONSO,Aston Martin,7.0,6.0,57.0,54.045,5132.286,False,False,False
+2025,23,Lusail,2025-11-30 16:00:00+00:00,16,Charles LECLERC,Ferrari,8.0,4.0,57.0,56.785,5135.026,False,False,False
+2025,23,Lusail,2025-11-30 16:00:00+00:00,30,Liam LAWSON,Racing Bulls,9.0,2.0,57.0,60.073,5138.314,False,False,False
+2025,23,Lusail,2025-11-30 16:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,10.0,1.0,57.0,61.77,5140.011,False,False,False
+2025,23,Lusail,2025-11-30 16:00:00+00:00,23,Alexander ALBON,Williams,11.0,0.0,57.0,66.931,5145.172,False,False,False
+2025,23,Lusail,2025-11-30 16:00:00+00:00,44,Lewis HAMILTON,Ferrari,12.0,0.0,57.0,77.73,5155.971,False,False,False
+2025,23,Lusail,2025-11-30 16:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,13.0,0.0,57.0,84.812,5163.053,False,False,False
+2025,23,Lusail,2025-11-30 16:00:00+00:00,43,Franco COLAPINTO,Alpine,14.0,0.0,56.0,+1 LAP,,False,False,False
+2025,23,Lusail,2025-11-30 16:00:00+00:00,31,Esteban OCON,Haas F1 Team,15.0,0.0,56.0,+1 LAP,,False,False,False
+2025,23,Lusail,2025-11-30 16:00:00+00:00,10,Pierre GASLY,Alpine,16.0,0.0,56.0,+1 LAP,,False,False,False
+2025,23,Lusail,2025-11-30 16:00:00+00:00,18,Lance STROLL,Aston Martin,17.0,0.0,55.0,,,True,False,False
+2025,23,Lusail,2025-11-30 16:00:00+00:00,6,Isack HADJAR,Racing Bulls,18.0,0.0,55.0,,,True,False,False
+2025,23,Lusail,2025-11-30 16:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,,0.0,41.0,,,True,False,False
+2025,23,Lusail,2025-11-30 16:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,,0.0,6.0,,,True,False,False
+2025,24,Yas Island,2025-12-07 13:00:00+00:00,1,Max VERSTAPPEN,Red Bull Racing,1.0,25.0,58.0,0,5167.469,False,False,False
+2025,24,Yas Island,2025-12-07 13:00:00+00:00,81,Oscar PIASTRI,McLaren,2.0,18.0,58.0,12.594,5180.063,False,False,False
+2025,24,Yas Island,2025-12-07 13:00:00+00:00,4,Lando NORRIS,McLaren,3.0,15.0,58.0,16.572,5184.041,False,False,False
+2025,24,Yas Island,2025-12-07 13:00:00+00:00,16,Charles LECLERC,Ferrari,4.0,12.0,58.0,23.279,5190.748,False,False,False
+2025,24,Yas Island,2025-12-07 13:00:00+00:00,63,George RUSSELL,Mercedes,5.0,10.0,58.0,48.563,5216.032,False,False,False
+2025,24,Yas Island,2025-12-07 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,6.0,8.0,58.0,67.562,5235.031,False,False,False
+2025,24,Yas Island,2025-12-07 13:00:00+00:00,31,Esteban OCON,Haas F1 Team,7.0,6.0,58.0,69.876,5237.345,False,False,False
+2025,24,Yas Island,2025-12-07 13:00:00+00:00,44,Lewis HAMILTON,Ferrari,8.0,4.0,58.0,72.67,5240.139,False,False,False
+2025,24,Yas Island,2025-12-07 13:00:00+00:00,27,Nico HULKENBERG,Kick Sauber,9.0,2.0,58.0,79.014,5246.483,False,False,False
+2025,24,Yas Island,2025-12-07 13:00:00+00:00,18,Lance STROLL,Aston Martin,10.0,1.0,58.0,79.523,5246.992,False,False,False
+2025,24,Yas Island,2025-12-07 13:00:00+00:00,5,Gabriel BORTOLETO,Kick Sauber,11.0,0.0,58.0,81.043,5248.512,False,False,False
+2025,24,Yas Island,2025-12-07 13:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,12.0,0.0,58.0,81.166,5248.635,False,False,False
+2025,24,Yas Island,2025-12-07 13:00:00+00:00,55,Carlos SAINZ,Williams,13.0,0.0,58.0,82.158,5249.627,False,False,False
+2025,24,Yas Island,2025-12-07 13:00:00+00:00,22,Yuki TSUNODA,Red Bull Racing,14.0,0.0,58.0,83.794,5251.263,False,False,False
+2025,24,Yas Island,2025-12-07 13:00:00+00:00,12,Kimi ANTONELLI,Mercedes,15.0,0.0,58.0,84.399,5251.868,False,False,False
+2025,24,Yas Island,2025-12-07 13:00:00+00:00,23,Alexander ALBON,Williams,16.0,0.0,58.0,90.327,5257.796,False,False,False
+2025,24,Yas Island,2025-12-07 13:00:00+00:00,6,Isack HADJAR,Racing Bulls,17.0,0.0,57.0,+1 LAP,,False,False,False
+2025,24,Yas Island,2025-12-07 13:00:00+00:00,30,Liam LAWSON,Racing Bulls,18.0,0.0,57.0,+1 LAP,,False,False,False
+2025,24,Yas Island,2025-12-07 13:00:00+00:00,10,Pierre GASLY,Alpine,19.0,0.0,57.0,+1 LAP,,False,False,False
+2025,24,Yas Island,2025-12-07 13:00:00+00:00,43,Franco COLAPINTO,Alpine,20.0,0.0,57.0,+1 LAP,,False,False,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,63,George RUSSELL,Mercedes,1.0,25.0,58.0,0,4986.801,False,False,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,12,Kimi ANTONELLI,Mercedes,2.0,18.0,58.0,2.974,4989.775,False,False,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,16,Charles LECLERC,Ferrari,3.0,15.0,58.0,15.519,5002.32,False,False,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,44,Lewis HAMILTON,Ferrari,4.0,12.0,58.0,16.144,5002.945,False,False,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,1,Lando NORRIS,McLaren,5.0,10.0,58.0,51.741,5038.542,False,False,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,3,Max VERSTAPPEN,Red Bull Racing,6.0,8.0,58.0,54.617,5041.418,False,False,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,7.0,6.0,57.0,+1 LAP,,False,False,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,41,Arvid LINDBLAD,Racing Bulls,8.0,4.0,57.0,+1 LAP,,False,False,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,5,Gabriel BORTOLETO,Audi,9.0,2.0,57.0,+1 LAP,,False,False,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,10,Pierre GASLY,Alpine,10.0,1.0,57.0,+1 LAP,,False,False,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,31,Esteban OCON,Haas F1 Team,11.0,0.0,57.0,+1 LAP,,False,False,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,23,Alexander ALBON,Williams,12.0,0.0,57.0,+1 LAP,,False,False,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,30,Liam LAWSON,Racing Bulls,13.0,0.0,57.0,+1 LAP,,False,False,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,43,Franco COLAPINTO,Alpine,14.0,0.0,56.0,+2 LAPS,,False,False,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,55,Carlos SAINZ,Williams,15.0,0.0,56.0,+2 LAPS,,False,False,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,11,Sergio PEREZ,Cadillac,16.0,0.0,55.0,+3 LAPS,,False,False,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,18,Lance STROLL,Aston Martin,,0.0,43.0,+15 LAPS,,False,False,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,14,Fernando ALONSO,Aston Martin,,0.0,21.0,,,True,False,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,77,Valtteri BOTTAS,Cadillac,,0.0,15.0,,,True,False,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,6,Isack HADJAR,Red Bull Racing,,0.0,10.0,,,True,False,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,81,Oscar PIASTRI,McLaren,,0.0,0.0,,,False,True,False
+2026,1,Melbourne,2026-03-08 04:00:00+00:00,27,Nico HULKENBERG,Audi,,0.0,0.0,,,False,True,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,12,Kimi ANTONELLI,Mercedes,1.0,25.0,56.0,0,5595.607,False,False,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,63,George RUSSELL,Mercedes,2.0,18.0,56.0,5.515,5601.122,False,False,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,44,Lewis HAMILTON,Ferrari,3.0,15.0,56.0,25.267,5620.874,False,False,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,16,Charles LECLERC,Ferrari,4.0,12.0,56.0,28.894,5624.501,False,False,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,5.0,10.0,56.0,57.268,5652.875,False,False,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,10,Pierre GASLY,Alpine,6.0,8.0,56.0,59.647,5655.254,False,False,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,30,Liam LAWSON,Racing Bulls,7.0,6.0,56.0,80.588,5676.195,False,False,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,6,Isack HADJAR,Red Bull Racing,8.0,4.0,56.0,87.247,5682.854,False,False,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,55,Carlos SAINZ,Williams,9.0,2.0,55.0,+1 LAP,,False,False,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,43,Franco COLAPINTO,Alpine,10.0,1.0,55.0,+1 LAP,,False,False,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,27,Nico HULKENBERG,Audi,11.0,0.0,55.0,+1 LAP,,False,False,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,41,Arvid LINDBLAD,Racing Bulls,12.0,0.0,55.0,+1 LAP,,False,False,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,77,Valtteri BOTTAS,Cadillac,13.0,0.0,55.0,+1 LAP,,False,False,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,31,Esteban OCON,Haas F1 Team,14.0,0.0,55.0,+1 LAP,,False,False,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,11,Sergio PEREZ,Cadillac,15.0,0.0,55.0,+1 LAP,,False,False,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,3,Max VERSTAPPEN,Red Bull Racing,,0.0,45.0,,,True,False,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,14,Fernando ALONSO,Aston Martin,,0.0,32.0,,,True,False,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,18,Lance STROLL,Aston Martin,,0.0,9.0,,,True,False,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,81,Oscar PIASTRI,McLaren,,0.0,0.0,,,False,True,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,1,Lando NORRIS,McLaren,,0.0,0.0,,,False,True,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,5,Gabriel BORTOLETO,Audi,,0.0,0.0,,,False,True,False
+2026,2,Shanghai,2026-03-15 07:00:00+00:00,23,Alexander ALBON,Williams,,0.0,0.0,,,False,True,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,12,Kimi ANTONELLI,Mercedes,1.0,25.0,53.0,0,5283.403,False,False,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,81,Oscar PIASTRI,McLaren,2.0,18.0,53.0,13.722,5297.125,False,False,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,16,Charles LECLERC,Ferrari,3.0,15.0,53.0,15.27,5298.673,False,False,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,63,George RUSSELL,Mercedes,4.0,12.0,53.0,15.754,5299.157,False,False,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,1,Lando NORRIS,McLaren,5.0,10.0,53.0,23.479,5306.882,False,False,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,44,Lewis HAMILTON,Ferrari,6.0,8.0,53.0,25.037,5308.44,False,False,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,10,Pierre GASLY,Alpine,7.0,6.0,53.0,32.34,5315.743,False,False,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,3,Max VERSTAPPEN,Red Bull Racing,8.0,4.0,53.0,32.677,5316.08,False,False,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,30,Liam LAWSON,Racing Bulls,9.0,2.0,53.0,50.18,5333.583,False,False,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,31,Esteban OCON,Haas F1 Team,10.0,1.0,53.0,51.216,5334.619,False,False,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,27,Nico HULKENBERG,Audi,11.0,0.0,53.0,52.28,5335.683,False,False,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,6,Isack HADJAR,Red Bull Racing,12.0,0.0,53.0,56.154,5339.557,False,False,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,5,Gabriel BORTOLETO,Audi,13.0,0.0,53.0,59.078,5342.481,False,False,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,41,Arvid LINDBLAD,Racing Bulls,14.0,0.0,53.0,59.848,5343.251,False,False,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,55,Carlos SAINZ,Williams,15.0,0.0,53.0,65.008,5348.411,False,False,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,43,Franco COLAPINTO,Alpine,16.0,0.0,53.0,65.773,5349.176,False,False,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,11,Sergio PEREZ,Cadillac,17.0,0.0,53.0,92.453,5375.856,False,False,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,14,Fernando ALONSO,Aston Martin,18.0,0.0,52.0,+1 LAP,,False,False,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,77,Valtteri BOTTAS,Cadillac,19.0,0.0,52.0,+1 LAP,,False,False,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,23,Alexander ALBON,Williams,20.0,0.0,51.0,+2 LAPS,,False,False,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,18,Lance STROLL,Aston Martin,,0.0,30.0,,,True,False,False
+2026,3,Suzuka,2026-03-29 05:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,,0.0,20.0,,,True,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,12,Kimi ANTONELLI,Mercedes,1.0,25.0,57.0,0,5599.273,False,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,1,Lando NORRIS,McLaren,2.0,18.0,57.0,3.264,5602.537,False,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,81,Oscar PIASTRI,McLaren,3.0,15.0,57.0,27.092,5626.365,False,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,63,George RUSSELL,Mercedes,4.0,12.0,57.0,43.051,5642.324,False,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,3,Max VERSTAPPEN,Red Bull Racing,5.0,10.0,57.0,48.949,5648.222,False,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,44,Lewis HAMILTON,Ferrari,6.0,8.0,57.0,53.753,5653.026,False,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,43,Franco COLAPINTO,Alpine,7.0,6.0,57.0,61.871,5661.144,False,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,16,Charles LECLERC,Ferrari,8.0,4.0,57.0,64.245,5663.518,False,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,55,Carlos SAINZ,Williams,9.0,2.0,57.0,82.072,5681.345,False,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,23,Alexander ALBON,Williams,10.0,1.0,57.0,90.972,5690.245,False,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,11.0,0.0,56.0,+1 LAP,,False,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,5,Gabriel BORTOLETO,Audi,12.0,0.0,56.0,+1 LAP,,False,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,31,Esteban OCON,Haas F1 Team,13.0,0.0,56.0,+1 LAP,,False,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,41,Arvid LINDBLAD,Racing Bulls,14.0,0.0,56.0,+1 LAP,,False,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,14,Fernando ALONSO,Aston Martin,15.0,0.0,56.0,+1 LAP,,False,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,11,Sergio PEREZ,Cadillac,16.0,0.0,56.0,+1 LAP,,False,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,18,Lance STROLL,Aston Martin,17.0,0.0,56.0,+1 LAP,,False,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,77,Valtteri BOTTAS,Cadillac,18.0,0.0,55.0,+2 LAPS,,False,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,27,Nico HULKENBERG,Audi,,0.0,7.0,,,True,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,30,Liam LAWSON,Racing Bulls,,0.0,6.0,,,True,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,10,Pierre GASLY,Alpine,,0.0,4.0,,,True,False,False
+2026,6,Miami Gardens,2026-05-03 17:00:00+00:00,6,Isack HADJAR,Red Bull Racing,,0.0,4.0,,,True,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,12,Kimi ANTONELLI,Mercedes,1.0,25.0,68.0,0,5295.758,False,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,44,Lewis HAMILTON,Ferrari,2.0,18.0,68.0,10.768,5306.526,False,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,3,Max VERSTAPPEN,Red Bull Racing,3.0,15.0,68.0,11.276,5307.034,False,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,16,Charles LECLERC,Ferrari,4.0,12.0,68.0,44.151,5339.909,False,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,6,Isack HADJAR,Red Bull Racing,5.0,10.0,67.0,+1 LAP,,False,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,43,Franco COLAPINTO,Alpine,6.0,8.0,67.0,+1 LAP,,False,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,30,Liam LAWSON,Racing Bulls,7.0,6.0,67.0,+1 LAP,,False,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,10,Pierre GASLY,Alpine,8.0,4.0,67.0,+1 LAP,,False,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,55,Carlos SAINZ,Williams,9.0,2.0,67.0,+1 LAP,,False,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,10.0,1.0,67.0,+1 LAP,,False,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,81,Oscar PIASTRI,McLaren,11.0,0.0,66.0,+2 LAPS,,False,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,27,Nico HULKENBERG,Audi,12.0,0.0,66.0,+2 LAPS,,False,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,5,Gabriel BORTOLETO,Audi,13.0,0.0,66.0,+2 LAPS,,False,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,31,Esteban OCON,Haas F1 Team,14.0,0.0,66.0,+2 LAPS,,False,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,18,Lance STROLL,Aston Martin,15.0,0.0,64.0,+4 LAPS,,False,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,77,Valtteri BOTTAS,Cadillac,16.0,0.0,64.0,+4 LAPS,,False,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,11,Sergio PEREZ,Cadillac,,0.0,39.0,,,True,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,1,Lando NORRIS,McLaren,,0.0,38.0,,,True,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,63,George RUSSELL,Mercedes,,0.0,29.0,,,True,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,14,Fernando ALONSO,Aston Martin,,0.0,23.0,,,True,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,23,Alexander ALBON,Williams,,0.0,11.0,,,True,False,False
+2026,7,Montréal,2026-05-24 20:00:00+00:00,41,Arvid LINDBLAD,Racing Bulls,,0.0,0.0,,,False,True,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,12,Kimi ANTONELLI,Mercedes,1.0,25.0,78.0,0,8611.243,False,False,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,44,Lewis HAMILTON,Ferrari,2.0,18.0,78.0,6.271,8617.514,False,False,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,10,Pierre GASLY,Alpine,3.0,15.0,78.0,20.369,8631.612,False,False,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,6,Isack HADJAR,Red Bull Racing,4.0,12.0,78.0,23.394,8634.637,False,False,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,81,Oscar PIASTRI,McLaren,5.0,10.0,78.0,24.261,8635.504,False,False,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,30,Liam LAWSON,Racing Bulls,6.0,8.0,78.0,26.553,8637.796,False,False,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,41,Arvid LINDBLAD,Racing Bulls,7.0,6.0,78.0,29.01,8640.253,False,False,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,23,Alexander ALBON,Williams,8.0,4.0,78.0,33.413,8644.656,False,False,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,31,Esteban OCON,Haas F1 Team,9.0,2.0,78.0,37.14,8648.383,False,False,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,10.0,1.0,78.0,41.899,8653.142,False,False,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,5,Gabriel BORTOLETO,Audi,11.0,0.0,78.0,42.748,8653.991,False,False,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,63,George RUSSELL,Mercedes,12.0,0.0,78.0,43.353,8654.596,False,False,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,27,Nico HULKENBERG,Audi,13.0,0.0,78.0,44.102,8655.345,False,False,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,43,Franco COLAPINTO,Alpine,14.0,0.0,78.0,48.964,8660.207,False,False,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,11,Sergio PEREZ,Cadillac,15.0,0.0,78.0,49.153,8660.396,False,False,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,55,Carlos SAINZ,Williams,16.0,0.0,70.0,,,True,False,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,16,Charles LECLERC,Ferrari,,0.0,64.0,,,True,False,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,18,Lance STROLL,Aston Martin,,0.0,56.0,,,True,False,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,1,Lando NORRIS,McLaren,,0.0,43.0,,,True,False,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,,0.0,27.0,,,True,False,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,77,Valtteri BOTTAS,Cadillac,,0.0,15.0,,,True,False,False
+2026,8,Monte Carlo,2026-06-07 13:00:00+00:00,3,Max VERSTAPPEN,Red Bull Racing,,0.0,0.0,,,True,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,44,Lewis HAMILTON,Ferrari,1.0,25.0,66.0,0,5548.105,False,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,63,George RUSSELL,Mercedes,2.0,18.0,66.0,19.561,5567.666,False,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,1,Lando NORRIS,McLaren,3.0,15.0,66.0,23.719,5571.824,False,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,3,Max VERSTAPPEN,Red Bull Racing,4.0,12.0,66.0,40.497,5588.602,False,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,81,Oscar PIASTRI,McLaren,5.0,10.0,66.0,58.661,5606.766,False,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,6,Isack HADJAR,Red Bull Racing,6.0,8.0,65.0,+1 LAP,,False,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,10,Pierre GASLY,Alpine,7.0,6.0,65.0,+1 LAP,,False,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,30,Liam LAWSON,Racing Bulls,8.0,4.0,65.0,+1 LAP,,False,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,41,Arvid LINDBLAD,Racing Bulls,9.0,2.0,65.0,+1 LAP,,False,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,43,Franco COLAPINTO,Alpine,10.0,1.0,65.0,+1 LAP,,False,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,5,Gabriel BORTOLETO,Audi,11.0,0.0,64.0,+2 LAPS,,False,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,55,Carlos SAINZ,Williams,12.0,0.0,64.0,+2 LAPS,,False,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,31,Esteban OCON,Haas F1 Team,13.0,0.0,64.0,+2 LAPS,,False,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,11,Sergio PEREZ,Cadillac,14.0,0.0,63.0,+3 LAPS,,False,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,16,Charles LECLERC,Ferrari,15.0,0.0,62.0,,,True,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,12,Kimi ANTONELLI,Mercedes,16.0,0.0,61.0,,,True,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,17.0,0.0,60.0,,,True,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,23,Alexander ALBON,Williams,,0.0,55.0,+11 LAPS,,False,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,,0.0,37.0,,,True,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,27,Nico HULKENBERG,Audi,,0.0,29.0,,,True,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,77,Valtteri BOTTAS,Cadillac,,0.0,15.0,,,True,False,False
+2026,9,Barcelona,2026-06-14 13:00:00+00:00,18,Lance STROLL,Aston Martin,,0.0,5.0,,,True,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,63,George RUSSELL,Mercedes,1.0,25.0,71.0,0,5197.979,False,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,3,Max VERSTAPPEN,Red Bull Racing,2.0,18.0,71.0,1.611,5199.59,False,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,12,Kimi ANTONELLI,Mercedes,3.0,15.0,71.0,1.986,5199.965,False,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,81,Oscar PIASTRI,McLaren,4.0,12.0,71.0,21.809,5219.788,False,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,44,Lewis HAMILTON,Ferrari,5.0,10.0,71.0,26.393,5224.372,False,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,6,Isack HADJAR,Red Bull Racing,6.0,8.0,71.0,29.399,5227.378,False,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,1,Lando NORRIS,McLaren,7.0,6.0,71.0,31.505,5229.484,False,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,16,Charles LECLERC,Ferrari,8.0,4.0,71.0,45.659,5243.638,False,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,30,Liam LAWSON,Racing Bulls,9.0,2.0,70.0,+1 LAP,,False,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,41,Arvid LINDBLAD,Racing Bulls,10.0,1.0,70.0,+1 LAP,,False,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,5,Gabriel BORTOLETO,Audi,11.0,0.0,70.0,+1 LAP,,False,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,27,Nico HULKENBERG,Audi,12.0,0.0,70.0,+1 LAP,,False,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,10,Pierre GASLY,Alpine,13.0,0.0,70.0,+1 LAP,,False,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,14.0,0.0,70.0,+1 LAP,,False,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,43,Franco COLAPINTO,Alpine,15.0,0.0,70.0,+1 LAP,,False,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,31,Esteban OCON,Haas F1 Team,16.0,0.0,69.0,+2 LAPS,,False,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,23,Alexander ALBON,Williams,17.0,0.0,69.0,+2 LAPS,,False,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,18.0,0.0,68.0,+3 LAPS,,False,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,18,Lance STROLL,Aston Martin,,0.0,45.0,,,True,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,55,Carlos SAINZ,Williams,,0.0,23.0,,,True,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,11,Sergio PEREZ,Cadillac,,0.0,4.0,,,True,False,False
+2026,10,Spielberg,2026-06-28 13:00:00+00:00,77,Valtteri BOTTAS,Cadillac,,0.0,2.0,,,True,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,16,Charles LECLERC,Ferrari,1.0,25.0,52.0,0,5231.335,False,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,63,George RUSSELL,Mercedes,2.0,18.0,52.0,0.427,5231.762,False,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,44,Lewis HAMILTON,Ferrari,3.0,15.0,52.0,0.772,5232.107,False,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,1,Lando NORRIS,McLaren,4.0,12.0,52.0,1.149,5232.484,False,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,6,Isack HADJAR,Red Bull Racing,5.0,10.0,52.0,1.598,5232.933,False,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,30,Liam LAWSON,Racing Bulls,6.0,8.0,52.0,2.023,5233.358,False,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,41,Arvid LINDBLAD,Racing Bulls,7.0,6.0,52.0,2.214,5233.549,False,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,5,Gabriel BORTOLETO,Audi,8.0,4.0,52.0,2.413,5233.748,False,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,43,Franco COLAPINTO,Alpine,9.0,2.0,52.0,3.229,5234.564,False,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,10,Pierre GASLY,Alpine,10.0,1.0,52.0,3.445,5234.78,False,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,81,Oscar PIASTRI,McLaren,11.0,0.0,52.0,4.014,5235.349,False,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,12.0,0.0,52.0,5.245,5236.58,False,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,31,Esteban OCON,Haas F1 Team,13.0,0.0,52.0,5.512,5236.847,False,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,11,Sergio PEREZ,Cadillac,14.0,0.0,52.0,7.403,5238.738,False,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,12,Kimi ANTONELLI,Mercedes,15.0,0.0,52.0,8.005,5239.34,False,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,77,Valtteri BOTTAS,Cadillac,16.0,0.0,52.0,8.162,5239.497,False,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,55,Carlos SAINZ,Williams,17.0,0.0,51.0,+1 LAP,,False,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,14,Fernando ALONSO,Aston Martin,18.0,0.0,51.0,+1 LAP,,False,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,18,Lance STROLL,Aston Martin,19.0,0.0,51.0,+1 LAP,,False,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,3,Max VERSTAPPEN,Red Bull Racing,20.0,0.0,46.0,,,True,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,23,Alexander ALBON,Williams,,0.0,43.0,,,True,False,False
+2026,11,Silverstone,2026-07-05 14:00:00+00:00,27,Nico HULKENBERG,Audi,,0.0,36.0,,,True,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,12,Kimi ANTONELLI,Mercedes,1.0,25.0,44.0,0,5082.479,False,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,16,Charles LECLERC,Ferrari,2.0,18.0,44.0,1.952,5084.431,False,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,3,Max VERSTAPPEN,Red Bull Racing,3.0,15.0,44.0,11.586,5094.065,False,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,44,Lewis HAMILTON,Ferrari,4.0,12.0,44.0,17.245,5099.724,False,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,81,Oscar PIASTRI,McLaren,5.0,10.0,44.0,18.988,5101.467,False,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,6,Isack HADJAR,Red Bull Racing,6.0,8.0,44.0,23.307,5105.786,False,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,1,Lando NORRIS,McLaren,7.0,6.0,44.0,24.014,5106.493,False,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,5,Gabriel BORTOLETO,Audi,8.0,4.0,44.0,49.14,5131.619,False,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,41,Arvid LINDBLAD,Racing Bulls,9.0,2.0,44.0,50.406,5132.885,False,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,43,Franco COLAPINTO,Alpine,10.0,1.0,44.0,76.037,5158.516,False,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,10,Pierre GASLY,Alpine,11.0,0.0,44.0,76.991,5159.47,False,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,30,Liam LAWSON,Racing Bulls,12.0,0.0,44.0,77.523,5160.002,False,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,27,Nico HULKENBERG,Audi,13.0,0.0,44.0,78.348,5160.827,False,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,14.0,0.0,44.0,94.465,5176.944,False,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,23,Alexander ALBON,Williams,15.0,0.0,44.0,104.684,5187.163,False,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,55,Carlos SAINZ,Williams,16.0,0.0,44.0,105.856,5188.335,False,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,31,Esteban OCON,Haas F1 Team,17.0,0.0,44.0,110.925,5193.404,False,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,77,Valtteri BOTTAS,Cadillac,18.0,0.0,43.0,+1 LAP,,False,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,19.0,0.0,42.0,+2 LAPS,,False,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,18,Lance STROLL,Aston Martin,,0.0,25.0,,,True,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,11,Sergio PEREZ,Cadillac,,0.0,13.0,,,True,False,False
+2026,12,Spa-Francorchamps,2026-07-19 13:00:00+00:00,63,George RUSSELL,Mercedes,,0.0,0.0,,,True,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,1,Lando NORRIS,McLaren,1.0,25.0,70.0,0,5996.18,False,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,3,Max VERSTAPPEN,Red Bull Racing,2.0,18.0,70.0,15.08,6011.26,False,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,12,Kimi ANTONELLI,Mercedes,3.0,15.0,70.0,18.728,6014.908,False,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,16,Charles LECLERC,Ferrari,4.0,12.0,70.0,23.84,6020.02,False,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,44,Lewis HAMILTON,Ferrari,5.0,10.0,70.0,24.54,6020.72,False,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,6,Isack HADJAR,Red Bull Racing,6.0,8.0,70.0,55.488,6051.668,False,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,63,George RUSSELL,Mercedes,7.0,6.0,70.0,57.503,6053.683,False,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,30,Liam LAWSON,Racing Bulls,8.0,4.0,69.0,+1 LAP,,False,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,27,Nico HULKENBERG,Audi,9.0,2.0,69.0,+1 LAP,,False,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,41,Arvid LINDBLAD,Racing Bulls,10.0,1.0,69.0,+1 LAP,,False,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,5,Gabriel BORTOLETO,Audi,11.0,0.0,69.0,+1 LAP,,False,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,10,Pierre GASLY,Alpine,12.0,0.0,69.0,+1 LAP,,False,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,18,Lance STROLL,Aston Martin,13.0,0.0,69.0,+1 LAP,,False,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,14.0,0.0,69.0,+1 LAP,,False,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,43,Franco COLAPINTO,Alpine,15.0,0.0,68.0,+2 LAPS,,False,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,31,Esteban OCON,Haas F1 Team,16.0,0.0,68.0,+2 LAPS,,False,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,23,Alexander ALBON,Williams,17.0,0.0,68.0,+2 LAPS,,False,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,55,Carlos SAINZ,Williams,18.0,0.0,68.0,+2 LAPS,,False,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,19.0,0.0,68.0,+2 LAPS,,False,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,81,Oscar PIASTRI,McLaren,,0.0,55.0,,,True,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,11,Sergio PEREZ,Cadillac,,0.0,48.0,,,True,False,False
+2026,13,Budapest,2026-07-26 13:00:00+00:00,77,Valtteri BOTTAS,Cadillac,,0.0,13.0,,,True,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,1,Lando NORRIS,McLaren,1.0,25.0,72.0,0,7484.859,False,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,12,Kimi ANTONELLI,Mercedes,2.0,18.0,72.0,11.536,7496.395,False,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,63,George RUSSELL,Mercedes,3.0,15.0,72.0,15.906,7500.765,False,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,44,Lewis HAMILTON,Ferrari,4.0,12.0,72.0,16.755,7501.614,False,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,16,Charles LECLERC,Ferrari,5.0,10.0,72.0,17.258,7502.117,False,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,81,Oscar PIASTRI,McLaren,6.0,8.0,72.0,32.332,7517.191,False,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,30,Liam LAWSON,Racing Bulls,7.0,6.0,72.0,79.915,7564.774,False,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,27,Nico HULKENBERG,Audi,8.0,4.0,71.0,+1 LAP,,False,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,14,Fernando ALONSO,Aston Martin,9.0,2.0,71.0,+1 LAP,,False,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,10,Pierre GASLY,Alpine,10.0,1.0,71.0,+1 LAP,,False,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,22,Yuki TSUNODA,Racing Bulls,11.0,0.0,71.0,+1 LAP,,False,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,41,Arvid LINDBLAD,Racing Bulls,12.0,0.0,71.0,+1 LAP,,False,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,5,Gabriel BORTOLETO,Audi,13.0,0.0,71.0,+1 LAP,,False,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,43,Franco COLAPINTO,Alpine,14.0,0.0,70.0,+2 LAPS,,False,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,11,Sergio PEREZ,Cadillac,15.0,0.0,70.0,+2 LAPS,,False,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,55,Carlos SAINZ,Williams,16.0,0.0,70.0,+2 LAPS,,False,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,23,Alexander ALBON,Williams,17.0,0.0,66.0,,,True,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,77,Valtteri BOTTAS,Cadillac,,0.0,61.0,,,True,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,31,Esteban OCON,Haas F1 Team,,0.0,52.0,,,True,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,18,Lance STROLL,Aston Martin,,0.0,45.0,,,True,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,87,Oliver BEARMAN,Haas F1 Team,,0.0,2.0,,,True,False,False
+2026,14,Zandvoort,2026-08-23 13:00:00+00:00,3,Max VERSTAPPEN,Red Bull Racing,,0.0,0.0,,,True,False,False

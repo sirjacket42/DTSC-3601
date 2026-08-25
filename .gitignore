@@ -16,3 +16,8 @@ env/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Secrets
+.env
+**/.streamlit/secrets.toml
+*.modal.toml
