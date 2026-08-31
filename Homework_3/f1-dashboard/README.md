@@ -76,6 +76,17 @@ lookups.
 
 ## Deploying to Vercel
 
+Live at <https://f1-dashboard-green.vercel.app>. The `f1-dashboard` Vercel project is
+connected to this GitHub repo, so a push to `master` deploys to production on its own —
+no CLI step needed.
+
+Because the repo holds every homework and not just this app, the project's **Root
+Directory** is set to `Homework_3/f1-dashboard`. A build from the repo root would fail;
+there is no `package.json` there. Note also that a push touching only another homework
+still triggers a build here, unless an Ignored Build Step is added.
+
+To deploy by hand, or to set the project up from scratch:
+
 ```bash
 npx vercel link
 npx vercel env add NEXT_PUBLIC_SUPABASE_URL production
