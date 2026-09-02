@@ -18,7 +18,7 @@ import { WeatherWidget } from "@/components/weather-widget";
 import { TireStrategy } from "@/components/tire-strategy";
 import { LapTimesChart } from "@/components/lap-times-chart";
 import { CircuitTrace } from "@/components/circuit-trace";
-import { RadialGauge } from "@/components/radial-gauge";
+import { DriverRadarChart } from "@/components/driver-radar-chart";
 import { TopDownCarPhoto } from "@/components/topdown-car-photo";
 import {
   Card,
@@ -112,27 +112,6 @@ export default async function Home(props: PageProps<"/">) {
           standing={standing}
         />
 
-        <Card
-          className="hud-card"
-          style={{ "--team-color": teamColor } as React.CSSProperties}
-        >
-          <CardHeader>
-            <CardTitle className="text-sm uppercase tracking-wide text-muted-foreground">
-              {teamName} livery
-            </CardTitle>
-            <CardDescription className="text-xs">
-              {livery.car} &middot; colour-blocked approximation, no sponsor decals
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <TopDownCarPhoto
-              livery={livery}
-              number={latestRace?.driver_number ?? selectedDriver.driver_number}
-              className="w-full max-w-[560px] mx-auto"
-            />
-          </CardContent>
-        </Card>
-
         {driverSeasons.length > 1 && (
           <SeasonTabs
             seasons={driverSeasons}
@@ -152,37 +131,30 @@ export default async function Home(props: PageProps<"/">) {
           />
         </div>
 
-        <div className="flex flex-wrap justify-center sm:justify-start gap-4">
-          <RadialGauge
-            label="Championship"
-            value={standing ? ((standing.total - standing.rank + 1) / standing.total) * 100 : 0}
-            displayValue={standing ? `P${standing.rank}` : "—"}
-            suffix={standing ? `of ${standing.total}` : undefined}
-            color={teamColor}
-          />
-          <RadialGauge
-            label="Podium rate"
-            value={stats.races ? (stats.podiums / stats.races) * 100 : 0}
-            displayValue={stats.races ? Math.round((stats.podiums / stats.races) * 100) : 0}
-            suffix="%"
-            color={teamColor}
-          />
-          <RadialGauge
-            label="Finish rate"
-            value={stats.races ? ((stats.races - stats.dnfs) / stats.races) * 100 : 0}
-            displayValue={
-              stats.races ? Math.round(((stats.races - stats.dnfs) / stats.races) * 100) : 0
-            }
-            suffix="%"
-            color={teamColor}
-          />
-          <RadialGauge
-            label="Win rate"
-            value={stats.races ? (stats.wins / stats.races) * 100 : 0}
-            displayValue={stats.races ? Math.round((stats.wins / stats.races) * 100) : 0}
-            suffix="%"
-            color={teamColor}
-          />
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+          <div className="lg:col-span-2">
+            <DriverRadarChart stats={stats} standing={standing} teamColor={teamColor} />
+          </div>
+          <Card
+            className="hud-card"
+            style={{ "--team-color": teamColor } as React.CSSProperties}
+          >
+            <CardHeader>
+              <CardTitle className="text-sm uppercase tracking-wide text-muted-foreground">
+                {teamName} livery
+              </CardTitle>
+              <CardDescription className="text-xs">
+                {livery.car} &middot; colour-blocked approximation, no sponsor decals
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <TopDownCarPhoto
+                livery={livery}
+                number={latestRace?.driver_number ?? selectedDriver.driver_number}
+                className="w-full max-w-[180px] mx-auto"
+              />
+            </CardContent>
+          </Card>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
