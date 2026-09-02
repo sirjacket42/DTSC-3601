@@ -130,10 +130,12 @@ export function DriverRadarChart({
           className="aspect-square h-[260px] w-full mx-auto max-w-[320px]"
         >
           <RadarChart data={data} outerRadius="75%">
-            <PolarGrid strokeOpacity={0.25} />
+            <PolarGrid stroke="var(--muted-foreground)" strokeOpacity={0.45} />
             <PolarAngleAxis
               dataKey="metric"
-              tick={{ fill: "var(--muted-foreground)", fontSize: 11 }}
+              stroke="var(--muted-foreground)"
+              strokeOpacity={0.45}
+              tick={{ fill: "var(--foreground)", fontSize: 11, fontWeight: 500 }}
             />
             <PolarRadiusAxis
               domain={[0, 100]}
@@ -144,9 +146,9 @@ export function DriverRadarChart({
               dataKey="value"
               stroke={teamColor}
               fill={teamColor}
-              fillOpacity={0.35}
-              strokeWidth={2}
-              dot={{ r: 3, fill: teamColor }}
+              fillOpacity={0.5}
+              strokeWidth={2.5}
+              dot={{ r: 3.5, fill: teamColor, stroke: "var(--card)", strokeWidth: 1 }}
             />
             <Tooltip content={<RadarTooltip />} />
           </RadarChart>
