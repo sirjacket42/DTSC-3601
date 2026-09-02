@@ -85,6 +85,8 @@ export type LapPoint = {
 export type TrackPoint = {
   x: number;
   y: number;
+  /** Seconds elapsed since the start of the lap. */
+  t: number;
 };
 
 export type RaceTelemetry = {

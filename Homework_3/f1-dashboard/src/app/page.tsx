@@ -203,6 +203,7 @@ export default async function Home(props: PageProps<"/">) {
                 points={telemetry?.trackShape ?? []}
                 location={latestRace.race.location}
                 teamColor={teamColor}
+                lapDurationSeconds={telemetry?.fastestLap?.lapDuration ?? null}
               />
               <WeatherWidget
                 weather={telemetry?.weather ?? null}

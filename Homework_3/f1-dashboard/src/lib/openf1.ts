@@ -38,7 +38,7 @@ type LapApi = {
   date_start: string | null;
 };
 
-type LocationApi = { x: number; y: number };
+type LocationApi = { x: number; y: number; date: string };
 
 async function getWeather(sessionKey: number): Promise<Weather | null> {
   const samples = await fetchJson<WeatherSample[]>(
@@ -114,9 +114,20 @@ async function getTrackShape(
   const points = await fetchJson<LocationApi[]>(path);
   if (!points || points.length === 0) return [];
 
+  const sorted = [...points].sort(
+    (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
+  );
+  const startMs = new Date(start).getTime();
+
   // Downsample to keep the SVG path light.
-  const step = Math.max(1, Math.floor(points.length / 200));
-  return points.filter((_, i) => i % step === 0).map((p) => ({ x: p.x, y: p.y }));
+  const step = Math.max(1, Math.floor(sorted.length / 200));
+  return sorted
+    .filter((_, i) => i % step === 0)
+    .map((p) => ({
+      x: p.x,
+      y: p.y,
+      t: (new Date(p.date).getTime() - startMs) / 1000,
+    }));
 }
 
 export async function getRaceTelemetry(
