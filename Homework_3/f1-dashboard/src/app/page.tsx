@@ -9,6 +9,7 @@ import {
 import { getRaceTelemetry } from "@/lib/openf1";
 import { DriverSelector } from "@/components/driver-selector";
 import { SeasonTabs } from "@/components/season-tabs";
+import { RaceSelector } from "@/components/race-selector";
 import { HeroCard } from "@/components/hero-card";
 import { StatCard } from "@/components/stat-card";
 import { PointsChart } from "@/components/points-chart";
@@ -33,6 +34,7 @@ export default async function Home(props: PageProps<"/">) {
   const searchParams = await props.searchParams;
   const driverParam = searchParams.driver;
   const seasonParam = searchParams.season;
+  const raceParam = searchParams.race;
 
   const [driverList, seasons] = await Promise.all([
     getDriverList(),
@@ -72,9 +74,13 @@ export default async function Home(props: PageProps<"/">) {
   const teamName = latestRace?.constructor_name ?? selectedDriver.team_name;
   const livery = getLivery(teamName);
 
+  const selectedRaceId = raceParam ? Number(raceParam) : latestRace?.id;
+  const selectedRace =
+    seasonResults.find((r) => r.id === selectedRaceId) ?? latestRace;
+
   const telemetry =
-    latestRace?.race.session_key && latestRace.driver_number
-      ? await getRaceTelemetry(latestRace.race.session_key, latestRace.driver_number)
+    selectedRace?.race.session_key && selectedRace.driver_number
+      ? await getRaceTelemetry(selectedRace.race.session_key, selectedRace.driver_number)
       : null;
 
   return (
@@ -184,13 +190,20 @@ export default async function Home(props: PageProps<"/">) {
           <ResultsStrip results={seasonResults} teamColor={teamColor} />
         </div>
 
-        {latestRace && (
+        {selectedRace && (
           <div className="space-y-3">
-            <div className="flex items-baseline justify-between">
-              <h2 className="text-sm uppercase tracking-wide text-muted-foreground">
-                Most recent race &mdash; {latestRace.race.location} (Round{" "}
-                {latestRace.race.round})
-              </h2>
+            <div className="flex flex-wrap items-center justify-between gap-3">
+              <div className="flex items-center gap-3">
+                <h2 className="text-sm uppercase tracking-wide text-muted-foreground">
+                  Race telemetry
+                </h2>
+                <RaceSelector
+                  races={seasonResults}
+                  selectedRaceId={selectedRace.id}
+                  driverId={selectedDriver.id}
+                  season={selectedSeason}
+                />
+              </div>
               {telemetry?.fastestLap?.lapDuration && (
                 <span className="text-xs text-muted-foreground">
                   Fastest lap: {formatDuration(telemetry.fastestLap.lapDuration)} (
@@ -201,13 +214,13 @@ export default async function Home(props: PageProps<"/">) {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
               <CircuitTrace
                 points={telemetry?.trackShape ?? []}
-                location={latestRace.race.location}
+                location={selectedRace.race.location}
                 teamColor={teamColor}
                 lapDurationSeconds={telemetry?.fastestLap?.lapDuration ?? null}
               />
               <WeatherWidget
                 weather={telemetry?.weather ?? null}
-                location={latestRace.race.location}
+                location={selectedRace.race.location}
                 teamColor={teamColor}
               />
               <TireStrategy stints={telemetry?.stints ?? []} teamColor={teamColor} />
