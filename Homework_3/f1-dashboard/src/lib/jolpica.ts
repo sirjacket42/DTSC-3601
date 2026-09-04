@@ -4,6 +4,9 @@ const BASE = "https://api.jolpi.ca/ergast/f1";
 // Jolpica asks callers to identify themselves via User-Agent instead of an API key.
 const USER_AGENT = "f1-dashboard (github.com/sirjacket42/DTSC-3601)";
 const REVALIDATE_SECONDS = 60 * 30;
+// Results need to be picked up promptly once a session ends, so they're cached
+// far more briefly than the schedule (which barely changes).
+const RESULTS_REVALIDATE_SECONDS = 60 * 5;
 
 type JolpicaTime = { date: string; time?: string };
 
@@ -136,4 +139,78 @@ export async function getCurrentSessionStatus(year: number): Promise<CurrentSess
     .sort((a, b) => new Date(a.date_start).getTime() - new Date(b.date_start).getTime())[0];
 
   return upcoming ? { status: "upcoming", session: upcoming } : { status: "none" };
+}
+
+type JolpicaResultEntry = {
+  number: string;
+  position: string;
+  points: string;
+  Driver: { givenName: string; familyName: string };
+  Constructor: { name: string };
+  laps: string;
+  status: string;
+  Time?: { time: string };
+};
+
+type JolpicaResultsResponse = {
+  MRData: {
+    RaceTable: { Races: { Results?: JolpicaResultEntry[]; SprintResults?: JolpicaResultEntry[] }[] };
+  };
+};
+
+export type RaceResultEntry = {
+  driverNumber: number;
+  position: number | null;
+  points: number;
+  laps: number;
+  status: string;
+  /** Total race time, only present for the leader and same-lap finishers. */
+  time: string | null;
+  driverGivenName: string;
+  driverFamilyName: string;
+  constructorName: string;
+};
+
+function toRaceResultEntry(r: JolpicaResultEntry): RaceResultEntry {
+  return {
+    driverNumber: Number(r.number),
+    position: r.position ? Number(r.position) : null,
+    points: Number(r.points),
+    laps: Number(r.laps),
+    status: r.status,
+    time: r.Time?.time ?? null,
+    driverGivenName: r.Driver.givenName,
+    driverFamilyName: r.Driver.familyName,
+    constructorName: r.Constructor.name,
+  };
+}
+
+/** A single round's classified race results, in finishing order. Empty if the race hasn't been run/published yet. */
+export async function getRaceResults(year: number, round: number): Promise<RaceResultEntry[]> {
+  try {
+    const res = await fetch(`${BASE}/${year}/${round}/results.json`, {
+      headers: { "User-Agent": USER_AGENT },
+      next: { revalidate: RESULTS_REVALIDATE_SECONDS },
+    });
+    if (!res.ok) return [];
+    const data = (await res.json()) as JolpicaResultsResponse;
+    return (data.MRData.RaceTable.Races[0]?.Results ?? []).map(toRaceResultEntry);
+  } catch {
+    return [];
+  }
+}
+
+/** A round's sprint results, if that weekend ran a sprint. Empty otherwise. */
+export async function getSprintResults(year: number, round: number): Promise<RaceResultEntry[]> {
+  try {
+    const res = await fetch(`${BASE}/${year}/${round}/sprint.json`, {
+      headers: { "User-Agent": USER_AGENT },
+      next: { revalidate: RESULTS_REVALIDATE_SECONDS },
+    });
+    if (!res.ok) return [];
+    const data = (await res.json()) as JolpicaResultsResponse;
+    return (data.MRData.RaceTable.Races[0]?.SprintResults ?? []).map(toRaceResultEntry);
+  } catch {
+    return [];
+  }
 }

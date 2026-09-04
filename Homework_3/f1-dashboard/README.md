@@ -87,6 +87,29 @@ hand — to backfill immediately instead of waiting for the next cron tick — h
 curl "https://<your-deployment>/api/sync-races?season=2026"
 ```
 
+## Keeping results (and standings) fresh
+
+`results` (points/positions per driver per race — what the standings pages are summed
+from) is normal Supabase data too, and just as prone to going stale: nothing fetches it
+live. `/api/sync-results` closes that gap the same way `/api/sync-races` does for the
+schedule — for every race already in `races`, it pulls that round's classified result
+*and* sprint result (if that weekend ran one) from Jolpica and upserts them into
+`results`, matched on `(race_id, driver_id)` so it's safe to run repeatedly. A round
+Jolpica hasn't published yet (race hasn't happened) is skipped, not errored.
+
+Sprint points are additive on top of the Grand Prix's own points, so they're stored in
+their own `sprint_points` column rather than folded into `points` — every standings
+query sums `total_points` (`points + sprint_points`, computed in the `result_details`
+view), so a sprint weekend's points count once each, correctly.
+
+It runs on the same schedule as `/api/sync-races` — Vercel Cron once a day, the GitHub
+Actions workflow every 15 minutes — and needs the same service-role key. Run it by hand
+the same way:
+
+```bash
+curl "https://<your-deployment>/api/sync-results?season=2026"
+```
+
 ## Local development
 
 ```bash
@@ -102,8 +125,8 @@ constructors(id, name, color)
 drivers(id, full_name, name_acronym, headshot_url, country_code)
 races(id, season, round, location, date_start, session_key)
 results(id, race_id -> races, driver_id -> drivers, constructor_id -> constructors,
-        driver_number, position, points, number_of_laps, gap_to_leader, duration,
-        dnf, dns, dsq)
+        driver_number, position, points, sprint_points, number_of_laps, gap_to_leader,
+        duration, dnf, dns, dsq)
 ```
 
 `drivers` is keyed by `full_name` rather than `driver_number` — car numbers get reused by

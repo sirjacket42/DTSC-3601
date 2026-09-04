@@ -3,6 +3,10 @@
     {
       "path": "/api/sync-races",
       "schedule": "0 6 * * *"
+    },
+    {
+      "path": "/api/sync-results",
+      "schedule": "0 7 * * *"
     }
   ]
 }

@@ -12,6 +12,8 @@ type ResultDetailsRow = {
   id: number;
   position: number | null;
   points: number;
+  sprint_points: number;
+  total_points: number;
   number_of_laps: number | null;
   gap_to_leader: string | null;
   duration: number | null;
@@ -36,7 +38,7 @@ function toResultRow(r: ResultDetailsRow): ResultRow {
   return {
     id: r.id,
     position: r.position,
-    points: r.points,
+    points: r.total_points,
     number_of_laps: r.number_of_laps,
     gap_to_leader: r.gap_to_leader,
     duration: r.duration,
@@ -188,7 +190,7 @@ export type SeasonStandingRow = {
 export async function getSeasonStandings(season: number): Promise<SeasonStandingRow[]> {
   const { data, error } = await supabase
     .from("result_details")
-    .select("driver_id, driver_name, driver_number, constructor_name, constructor_color, points")
+    .select("driver_id, driver_name, driver_number, constructor_name, constructor_color, total_points")
     .eq("season", season)
     .order("round", { ascending: true });
   if (error) throw error;
@@ -202,7 +204,7 @@ export async function getSeasonStandings(season: number): Promise<SeasonStanding
       driverNumber: row.driver_number,
       teamName: row.constructor_name,
       teamColor: row.constructor_color,
-      points: prevPoints + Number(row.points),
+      points: prevPoints + Number(row.total_points),
     });
   }
   return Array.from(byDriver.values()).sort((a, b) => b.points - a.points);
@@ -218,7 +220,7 @@ export type ConstructorStandingRow = {
 export async function getConstructorStandings(season: number): Promise<ConstructorStandingRow[]> {
   const { data, error } = await supabase
     .from("result_details")
-    .select("constructor_name, constructor_color, points")
+    .select("constructor_name, constructor_color, total_points")
     .eq("season", season);
   if (error) throw error;
 
@@ -226,12 +228,12 @@ export async function getConstructorStandings(season: number): Promise<Construct
   for (const row of data ?? []) {
     const existing = byTeam.get(row.constructor_name);
     if (existing) {
-      existing.points += Number(row.points);
+      existing.points += Number(row.total_points);
     } else {
       byTeam.set(row.constructor_name, {
         teamName: row.constructor_name,
         teamColor: row.constructor_color,
-        points: Number(row.points),
+        points: Number(row.total_points),
       });
     }
   }
@@ -244,13 +246,13 @@ export async function getStandingsRank(
 ): Promise<StandingsRank | null> {
   const { data, error } = await supabase
     .from("result_details")
-    .select("driver_id, points")
+    .select("driver_id, total_points")
     .eq("season", season);
   if (error) throw error;
 
   const totals = new Map<number, number>();
   for (const row of data ?? []) {
-    totals.set(row.driver_id, (totals.get(row.driver_id) ?? 0) + Number(row.points));
+    totals.set(row.driver_id, (totals.get(row.driver_id) ?? 0) + Number(row.total_points));
   }
   const ranked = Array.from(totals.entries()).sort((a, b) => b[1] - a[1]);
   const idx = ranked.findIndex(([id]) => id === driverId);

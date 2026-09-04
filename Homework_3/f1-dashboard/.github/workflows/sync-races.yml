@@ -1,4 +1,4 @@
-name: Sync races
+name: Sync races and results
 
 on:
   schedule:
@@ -14,4 +14,11 @@ jobs:
       - name: Hit /api/sync-races
         run: |
           curl -fsS "https://f1-dashboard-green.vercel.app/api/sync-races" \
+            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}"
+      - name: Hit /api/sync-results
+        # Results only change once a race weekend actually finishes, but this is cheap
+        # to poll — Jolpica just returns empty until a round is published, so re-running
+        # every 15 minutes is what makes a race's points show up promptly afterward.
+        run: |
+          curl -fsS "https://f1-dashboard-green.vercel.app/api/sync-results" \
             -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}"
