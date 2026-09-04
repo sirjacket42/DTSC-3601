@@ -5,25 +5,63 @@ import mapboxgl from "mapbox-gl";
 
 const TOKEN = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
 
+const TRACK_SOURCE_ID = "circuit-track";
+const TRACK_LAYER_ID = "circuit-track-line";
+
 function buildMarkerEl() {
   const el = document.createElement("div");
-  el.innerHTML = `<span class="relative flex size-4">
-    <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#e00700] opacity-60"></span>
-    <span class="relative inline-flex size-4 rounded-full bg-[#e00700] ring-2 ring-white"></span>
-  </span>`;
+  el.innerHTML = `<span class="block size-3.5 rounded-full bg-[#e00700] ring-2 ring-white shadow-[0_0_0_1px_rgba(0,0,0,0.4)]"></span>`;
   return el.firstElementChild as HTMLElement;
+}
+
+function trackBounds(track: [number, number][]) {
+  const bounds = new mapboxgl.LngLatBounds(track[0], track[0]);
+  for (const point of track) bounds.extend(point);
+  return bounds;
+}
+
+function focusOnRace(map: mapboxgl.Map, lat: number, lng: number, track: [number, number][] | null) {
+  if (track && track.length > 1) {
+    map.fitBounds(trackBounds(track), { padding: 80, duration: 800 });
+  } else {
+    map.flyTo({ center: [lng, lat], zoom: 13, essential: true });
+  }
+}
+
+function applyTrack(map: mapboxgl.Map, track: [number, number][] | null) {
+  const data: GeoJSON.Feature<GeoJSON.LineString> = {
+    type: "Feature",
+    properties: {},
+    geometry: { type: "LineString", coordinates: track ?? [] },
+  };
+
+  const source = map.getSource(TRACK_SOURCE_ID) as mapboxgl.GeoJSONSource | undefined;
+  if (source) {
+    source.setData(data);
+  } else {
+    map.addSource(TRACK_SOURCE_ID, { type: "geojson", data });
+    map.addLayer({
+      id: TRACK_LAYER_ID,
+      type: "line",
+      source: TRACK_SOURCE_ID,
+      layout: { "line-cap": "round", "line-join": "round" },
+      paint: {
+        "line-color": "#a3272c",
+        "line-width": 4,
+        "line-opacity": 0.95,
+      },
+    });
+  }
 }
 
 export function RaceMap({
   lat,
   lng,
-  label,
-  sublabel,
+  track,
 }: {
   lat: number;
   lng: number;
-  label: string;
-  sublabel?: string;
+  track?: [number, number][] | null;
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
@@ -37,22 +75,19 @@ export function RaceMap({
       container: containerRef.current,
       style: "mapbox://styles/mapbox/dark-v11",
       center: [lng, lat],
-      zoom: 12,
+      zoom: 13,
       scrollZoom: false,
       attributionControl: true,
     });
-    map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), "top-left");
-
-    const popup = new mapboxgl.Popup({ offset: 12, closeButton: false }).setHTML(
-      `<div style="font-weight:600">${label}</div>${
-        sublabel ? `<div style="font-size:12px;opacity:0.7">${sublabel}</div>` : ""
-      }`
-    );
 
     const marker = new mapboxgl.Marker({ element: buildMarkerEl() })
       .setLngLat([lng, lat])
-      .setPopup(popup)
       .addTo(map);
+
+    map.on("load", () => {
+      applyTrack(map, track ?? null);
+      focusOnRace(map, lat, lng, track ?? null);
+    });
 
     mapRef.current = map;
     markerRef.current = marker;
@@ -66,10 +101,17 @@ export function RaceMap({
   }, []);
 
   useEffect(() => {
-    if (!mapRef.current || !markerRef.current) return;
+    const map = mapRef.current;
+    if (!map || !markerRef.current) return;
     markerRef.current.setLngLat([lng, lat]);
-    mapRef.current.flyTo({ center: [lng, lat], zoom: 12, essential: true });
-  }, [lat, lng]);
+
+    const run = () => {
+      applyTrack(map, track ?? null);
+      focusOnRace(map, lat, lng, track ?? null);
+    };
+    if (map.isStyleLoaded()) run();
+    else map.once("load", run);
+  }, [lat, lng, track]);
 
   if (!TOKEN) {
     return (

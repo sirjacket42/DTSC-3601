@@ -1,9 +1,8 @@
 "use client";
 
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 import { flagEmojiFromISO2 } from "@/lib/format";
 import { getCircuitInfo } from "@/lib/circuits";
@@ -21,18 +20,27 @@ export function RaceCarousel({
   season: number;
 }) {
   const scrollerRef = useRef<HTMLDivElement>(null);
+  const selectedRef = useRef<HTMLAnchorElement>(null);
   const currentRace = races.find((r) => r.id === currentRaceId) ?? null;
   const currentDate = currentRace ? new Date(currentRace.date_start).getTime() : null;
 
   const scrollBy = (dx: number) =>
     scrollerRef.current?.scrollBy({ left: dx, behavior: "smooth" });
 
+  useEffect(() => {
+    selectedRef.current?.scrollIntoView({
+      behavior: "smooth",
+      inline: "center",
+      block: "nearest",
+    });
+  }, [selectedRaceId]);
+
   return (
     <div className="flex items-stretch gap-2">
       <button
         type="button"
         onClick={() => scrollBy(-320)}
-        className="hidden sm:flex items-center justify-center size-9 shrink-0 self-center rounded-full border border-border bg-card text-foreground hover:bg-accent"
+        className="hidden sm:flex items-center justify-center size-9 shrink-0 self-center rounded-full bg-black/70 text-white ring-1 ring-white/15 backdrop-blur-sm hover:bg-black/85"
         aria-label="Scroll left"
       >
         <ChevronLeft className="size-4" />
@@ -40,7 +48,7 @@ export function RaceCarousel({
 
       <div
         ref={scrollerRef}
-        className="flex-1 flex gap-3 overflow-x-auto scroll-smooth pb-1 [scrollbar-width:thin]"
+        className="flex-1 flex gap-3 overflow-x-auto scroll-smooth [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
       >
         {races.map((race) => {
           const info = getCircuitInfo(race.location);
@@ -56,27 +64,33 @@ export function RaceCarousel({
           return (
             <Link
               key={race.id}
+              ref={isSelected ? selectedRef : undefined}
               href={`/schedule?season=${season}&race=${race.id}`}
               className={cn(
-                "shrink-0 w-[220px] rounded-xl border p-4 transition-colors",
+                "shrink-0 w-[220px] rounded-xl p-4 backdrop-blur-sm transition-colors",
                 isSelected
-                  ? "border-primary bg-card ring-1 ring-primary"
-                  : "border-border bg-card hover:border-muted-foreground/40"
+                  ? "bg-black/80 ring-2 ring-white/80"
+                  : "bg-black/60 ring-1 ring-white/10 hover:bg-black/75"
               )}
             >
               <div className="flex items-center justify-between gap-2">
-                <span className="text-xs font-medium text-muted-foreground">
-                  R{race.round}
-                </span>
-                <Badge variant={status === "CURRENT" ? "default" : status === "COMPLETED" ? "secondary" : "outline"}>
+                <span className="text-xs font-medium text-white/70">R{race.round}</span>
+                <span
+                  className={cn(
+                    "rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide",
+                    status === "CURRENT"
+                      ? "bg-[#e00700] text-white"
+                      : "bg-white/15 text-white/70"
+                  )}
+                >
                   {status}
-                </Badge>
+                </span>
               </div>
-              <div className="mt-2 flex items-center gap-2 text-lg font-semibold">
+              <div className="mt-2 flex items-center gap-2 text-lg font-semibold text-white">
                 {info && <span>{flagEmojiFromISO2(info.countryCode)}</span>}
                 <span>{info?.country ?? race.location}</span>
               </div>
-              <p className="mt-1 text-xs text-muted-foreground">
+              <p className="mt-1 text-xs text-white/50">
                 {new Date(race.date_start).toLocaleDateString(undefined, {
                   month: "short",
                   day: "numeric",
@@ -91,7 +105,7 @@ export function RaceCarousel({
       <button
         type="button"
         onClick={() => scrollBy(320)}
-        className="hidden sm:flex items-center justify-center size-9 shrink-0 self-center rounded-full border border-border bg-card text-foreground hover:bg-accent"
+        className="hidden sm:flex items-center justify-center size-9 shrink-0 self-center rounded-full bg-black/70 text-white ring-1 ring-white/15 backdrop-blur-sm hover:bg-black/85"
         aria-label="Scroll right"
       >
         <ChevronRight className="size-4" />
