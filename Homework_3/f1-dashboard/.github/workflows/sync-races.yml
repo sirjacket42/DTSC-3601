@@ -1,0 +1,17 @@
+name: Sync races
+
+on:
+  schedule:
+    # Every 15 minutes. GitHub may delay a run under load, but it's not
+    # capped at 1/day the way Vercel Cron is on the Hobby plan.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hit /api/sync-races
+        run: |
+          curl -fsS "https://f1-dashboard-green.vercel.app/api/sync-races" \
+            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}"

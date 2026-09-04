@@ -2,6 +2,7 @@ import { supabase } from "@/lib/supabase";
 import type {
   DriverListItem,
   PointsProgressionPoint,
+  Race,
   ResultRow,
   SeasonStats,
   StandingsRank,
@@ -84,6 +85,26 @@ export async function getSeasons(): Promise<number[]> {
     .order("season", { ascending: false });
   if (error) throw error;
   return Array.from(new Set((data ?? []).map((r) => r.season)));
+}
+
+export async function getSeasonRaces(season: number): Promise<Race[]> {
+  const { data, error } = await supabase
+    .from("races")
+    .select("id, season, round, location, date_start, session_key")
+    .eq("season", season)
+    .order("round", { ascending: true });
+  if (error) throw error;
+  return data ?? [];
+}
+
+/** The most recently contested race in the list (falls back to the earliest if none have happened yet). */
+export function findCurrentRace(races: Race[]): Race | null {
+  const byDate = [...races].sort(
+    (a, b) => new Date(a.date_start).getTime() - new Date(b.date_start).getTime()
+  );
+  const now = Date.now();
+  const pastRaces = byDate.filter((r) => new Date(r.date_start).getTime() <= now);
+  return pastRaces[pastRaces.length - 1] ?? byDate[0] ?? null;
 }
 
 export async function getDriverResults(

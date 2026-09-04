@@ -18,7 +18,15 @@ drawn from real GPS telemetry).
 - **OpenF1** is queried live (server-side, cached for 12h) for weather, tire stints, lap
   times, and driver-position GPS telemetry for the selected driver's most recent race —
   this data isn't stored in Supabase, since a single race can carry thousands of telemetry
-  rows.
+  rows. The Schedule page also queries OpenF1 live (cached for 60s) for what session is
+  happening right now.
+
+  **OpenF1's free tier blocks *all* requests — every endpoint, every season, not just live
+  data — while any F1 session is in progress anywhere, returning `503 Live F1 session in
+  progress...` until it ends.** Every OpenF1 call in this app already fails soft (returns
+  `null`/`[]` instead of throwing), so this just means telemetry, the live-session banner,
+  and the race-schedule sync below quietly show nothing/skip during that window — nothing
+  crashes, it just catches back up once the session ends.
 
 The Dribbble reference this UI is styled after shows biometric widgets (heart rate,
 breathing rate, tire temperature/pressure) that F1 doesn't publish — those are replaced
@@ -49,6 +57,35 @@ every car so rubber stays black.
 
 These are approximations of the colour blocking, not reproductions of the decal
 artwork.
+
+## Keeping the schedule fresh
+
+`races` (season/round/location/date/session_key) is normal Supabase data, not something
+fetched live, so it goes stale the moment a new round is announced or run. `/api/sync-races`
+fixes that: it pulls every meeting OpenF1 has for a season, works out each one's round
+number from its date order, and upserts the result into `races` — matched on
+`(season, location)`, so it's safe to run repeatedly. New rounds get inserted, existing
+ones get their date/session_key refreshed.
+
+It's wired up as a Vercel Cron Job (`vercel.json`) hitting `/api/sync-races` once a day —
+the Hobby plan's max frequency. That's fine for the schedule itself (announced weeks in
+advance), but too slow to notice a race weekend starting, so a GitHub Actions workflow
+(`.github/workflows/sync-races.yml`) also hits the same endpoint every 15 minutes — GitHub
+Actions cron isn't capped by Vercel's plan, since it's just an outside caller. Vercel signs
+its own cron requests with `Authorization: Bearer $CRON_SECRET` automatically once that env
+var is set on the project; the GitHub Action sends the same header using a `CRON_SECRET`
+repo secret (Settings → Secrets and variables → Actions) set to the identical value. The
+route checks for it in production and skips the check in local dev. If this ever moves to
+a Pro plan, the GitHub Action can be dropped and `vercel.json`'s schedule bumped instead.
+
+Writing to `races` needs the Supabase **service role** key (the anon key is
+read-only via RLS) — set `SUPABASE_SERVICE_ROLE_KEY` locally and on Vercel, and pick a
+`CRON_SECRET` for Vercel to sign requests with (see `.env.local.example`). To run it by
+hand — to backfill immediately instead of waiting for the next cron tick — hit it directly:
+
+```bash
+curl "https://<your-deployment>/api/sync-races?season=2026"
+```
 
 ## Local development
 
@@ -91,5 +128,8 @@ To deploy by hand, or to set the project up from scratch:
 npx vercel link
 npx vercel env add NEXT_PUBLIC_SUPABASE_URL production
 npx vercel env add NEXT_PUBLIC_SUPABASE_ANON_KEY production
+npx vercel env add NEXT_PUBLIC_MAPBOX_TOKEN production
+npx vercel env add SUPABASE_SERVICE_ROLE_KEY production
+npx vercel env add CRON_SECRET production
 npx vercel --prod
 ```

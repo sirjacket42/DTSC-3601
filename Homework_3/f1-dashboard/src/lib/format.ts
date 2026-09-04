@@ -16,6 +16,12 @@ export function flagEmoji(countryCode: string | null): string {
   );
 }
 
+export function flagEmojiFromISO2(countryCode: string): string {
+  return String.fromCodePoint(
+    ...[...countryCode.toUpperCase()].map((c) => 127397 + c.charCodeAt(0))
+  );
+}
+
 export function formatDuration(seconds: number | null): string {
   if (seconds === null || Number.isNaN(seconds)) return "—";
   const m = Math.floor(seconds / 60);
