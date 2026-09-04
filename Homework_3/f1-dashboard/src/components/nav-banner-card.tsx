@@ -41,7 +41,7 @@ export function NavBannerCard({
         <ArrowRight className="size-4 text-white/70 transition-transform group-hover:translate-x-1" />
       </div>
       <div>
-        <h3 className="text-xl font-bold leading-snug">{title}</h3>
+        <h3 className="font-heading text-xl font-bold leading-snug">{title}</h3>
         <p className="text-sm text-white/75 mt-1">{description}</p>
       </div>
     </Link>

@@ -13,6 +13,7 @@ import { getCircuitInfo } from "@/lib/circuits";
 import { flagEmojiFromISO2 } from "@/lib/format";
 import { NextRaceHero } from "@/components/next-race-hero";
 import { CircuitOutline } from "@/components/circuit-outline";
+import { SeasonProgressBar } from "@/components/season-progress-bar";
 import { StatCard } from "@/components/stat-card";
 import { StandingsTable } from "@/components/standings-table";
 import { NavBannerCard } from "@/components/nav-banner-card";
@@ -112,20 +113,23 @@ export default async function Home() {
                   {completedCount} of {races.length} races complete &middot; {seasonProgress}%
                 </CardDescription>
               </CardHeader>
-              <CardContent className="flex items-center justify-between gap-3">
-                <div>
-                  <div className="text-lg font-semibold flex items-center gap-2">
-                    {scheduleCircuit && <span>{flagEmojiFromISO2(scheduleCircuit.countryCode)}</span>}
-                    <span>{scheduleCircuit?.country ?? nextRace?.location ?? "—"}</span>
+              <CardContent className="space-y-4">
+                <SeasonProgressBar total={races.length} completed={completedCount} />
+                <div className="flex items-center justify-between gap-3">
+                  <div>
+                    <div className="text-lg font-semibold flex items-center gap-2">
+                      {scheduleCircuit && <span>{flagEmojiFromISO2(scheduleCircuit.countryCode)}</span>}
+                      <span>{scheduleCircuit?.country ?? nextRace?.location ?? "—"}</span>
+                    </div>
+                    <p className="text-xs text-muted-foreground mt-1">Next up</p>
                   </div>
-                  <p className="text-xs text-muted-foreground mt-1">Next up</p>
+                  {nextRace && (
+                    <CircuitOutline
+                      location={nextRace.location}
+                      className="w-24 h-16 text-muted-foreground/60 shrink-0"
+                    />
+                  )}
                 </div>
-                {nextRace && (
-                  <CircuitOutline
-                    location={nextRace.location}
-                    className="w-24 h-16 text-muted-foreground/60 shrink-0"
-                  />
-                )}
               </CardContent>
             </Card>
           </Link>

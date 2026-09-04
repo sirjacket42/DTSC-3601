@@ -58,7 +58,7 @@ export function HeroCard({
               {driverNumber ?? "—"}
             </span>
             <div>
-              <h1 className="text-2xl sm:text-3xl font-bold leading-tight flex items-center gap-2">
+              <h1 className="font-heading text-2xl sm:text-3xl font-bold leading-tight flex items-center gap-2">
                 {driver.full_name}
                 <span className="text-xl">{flagEmoji(driver.country_code)}</span>
               </h1>
