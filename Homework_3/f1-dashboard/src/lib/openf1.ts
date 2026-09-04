@@ -40,16 +40,6 @@ type LapApi = {
 
 type LocationApi = { x: number; y: number; date: string };
 
-export type MeetingApi = {
-  meeting_key: number;
-  meeting_name: string;
-  location: string;
-  country_name: string;
-  circuit_short_name: string;
-  date_start: string;
-  year: number;
-};
-
 export type SessionApi = {
   session_key: number;
   meeting_key: number;
@@ -62,66 +52,20 @@ export type SessionApi = {
   year: number;
 };
 
-async function fetchJsonLive<T>(path: string): Promise<T | null> {
-  try {
-    const res = await fetch(`${BASE}${path}`, {
-      next: { revalidate: 60 },
-    });
-    if (!res.ok) return null;
-    return (await res.json()) as T;
-  } catch {
-    return null;
-  }
-}
-
-/** Every points-scoring race weekend for a season, in date order. Excludes testing. */
-export async function getSeasonMeetings(year: number): Promise<MeetingApi[]> {
-  const meetings = await fetchJson<MeetingApi[]>(`/meetings?year=${year}`);
-  if (!meetings) return [];
-  return meetings
-    .filter((m) => !/test/i.test(m.meeting_name))
-    .sort((a, b) => new Date(a.date_start).getTime() - new Date(b.date_start).getTime());
-}
-
-/** The session_key of the "Race" session for a meeting, or null if it hasn't run yet. */
-export async function getRaceSessionKey(meetingKey: number): Promise<number | null> {
+/**
+ * The session_key of a season's "Race" session at a given location, or null if
+ * it hasn't run yet (or OpenF1 is in its live-session lockout — see README).
+ * Round/date/schedule data comes from Jolpica instead (src/lib/jolpica.ts); this
+ * is the one piece Jolpica doesn't have, since it's OpenF1-specific telemetry ID.
+ */
+export async function getRaceSessionKey(
+  year: number,
+  location: string
+): Promise<number | null> {
   const sessions = await fetchJson<SessionApi[]>(
-    `/sessions?meeting_key=${meetingKey}&session_name=Race`
+    `/sessions?year=${year}&location=${encodeURIComponent(location)}&session_name=Race`
   );
   return sessions?.[0]?.session_key ?? null;
-}
-
-export type CurrentSessionStatus =
-  | { status: "live"; session: SessionApi }
-  | { status: "upcoming"; session: SessionApi }
-  | { status: "none" };
-
-/**
- * What's happening right now, live from OpenF1 (not stored in Supabase — this
- * changes minute to minute during a race weekend, unlike the season schedule).
- */
-export async function getCurrentSessionStatus(year: number): Promise<CurrentSessionStatus> {
-  const nowIso = new Date().toISOString();
-
-  const recent = await fetchJsonLive<SessionApi[]>(
-    `/sessions?year=${year}&date_start<=${encodeURIComponent(nowIso)}`
-  );
-  const latest = recent?.sort(
-    (a, b) => new Date(b.date_start).getTime() - new Date(a.date_start).getTime()
-  )[0];
-
-  if (latest && new Date(latest.date_end).getTime() >= Date.now()) {
-    return { status: "live", session: latest };
-  }
-
-  const upcoming = await fetchJsonLive<SessionApi[]>(
-    `/sessions?year=${year}&date_start>=${encodeURIComponent(nowIso)}`
-  );
-  const next = upcoming?.sort(
-    (a, b) => new Date(a.date_start).getTime() - new Date(b.date_start).getTime()
-  )[0];
-
-  return next ? { status: "upcoming", session: next } : { status: "none" };
 }
 
 async function getWeather(sessionKey: number): Promise<Weather | null> {

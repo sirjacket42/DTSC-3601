@@ -1,5 +1,6 @@
 import "server-only";
-import { getRaceSessionKey, getSeasonMeetings } from "@/lib/openf1";
+import { getRaceSessionKey } from "@/lib/openf1";
+import { getSeasonSchedule } from "@/lib/jolpica";
 import { getSupabaseAdmin } from "@/lib/supabase-admin";
 
 type ExistingRace = {
@@ -18,18 +19,22 @@ export type SyncResult = {
 };
 
 /**
- * Pulls every meeting (race weekend) OpenF1 has for `season`, computes each
- * one's round number from its position in the season's date order, and
+ * Pulls the published season schedule (round/location/date, from Jolpica —
+ * never blacked out mid-session the way OpenF1's live endpoints are) and
  * upserts it into the `races` table — matched on (season, location) so
- * re-running is idempotent. New rounds (like a weekend that just got
- * announced or just started) get inserted; existing rows get their round/
- * date/session_key refreshed in case OpenF1 revises anything.
+ * re-running is idempotent. New rounds get inserted; existing rows get their
+ * round/date refreshed in case the calendar changes.
+ *
+ * session_key (OpenF1's id for the Race session, needed by the telemetry
+ * view) is enriched best-effort from OpenF1 by year+location — that lookup
+ * can come back null during OpenF1's live-session lockout, in which case the
+ * existing value is kept and it's picked up on a later sync.
  */
 export async function syncSeasonRaces(season: number): Promise<SyncResult> {
   const admin = getSupabaseAdmin();
 
-  const [meetings, { data: existingRaces, error }] = await Promise.all([
-    getSeasonMeetings(season),
+  const [schedule, { data: existingRaces, error }] = await Promise.all([
+    getSeasonSchedule(season),
     admin
       .from("races")
       .select("id, round, location, date_start, session_key")
@@ -46,18 +51,16 @@ export async function syncSeasonRaces(season: number): Promise<SyncResult> {
   let updated = 0;
   let unchanged = 0;
 
-  for (let i = 0; i < meetings.length; i++) {
-    const meeting = meetings[i];
-    const round = i + 1;
-    const sessionKey = await getRaceSessionKey(meeting.meeting_key);
-    const existing = existingByLocation.get(meeting.location);
+  for (const race of schedule) {
+    const sessionKey = await getRaceSessionKey(season, race.location);
+    const existing = existingByLocation.get(race.location);
 
     if (!existing) {
       const { error: insertError } = await admin.from("races").insert({
         season,
-        round,
-        location: meeting.location,
-        date_start: meeting.date_start,
+        round: race.round,
+        location: race.location,
+        date_start: race.weekendStart,
         session_key: sessionKey,
       });
       if (insertError) throw insertError;
@@ -66,16 +69,16 @@ export async function syncSeasonRaces(season: number): Promise<SyncResult> {
     }
 
     const needsUpdate =
-      existing.round !== round ||
-      existing.date_start !== meeting.date_start ||
+      existing.round !== race.round ||
+      existing.date_start !== race.weekendStart ||
       (sessionKey !== null && existing.session_key !== sessionKey);
 
     if (needsUpdate) {
       const { error: updateError } = await admin
         .from("races")
         .update({
-          round,
-          date_start: meeting.date_start,
+          round: race.round,
+          date_start: race.weekendStart,
           session_key: sessionKey ?? existing.session_key,
         })
         .eq("id", existing.id);

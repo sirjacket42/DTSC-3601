@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getCurrentSessionStatus } from "@/lib/openf1";
+import { getCurrentSessionStatus } from "@/lib/jolpica";
 import { getCircuitInfo } from "@/lib/circuits";
 import { flagEmojiFromISO2 } from "@/lib/format";
 import type { Race } from "@/lib/types";
