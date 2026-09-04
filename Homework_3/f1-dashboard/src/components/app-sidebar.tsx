@@ -2,11 +2,12 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Flag, Gauge, MapPin } from "lucide-react";
+import { Flag, Gauge, MapPin, Users } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const NAV_ITEMS = [
   { href: "/", label: "Home", icon: Gauge },
+  { href: "/drivers", label: "Drivers", icon: Users },
   { href: "/schedule", label: "Schedule", icon: MapPin },
 ];
 
@@ -20,7 +21,7 @@ export function AppSidebar() {
           <Flag className="size-4" />
         </div>
         <span className="font-heading text-sm font-semibold text-sidebar-foreground">
-          F1 Driver Spotlight
+          F1 Dashboard
         </span>
       </div>
       <nav className="flex-1 px-3 py-4 space-y-1">

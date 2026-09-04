@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "F1 Driver Spotlight",
+  title: "F1 Dashboard",
   description:
-    "A season-by-season F1 driver dashboard backed by Supabase, styled after an F1 telemetry HUD.",
+    "A season-by-season F1 dashboard backed by Supabase, styled after an F1 telemetry HUD.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

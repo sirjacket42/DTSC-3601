@@ -24,7 +24,7 @@ export function DriverSelector({
   return (
     <Select
       value={String(selectedId)}
-      onValueChange={(value) => router.push(`/?driver=${value}`)}
+      onValueChange={(value) => router.push(`/drivers?driver=${value}`)}
     >
       <SelectTrigger className="w-[240px] hud-card">
         <SelectValue placeholder="Select a driver">

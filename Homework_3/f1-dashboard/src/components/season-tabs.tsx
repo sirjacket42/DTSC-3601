@@ -18,7 +18,7 @@ export function SeasonTabs({
     <Tabs
       value={String(selectedSeason)}
       onValueChange={(value) =>
-        router.push(`/?driver=${driverId}&season=${value}`)
+        router.push(`/drivers?driver=${driverId}&season=${value}`)
       }
     >
       <TabsList>

@@ -107,6 +107,21 @@ export function findCurrentRace(races: Race[]): Race | null {
   return pastRaces[pastRaces.length - 1] ?? byDate[0] ?? null;
 }
 
+/** The next race still to come (falls back to the season's last race once it's over). */
+export function findNextRace(races: Race[]): Race | null {
+  const byDate = [...races].sort(
+    (a, b) => new Date(a.date_start).getTime() - new Date(b.date_start).getTime()
+  );
+  const now = Date.now();
+  return byDate.find((r) => new Date(r.date_start).getTime() > now) ?? byDate[byDate.length - 1] ?? null;
+}
+
+/** How many races in the list have already happened. */
+export function countCompletedRaces(races: Race[]): number {
+  const now = Date.now();
+  return races.filter((r) => new Date(r.date_start).getTime() <= now).length;
+}
+
 export async function getDriverResults(
   driverId: number,
   season?: number
@@ -158,6 +173,69 @@ export function computePointsProgression(
       cumulativePoints: cumulative,
     };
   });
+}
+
+export type SeasonStandingRow = {
+  driverId: number;
+  driverName: string;
+  driverNumber: number | null;
+  teamName: string;
+  teamColor: string;
+  points: number;
+};
+
+/** Season driver standings, aggregated from race results (latest team wins on a mid-season swap). */
+export async function getSeasonStandings(season: number): Promise<SeasonStandingRow[]> {
+  const { data, error } = await supabase
+    .from("result_details")
+    .select("driver_id, driver_name, driver_number, constructor_name, constructor_color, points")
+    .eq("season", season)
+    .order("round", { ascending: true });
+  if (error) throw error;
+
+  const byDriver = new Map<number, SeasonStandingRow>();
+  for (const row of data ?? []) {
+    const prevPoints = byDriver.get(row.driver_id)?.points ?? 0;
+    byDriver.set(row.driver_id, {
+      driverId: row.driver_id,
+      driverName: row.driver_name,
+      driverNumber: row.driver_number,
+      teamName: row.constructor_name,
+      teamColor: row.constructor_color,
+      points: prevPoints + Number(row.points),
+    });
+  }
+  return Array.from(byDriver.values()).sort((a, b) => b.points - a.points);
+}
+
+export type ConstructorStandingRow = {
+  teamName: string;
+  teamColor: string;
+  points: number;
+};
+
+/** Season constructor standings, aggregated from race results. */
+export async function getConstructorStandings(season: number): Promise<ConstructorStandingRow[]> {
+  const { data, error } = await supabase
+    .from("result_details")
+    .select("constructor_name, constructor_color, points")
+    .eq("season", season);
+  if (error) throw error;
+
+  const byTeam = new Map<string, ConstructorStandingRow>();
+  for (const row of data ?? []) {
+    const existing = byTeam.get(row.constructor_name);
+    if (existing) {
+      existing.points += Number(row.points);
+    } else {
+      byTeam.set(row.constructor_name, {
+        teamName: row.constructor_name,
+        teamColor: row.constructor_color,
+        points: Number(row.points),
+      });
+    }
+  }
+  return Array.from(byTeam.values()).sort((a, b) => b.points - a.points);
 }
 
 export async function getStandingsRank(

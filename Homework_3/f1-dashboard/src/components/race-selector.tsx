@@ -28,7 +28,7 @@ export function RaceSelector({
     <Select
       value={String(selectedRaceId)}
       onValueChange={(value) =>
-        router.push(`/?driver=${driverId}&season=${season}&race=${value}`)
+        router.push(`/drivers?driver=${driverId}&season=${season}&race=${value}`)
       }
     >
       <SelectTrigger className="w-[220px] h-8 text-xs hud-card">
