@@ -151,7 +151,8 @@ export default async function DriversPage(props: PageProps<"/drivers">) {
               <TopDownCarPhoto
                 livery={livery}
                 number={latestRace?.driver_number ?? selectedDriver.driver_number}
-                className="w-full max-w-[180px] mx-auto"
+                orientation="vertical"
+                className="w-full max-w-[130px] mx-auto"
               />
             </CardContent>
           </Card>

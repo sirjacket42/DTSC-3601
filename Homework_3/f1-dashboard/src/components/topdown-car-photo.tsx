@@ -1,6 +1,10 @@
 import { TYRE_REGIONS, type Livery } from "@/lib/team-livery";
 
 const CAR_SRC = "/cars/f1-topdown.png";
+// Intrinsic size of CAR_SRC, needed to reserve a correctly-proportioned box
+// when the car is rotated to a vertical (nose-up) orientation.
+const CAR_WIDTH = 1200;
+const CAR_HEIGHT = 454;
 
 // The render is a pure-greyscale shell: luminance runs 107-244 with a mean of
 // 195 (0.77). The paint layer multiplies over it, so at that mean every team
@@ -43,19 +47,22 @@ export function TopDownCarPhoto({
   livery,
   number,
   className,
+  orientation = "horizontal",
 }: {
   livery: Livery;
   number: number | null;
   className?: string;
+  /** "vertical" renders the car nose-up, e.g. for a narrow/tall card. */
+  orientation?: "horizontal" | "vertical";
 }) {
-  return (
+  const car = (
     <div
-      className={className}
       style={
         {
           position: "relative",
           isolation: "isolate",
           containerType: "inline-size",
+          width: "100%",
         } as React.CSSProperties
       }
     >
@@ -129,6 +136,37 @@ export function TopDownCarPhoto({
           {number}
         </div>
       )}
+    </div>
+  );
+
+  if (orientation === "horizontal") {
+    return <div className={className}>{car}</div>;
+  }
+
+  return (
+    <div
+      className={className}
+      style={
+        {
+          position: "relative",
+          containerType: "size",
+          aspectRatio: `${CAR_HEIGHT} / ${CAR_WIDTH}`,
+        } as React.CSSProperties
+      }
+    >
+      <div
+        style={
+          {
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            width: "100cqh",
+            transform: "translate(-50%, -50%) rotate(90deg)",
+          } as React.CSSProperties
+        }
+      >
+        {car}
+      </div>
     </div>
   );
 }
