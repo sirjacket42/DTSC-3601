@@ -73,7 +73,7 @@ export function RaceMap({
 
     const map = new mapboxgl.Map({
       container: containerRef.current,
-      style: "mapbox://styles/mapbox/dark-v11",
+      style: "mapbox://styles/mapbox/standard",
       center: [lng, lat],
       zoom: 13,
       scrollZoom: false,
@@ -83,6 +83,11 @@ export function RaceMap({
     const marker = new mapboxgl.Marker({ element: buildMarkerEl() })
       .setLngLat([lng, lat])
       .addTo(map);
+
+    map.on("style.load", () => {
+      map.setConfigProperty("basemap", "lightPreset", "night");
+      map.setConfigProperty("basemap", "show3dObjects", false);
+    });
 
     map.on("load", () => {
       applyTrack(map, track ?? null);
