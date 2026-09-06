@@ -86,18 +86,27 @@ export function NextRaceHero({
         )}
       </div>
 
-      <div className="mt-6 grid grid-cols-4 gap-3 max-w-xs">
-        {units.map((unit) => (
-          <div key={unit.label} className="text-center">
-            <div className="text-3xl sm:text-4xl font-black font-mono tabular-nums">
-              <NumberFlow value={unit.value} format={{ minimumIntegerDigits: 2 }} />
-            </div>
-            <div className="text-[10px] uppercase tracking-wide text-white/70 mt-1">
-              {unit.label}
-            </div>
+      {isLive ? (
+        <div className="mt-6">
+          <div className="text-3xl sm:text-4xl font-black tracking-tight">In Progress</div>
+          <div className="text-[10px] uppercase tracking-wide text-white/70 mt-1">
+            Session underway
           </div>
-        ))}
-      </div>
+        </div>
+      ) : (
+        <div className="mt-6 grid grid-cols-4 gap-3 max-w-xs">
+          {units.map((unit) => (
+            <div key={unit.label} className="text-center">
+              <div className="text-3xl sm:text-4xl font-black font-mono tabular-nums">
+                <NumberFlow value={unit.value} format={{ minimumIntegerDigits: 2 }} />
+              </div>
+              <div className="text-[10px] uppercase tracking-wide text-white/70 mt-1">
+                {unit.label}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 
