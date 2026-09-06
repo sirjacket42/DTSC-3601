@@ -73,25 +73,21 @@ export function NextRaceHero({
         )}
         <span className="text-sm font-medium">
           {countryCode ? `${flagEmojiFromISO2(countryCode)} ` : ""}
-          {country}: {sessionLabel}
+          {country}
+          {!isLive ? `: ${sessionLabel}` : ""}
         </span>
-        {isLive && (
-          <span className="flex items-center gap-1.5 rounded-full bg-white/15 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide">
-            <span className="relative flex size-1.5">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75" />
-              <span className="relative inline-flex size-1.5 rounded-full bg-white" />
-            </span>
-            Live
-          </span>
-        )}
       </div>
 
       {isLive ? (
-        <div className="mt-6">
-          <div className="text-3xl sm:text-4xl font-black tracking-tight">In Progress</div>
-          <div className="text-[10px] uppercase tracking-wide text-white/70 mt-1">
-            Session underway
-          </div>
+        <div className="mt-6 flex items-center gap-3 flex-wrap">
+          <span className="text-3xl sm:text-4xl font-black tracking-tight">{sessionLabel}</span>
+          <span className="flex items-center gap-1.5 rounded-full bg-white px-3 py-1 text-xs font-bold uppercase tracking-wide text-red-600">
+            <span className="relative flex size-2">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-600 opacity-75" />
+              <span className="relative inline-flex size-2 rounded-full bg-red-600" />
+            </span>
+            Live
+          </span>
         </div>
       ) : (
         <div className="mt-6 grid grid-cols-4 gap-3 max-w-xs">
