@@ -32,11 +32,19 @@ type JolpicaResponse = {
   MRData: { RaceTable: { Races: JolpicaRace[] } };
 };
 
-async function fetchSeason(year: number): Promise<JolpicaRace[]> {
+// How often the "is a session live right now" check may serve a stale
+// snapshot. Kept short so the live indicator doesn't linger well past a
+// session's actual end.
+const LIVE_STATUS_REVALIDATE_SECONDS = 60;
+
+async function fetchSeason(
+  year: number,
+  revalidate: number = REVALIDATE_SECONDS,
+): Promise<JolpicaRace[]> {
   try {
     const res = await fetch(`${BASE}/${year}.json`, {
       headers: { "User-Agent": USER_AGENT },
-      next: { revalidate: REVALIDATE_SECONDS },
+      next: { revalidate },
     });
     if (!res.ok) return [];
     const data = (await res.json()) as JolpicaResponse;
@@ -123,7 +131,7 @@ export type CurrentSessionStatus =
  * only serves the calendar, which is public well before any lights go out.
  */
 export async function getCurrentSessionStatus(year: number): Promise<CurrentSessionStatus> {
-  const races = await fetchSeason(year);
+  const races = await fetchSeason(year, LIVE_STATUS_REVALIDATE_SECONDS);
   const sessions = races.flatMap(raceToSessions);
   const now = Date.now();
 
