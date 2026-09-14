@@ -1,0 +1,224 @@
+{
+  "info": {
+    "_postman_id": "f02e4457-a823-4c7c-ac0e-0449291ccde2",
+    "name": "Race Chaos Index API",
+    "description": "DTSC 3601 Homework 4 -- Race Chaos Index API.\n\nScores a single Formula 1 race's results plus neutralization counts for how 'chaotic' (directionally eventful) and 'weird' (non-directionally unusual, via IsolationForest) it was, relative to ~185 historical races (2018-2026). Backed by a fitted scikit-learn Pipeline (custom RaceChaosFeaturizer -> QuantileTransformer -> IsolationForest) loaded once at import time -- not rebuilt on each request.\n\nSet the collection variable `baseUrl` to the deployed Modal URL (e.g. https://sirjacket42--race-chaos-index-fastapi-app.modal.run) before running. Never point this collection at localhost -- the assignment requires assertions against the live deployed API. Modal cold starts can take a few seconds on the first request after idling; if a request times out, increase the request timeout in Postman settings or run it again.\n\nRun order: Health -> Pipeline info -> Score race (valid) -> Score race (invalid). Each request's Tests tab asserts status code and response shape.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://sirjacket42--race-chaos-index-fastapi-app.modal.run",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/health",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "health"
+          ]
+        },
+        "description": "Liveness/readiness check. Returns 200 with {\"status\": \"ok\", \"model_loaded\": true} once the pipeline.joblib bundle has loaded successfully at import time; the dependency raises 503 (not 500) if the artifact failed to load."
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('status code is 200', function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test('status is ok', function () {",
+              "    const json = pm.response.json();",
+              "    pm.expect(json.status).to.eql('ok');",
+              "});",
+              "",
+              "pm.test('model_loaded is true', function () {",
+              "    const json = pm.response.json();",
+              "    pm.expect(json.model_loaded).to.eql(true);",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pipeline info",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/info",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "info"
+          ]
+        },
+        "description": "Describes the loaded artifact: pipeline step names + classes, build metadata (sklearn/numpy/python versions, built_at, training set size/seasons), feature descriptions, chaos label thresholds, and an example request body. Proves the served pipeline has learned state (a rebuilt-at-boot pipeline would not carry a meaningful built_at/training history)."
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('status code is 200', function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "const json = pm.response.json();",
+              "",
+              "pm.test('metadata.steps is an array with at least 3 steps', function () {",
+              "    pm.expect(json.metadata).to.have.property('steps');",
+              "    pm.expect(json.metadata.steps).to.be.an('array');",
+              "    pm.expect(json.metadata.steps.length).to.be.at.least(3);",
+              "});",
+              "",
+              "pm.test('metadata.sklearn_version and built_at are non-empty strings', function () {",
+              "    pm.expect(json.metadata.sklearn_version).to.be.a('string').and.not.empty;",
+              "    pm.expect(json.metadata.built_at).to.be.a('string').and.not.empty;",
+              "});",
+              "",
+              "pm.test('includes the RaceChaosFeaturizer step', function () {",
+              "    const hasFeaturizer = json.metadata.steps.some(",
+              "        (step) => step.class && step.class.includes('RaceChaosFeaturizer')",
+              "    );",
+              "    pm.expect(hasFeaturizer).to.be.true;",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Score race (valid) \u2014 2024 Canadian GP",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"results\": [\n    {\n      \"grid\": 2,\n      \"position\": 1,\n      \"laps\": 70,\n      \"status\": \"finished\",\n      \"time_millis\": 6347927\n    },\n    {\n      \"grid\": 3,\n      \"position\": 2,\n      \"laps\": 70,\n      \"status\": \"finished\",\n      \"time_millis\": 6351806\n    },\n    {\n      \"grid\": 1,\n      \"position\": 3,\n      \"laps\": 70,\n      \"status\": \"finished\",\n      \"time_millis\": 6352244\n    },\n    {\n      \"grid\": 7,\n      \"position\": 4,\n      \"laps\": 70,\n      \"status\": \"finished\",\n      \"time_millis\": 6352842\n    },\n    {\n      \"grid\": 4,\n      \"position\": 5,\n      \"laps\": 70,\n      \"status\": \"finished\",\n      \"time_millis\": 6358126\n    },\n    {\n      \"grid\": 6,\n      \"position\": 6,\n      \"laps\": 70,\n      \"status\": \"finished\",\n      \"time_millis\": 6365437\n    },\n    {\n      \"grid\": 9,\n      \"position\": 7,\n      \"laps\": 70,\n      \"status\": \"finished\",\n      \"time_millis\": 6371552\n    },\n    {\n      \"grid\": 5,\n      \"position\": 8,\n      \"laps\": 70,\n      \"status\": \"finished\",\n      \"time_millis\": 6376599\n    },\n    {\n      \"grid\": 15,\n      \"position\": 9,\n      \"laps\": 70,\n      \"status\": \"finished\",\n      \"time_millis\": 6377948\n    },\n    {\n      \"grid\": 18,\n      \"position\": 10,\n      \"laps\": 70,\n      \"status\": \"finished\",\n      \"time_millis\": 6378240\n    },\n    {\n      \"grid\": 17,\n      \"position\": 11,\n      \"laps\": 70,\n      \"status\": \"finished\",\n      \"time_millis\": 6378751\n    },\n    {\n      \"grid\": 14,\n      \"position\": 12,\n      \"laps\": 70,\n      \"status\": \"finished\",\n      \"time_millis\": 6379180\n    },\n    {\n      \"grid\": 19,\n      \"position\": 13,\n      \"laps\": 70,\n      \"status\": \"finished\",\n      \"time_millis\": 6388414\n    },\n    {\n      \"grid\": 8,\n      \"position\": 14,\n      \"laps\": 70,\n      \"status\": \"finished\",\n      \"time_millis\": 6400621\n    },\n    {\n      \"grid\": 20,\n      \"position\": 15,\n      \"laps\": 69,\n      \"status\": \"lapped\",\n      \"time_millis\": 6401455\n    },\n    {\n      \"grid\": 12,\n      \"position\": 16,\n      \"laps\": 52,\n      \"status\": \"retired\",\n      \"time_millis\": null\n    },\n    {\n      \"grid\": 10,\n      \"position\": 17,\n      \"laps\": 52,\n      \"status\": \"retired\",\n      \"time_millis\": null\n    },\n    {\n      \"grid\": 16,\n      \"position\": 18,\n      \"laps\": 51,\n      \"status\": \"retired\",\n      \"time_millis\": null\n    },\n    {\n      \"grid\": 11,\n      \"position\": 19,\n      \"laps\": 40,\n      \"status\": \"retired\",\n      \"time_millis\": null\n    },\n    {\n      \"grid\": 13,\n      \"position\": 20,\n      \"laps\": 23,\n      \"status\": \"retired\",\n      \"time_millis\": null\n    }\n  ],\n  \"track_status\": {\n    \"safety_cars\": 2,\n    \"virtual_safety_cars\": 0,\n    \"red_flags\": 0\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseUrl}}/chaos-score",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "chaos-score"
+          ]
+        },
+        "description": "Valid request: the real example race from the fitted bundle (bundle['example_request'], a 20-driver field with 2 safety cars and 5 retirements). Expect 200 and a full ChaosScoreResponse."
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('status code is 200', function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "const json = pm.response.json();",
+              "",
+              "pm.test('chaos_score and weirdness_score are numbers in [0, 100]', function () {",
+              "    pm.expect(json.chaos_score).to.be.a('number');",
+              "    pm.expect(json.chaos_score).to.be.at.least(0).and.at.most(100);",
+              "    pm.expect(json.weirdness_score).to.be.a('number');",
+              "    pm.expect(json.weirdness_score).to.be.at.least(0).and.at.most(100);",
+              "});",
+              "",
+              "pm.test('chaos_label is one of the four expected labels', function () {",
+              "    pm.expect(['Calm', 'Eventful', 'Chaotic', 'Legendary']).to.include(json.chaos_label);",
+              "});",
+              "",
+              "pm.test('features object has exactly 6 keys', function () {",
+              "    pm.expect(json.features).to.be.an('object');",
+              "    pm.expect(Object.keys(json.features).length).to.eql(6);",
+              "});",
+              "",
+              "pm.test('most_similar_races has exactly 3 entries', function () {",
+              "    pm.expect(json.most_similar_races).to.be.an('array');",
+              "    pm.expect(json.most_similar_races.length).to.eql(3);",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Score race (invalid) \u2014 422",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"results\": [\n    {\n      \"grid\": 2,\n      \"position\": 99,\n      \"laps\": 70,\n      \"status\": \"finished\",\n      \"time_millis\": 6347927\n    },\n    {\n      \"grid\": 3,\n      \"position\": 2,\n      \"laps\": 70,\n      \"status\": \"finished\",\n      \"time_millis\": 6351806\n    },\n    {\n      \"grid\": 1,\n      \"position\": 3,\n      \"laps\": 70,\n      \"status\": \"finished\",\n      \"time_millis\": 6352244\n    }\n  ],\n  \"track_status\": {\n    \"safety_cars\": 2,\n    \"virtual_safety_cars\": 0,\n    \"red_flags\": 0\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseUrl}}/chaos-score",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "chaos-score"
+          ]
+        },
+        "description": "Invalid request: same race as the valid case but truncated to 3 results (below the min_length=10 bound) and the first driver's position set to 99 (above the le=30 bound). Verified against serve.app with FastAPI's TestClient to actually return 422 with a Pydantic validation error list. Expect 422 and a non-empty detail array."
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('status code is 422', function () {",
+              "    pm.response.to.have.status(422);",
+              "});",
+              "",
+              "pm.test('detail is a non-empty array', function () {",
+              "    const json = pm.response.json();",
+              "    pm.expect(json.detail).to.be.an('array');",
+              "    pm.expect(json.detail.length).to.be.above(0);",
+              "});"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -158,6 +158,28 @@ async function getTrackShape(
     }));
 }
 
+export type RaceControlMessage = {
+  category: string;
+  /** e.g. "RED", "YELLOW", "DOUBLE YELLOW", "GREEN", "CLEAR", "CHEQUERED", or null for non-flag messages. */
+  flag: string | null;
+  message: string;
+  lap_number: number | null;
+  date: string;
+};
+
+/**
+ * Race control messages for a session (safety car/VSC deployments, flags) —
+ * used at inference time to build the Race Chaos API's `track_status` counts.
+ * Like every other OpenF1 call here, this fails soft: null while OpenF1's
+ * free tier is locked out during a live session elsewhere (see README), or on
+ * any other fetch/parse failure.
+ */
+export async function getRaceControlMessages(
+  sessionKey: number
+): Promise<RaceControlMessage[] | null> {
+  return fetchJson<RaceControlMessage[]>(`/race_control?session_key=${sessionKey}`);
+}
+
 export async function getRaceTelemetry(
   sessionKey: number,
   driverNumber: number

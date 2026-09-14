@@ -1,0 +1,55 @@
+raw_status,mapped_category,count
+Finished,finished,2130
++1 Lap,lapped,536
+Lapped,lapped,388
+Retired,retired,214
++2 Laps,lapped,101
+Collision,retired,77
+Accident,retired,35
+Engine,retired,31
+Collision damage,retired,29
+Brakes,retired,20
+Power Unit,retired,16
+Disqualified,dsq,16
+Did not start,dns,16
+Gearbox,retired,15
++3 Laps,lapped,12
+Suspension,retired,10
+Hydraulics,retired,8
+Power loss,retired,8
+Wheel,retired,7
+Puncture,retired,6
+Withdrew,dns,5
+Oil leak,retired,4
+Exhaust,retired,4
+Fuel pressure,retired,4
+Overheating,retired,4
+Spun off,retired,4
+Water pressure,retired,4
+Turbo,retired,3
+Mechanical,retired,3
+Electronics,retired,3
+Undertray,retired,3
+Electrical,retired,2
+Damage,retired,2
+Transmission,retired,2
+Illness,retired,2
+Water leak,retired,2
+Steering,retired,1
+Tyre,retired,1
+Battery,retired,1
+Out of fuel,retired,1
++5 Laps,lapped,1
+Debris,retired,1
+Radiator,retired,1
+Wheel nut,retired,1
+Driveshaft,retired,1
+Rear wing,retired,1
+Cooling system,retired,1
+Water pump,retired,1
+Fuel leak,retired,1
+Front wing,retired,1
+Vibrations,retired,1
+Fuel pump,retired,1
++6 Laps,lapped,1
+Differential,retired,1

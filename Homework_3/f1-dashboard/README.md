@@ -110,6 +110,35 @@ the same way:
 curl "https://<your-deployment>/api/sync-results?season=2026"
 ```
 
+## Race Chaos panel
+
+The Driver Spotlight page's "Race telemetry" section includes a **Race Chaos** panel that
+calls the Homework 4 chaos-score API — a scikit-learn `Pipeline` (custom feature
+transformer + `QuantileTransformer` + `IsolationForest`) served with FastAPI on Modal,
+built in the sibling `Homework_4` project. It scores the *selected race's full field*
+(not just the selected driver) for how eventful ("chaos") and how statistically unusual
+("weirdness") it was, plus a per-feature radar breakdown and the 3 most similar historical
+races.
+
+- **Server side** (`src/app/drivers/page.tsx`): fetches that race's full Jolpica
+  `results.json` (`getRaceResults` in `src/lib/jolpica.ts`, now also keeping `grid`, raw
+  `status`, and `Time.millis`) and OpenF1 `race_control` for the race's `session_key`
+  (`getRaceControlMessages` in `src/lib/openf1.ts`, already stored per-race in
+  `races.session_key`). `src/lib/chaos.ts` maps both onto the API's input contract —
+  normalizing status text and counting safety car/VSC/red-flag messages — and returns
+  either a ready payload or a reason the race can't be scored yet (too few classified
+  results, no P1, race not yet run).
+- **Client side** (`src/components/race-chaos-panel.tsx`, `"use client"`): POSTs that
+  payload directly from the browser to
+  `${NEXT_PUBLIC_CHAOS_API_URL}/chaos-score` (visible in DevTools), and renders the chaos
+  score/label, weirdness score, a `recharts` radar chart of the 6 features (styled like
+  `driver-radar-chart.tsx`), and the most similar races. Handles loading (with a "waking up
+  the model" message once a Modal cold start runs past ~3s), 422/503/network errors with a
+  retry button, and races that can't be scored.
+- Set `NEXT_PUBLIC_CHAOS_API_URL` to the deployed Modal URL (see `.env.local.example`) —
+  with **no trailing slash** and **no localhost fallback**; the panel shows a "not
+  configured" state instead of guessing when it's unset.
+
 ## Local development
 
 ```bash

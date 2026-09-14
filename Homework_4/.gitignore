@@ -1,0 +1,19 @@
+# Virtual environment
+.venv/
+
+# Python caches
+__pycache__/
+.pytest_cache/
+
+# Raw API cache (FastF1 + Jolpica + OpenF1 responses); reproducible via
+# `python fetch_data.py`. This is ~320MB and not needed to run/grade the API.
+data/raw/
+
+# Logs and local secrets
+*.log
+.env
+
+# NOTE: pipeline.joblib, data/training_races.json, data/races.csv,
+# data/*.csv, and data/COUNTING_RULES.md are intentionally NOT ignored --
+# they are committed deliverables/reproducibility artifacts for this
+# assignment.

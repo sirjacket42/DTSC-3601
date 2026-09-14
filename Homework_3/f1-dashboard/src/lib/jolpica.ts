@@ -152,12 +152,13 @@ export async function getCurrentSessionStatus(year: number): Promise<CurrentSess
 type JolpicaResultEntry = {
   number: string;
   position: string;
+  grid: string;
   points: string;
   Driver: { givenName: string; familyName: string };
   Constructor: { name: string };
   laps: string;
   status: string;
-  Time?: { time: string };
+  Time?: { time: string; millis?: string };
 };
 
 type JolpicaResultsResponse = {
@@ -169,24 +170,32 @@ type JolpicaResultsResponse = {
 export type RaceResultEntry = {
   driverNumber: number;
   position: number | null;
+  /** Starting grid slot; 0 means a pit-lane start. */
+  grid: number;
   points: number;
   laps: number;
+  /** Raw Jolpica status text ("Finished", "+1 Lap", "Retired", "Did not start", ...). */
   status: string;
   /** Total race time, only present for the leader and same-lap finishers. */
   time: string | null;
+  /** Same total race time as `time`, in milliseconds — null when Jolpica omits it (retirees, DNS/DSQ). */
+  timeMillis: number | null;
   driverGivenName: string;
   driverFamilyName: string;
   constructorName: string;
 };
 
 function toRaceResultEntry(r: JolpicaResultEntry): RaceResultEntry {
+  const millis = r.Time?.millis ? Number(r.Time.millis) : null;
   return {
     driverNumber: Number(r.number),
     position: r.position ? Number(r.position) : null,
+    grid: Number(r.grid),
     points: Number(r.points),
     laps: Number(r.laps),
     status: r.status,
     time: r.Time?.time ?? null,
+    timeMillis: millis !== null && !Number.isNaN(millis) ? millis : null,
     driverGivenName: r.Driver.givenName,
     driverFamilyName: r.Driver.familyName,
     constructorName: r.Constructor.name,

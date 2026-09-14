@@ -1,0 +1,84 @@
+season,round,race_name,openf1_session_key,fastf1_sc,fastf1_vsc,fastf1_red,openf1_sc,openf1_vsc,openf1_red,match
+2023,1,Bahrain Grand Prix,7953,0,1,0,0,1,0,True
+2023,2,Saudi Arabian Grand Prix,7779,1,0,0,1,0,0,True
+2023,3,Australian Grand Prix,7787,3,1,4,3,1,4,True
+2023,4,Azerbaijan Grand Prix,9070,1,0,0,1,0,0,True
+2023,5,Miami Grand Prix,9078,0,0,0,0,0,0,True
+2023,6,Monaco Grand Prix,9094,0,0,0,0,0,0,True
+2023,7,Spanish Grand Prix,9102,0,0,0,0,0,0,True
+2023,8,Canadian Grand Prix,9110,1,1,0,1,1,0,True
+2023,9,Austrian Grand Prix,9118,1,1,0,1,1,0,True
+2023,10,British Grand Prix,9126,1,1,0,1,1,0,True
+2023,11,Hungarian Grand Prix,9133,0,0,0,0,0,0,True
+2023,12,Belgian Grand Prix,9141,0,0,0,0,0,0,True
+2023,13,Dutch Grand Prix,9149,2,1,1,1,1,1,False
+2023,14,Italian Grand Prix,9157,0,0,0,0,0,0,True
+2023,15,Singapore Grand Prix,9165,1,1,0,1,1,0,True
+2023,16,Japanese Grand Prix,9173,1,1,0,1,1,0,True
+2023,17,Qatar Grand Prix,9221,1,0,0,1,0,0,True
+2023,18,United States Grand Prix,9213,0,0,0,0,0,0,True
+2023,19,Mexico City Grand Prix,9181,2,1,1,1,1,1,False
+2023,20,São Paulo Grand Prix,9205,1,0,1,1,0,1,True
+2023,21,Las Vegas Grand Prix,9189,2,1,0,2,1,0,True
+2023,22,Abu Dhabi Grand Prix,9197,0,0,0,0,0,0,True
+2024,1,Bahrain Grand Prix,9472,0,0,0,0,0,0,True
+2024,2,Saudi Arabian Grand Prix,9480,1,0,0,1,0,0,True
+2024,3,Australian Grand Prix,9488,0,2,0,0,2,0,True
+2024,4,Japanese Grand Prix,9496,0,0,1,0,0,1,True
+2024,5,Chinese Grand Prix,9673,2,1,0,2,1,0,True
+2024,6,Miami Grand Prix,9507,1,1,0,1,1,0,True
+2024,7,Emilia Romagna Grand Prix,9515,0,0,0,0,0,0,True
+2024,8,Monaco Grand Prix,9523,1,0,1,0,0,1,False
+2024,9,Canadian Grand Prix,9531,2,0,0,2,0,0,True
+2024,10,Spanish Grand Prix,9539,0,0,0,0,0,0,True
+2024,11,Austrian Grand Prix,9550,0,1,0,0,1,0,True
+2024,12,British Grand Prix,9558,0,0,0,0,0,0,True
+2024,13,Hungarian Grand Prix,9566,0,0,0,0,0,0,True
+2024,14,Belgian Grand Prix,9574,0,0,0,0,0,0,True
+2024,15,Dutch Grand Prix,9582,0,0,0,0,0,0,True
+2024,16,Italian Grand Prix,9590,0,0,0,0,0,0,True
+2024,17,Azerbaijan Grand Prix,9598,0,1,0,0,1,0,True
+2024,18,Singapore Grand Prix,9606,0,0,0,0,0,0,True
+2024,19,United States Grand Prix,9617,1,0,0,1,0,0,True
+2024,20,Mexico City Grand Prix,9625,1,0,0,1,0,0,True
+2024,21,São Paulo Grand Prix,9636,2,1,1,2,1,1,True
+2024,22,Las Vegas Grand Prix,9644,0,0,0,0,0,0,True
+2024,23,Qatar Grand Prix,9655,3,1,0,3,1,0,True
+2024,24,Abu Dhabi Grand Prix,9662,0,1,0,0,1,0,True
+2025,1,Australian Grand Prix,9693,3,0,0,3,0,0,True
+2025,2,Chinese Grand Prix,9998,0,0,0,0,0,0,True
+2025,3,Japanese Grand Prix,10006,0,0,0,0,0,0,True
+2025,4,Bahrain Grand Prix,10014,1,0,0,1,0,0,True
+2025,5,Saudi Arabian Grand Prix,10022,1,0,0,1,0,0,True
+2025,6,Miami Grand Prix,10033,0,3,0,0,3,0,True
+2025,7,Emilia Romagna Grand Prix,9987,1,1,0,1,1,0,True
+2025,8,Monaco Grand Prix,9979,0,1,0,0,1,0,True
+2025,9,Spanish Grand Prix,9971,1,0,0,1,0,0,True
+2025,10,Canadian Grand Prix,9963,1,0,0,1,0,0,True
+2025,11,Austrian Grand Prix,9955,1,0,0,1,0,0,True
+2025,12,British Grand Prix,9947,2,2,0,2,2,0,True
+2025,13,Belgian Grand Prix,9939,1,0,1,0,0,1,False
+2025,14,Hungarian Grand Prix,9928,0,0,0,0,0,0,True
+2025,15,Dutch Grand Prix,9920,3,1,0,3,1,0,True
+2025,16,Italian Grand Prix,9912,0,0,0,0,0,0,True
+2025,17,Azerbaijan Grand Prix,9904,1,0,0,1,0,0,True
+2025,18,Singapore Grand Prix,9896,0,0,0,0,0,0,True
+2025,19,United States Grand Prix,9888,0,1,0,0,1,0,True
+2025,20,Mexico City Grand Prix,9877,0,1,0,0,1,0,True
+2025,21,São Paulo Grand Prix,9869,1,1,0,1,1,0,True
+2025,22,Las Vegas Grand Prix,9858,0,2,0,0,2,0,True
+2025,23,Qatar Grand Prix,9850,1,0,0,1,0,0,True
+2025,24,Abu Dhabi Grand Prix,9839,0,0,0,0,0,0,True
+2026,1,Australian Grand Prix,11234,0,3,0,0,3,0,True
+2026,2,Chinese Grand Prix,11245,1,0,0,1,0,0,True
+2026,3,Japanese Grand Prix,11253,1,0,0,1,0,0,True
+2026,4,Miami Grand Prix,11280,1,0,0,1,0,0,True
+2026,5,Canadian Grand Prix,11291,0,3,0,0,3,0,True
+2026,6,Monaco Grand Prix,11299,3,0,1,2,0,1,False
+2026,7,Barcelona Grand Prix,11307,0,2,0,0,2,0,True
+2026,8,Austrian Grand Prix,11315,0,2,0,0,2,0,True
+2026,9,British Grand Prix,11326,1,2,0,2,2,0,False
+2026,10,Belgian Grand Prix,11334,1,2,0,1,2,0,True
+2026,11,Hungarian Grand Prix,11342,0,1,0,0,1,0,True
+2026,12,Dutch Grand Prix,11353,0,2,1,0,2,1,True
+2026,13,Italian Grand Prix,11361,1,1,1,1,1,1,True
