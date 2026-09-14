@@ -6,9 +6,7 @@ import {
   getSeasons,
   getStandingsRank,
 } from "@/lib/queries";
-import { getRaceTelemetry, getRaceControlMessages } from "@/lib/openf1";
-import { getRaceResults } from "@/lib/jolpica";
-import { buildChaosPayload, type ChaosBuildResult } from "@/lib/chaos";
+import { getRaceTelemetry } from "@/lib/openf1";
 import { DriverSelector } from "@/components/driver-selector";
 import { SeasonTabs } from "@/components/season-tabs";
 import { RaceSelector } from "@/components/race-selector";
@@ -22,7 +20,6 @@ import { LapTimesChart } from "@/components/lap-times-chart";
 import { CircuitTrace } from "@/components/circuit-trace";
 import { DriverRadarChart } from "@/components/driver-radar-chart";
 import { TopDownCarPhoto } from "@/components/topdown-car-photo";
-import { RaceChaosPanel } from "@/components/race-chaos-panel";
 import {
   Card,
   CardContent,
@@ -85,22 +82,6 @@ export default async function DriversPage(props: PageProps<"/drivers">) {
     selectedRace?.race.session_key && selectedRace.driver_number
       ? await getRaceTelemetry(selectedRace.race.session_key, selectedRace.driver_number)
       : null;
-
-  // Race Chaos panel: built from the *whole field's* Jolpica results (not
-  // just this driver's row) plus OpenF1 race control for the same session,
-  // mapped onto the Homework 4 chaos-score API's input contract server-side
-  // so the client component only has to POST it.
-  const chaosBuild: ChaosBuildResult = selectedRace
-    ? await (async () => {
-        const [raceResults, raceControl] = await Promise.all([
-          getRaceResults(selectedRace.race.season, selectedRace.race.round),
-          selectedRace.race.session_key
-            ? getRaceControlMessages(selectedRace.race.session_key)
-            : Promise.resolve(null),
-        ]);
-        return buildChaosPayload(raceResults, raceControl);
-      })()
-    : { ok: false, reason: "No race selected." };
 
   return (
     <div
@@ -217,9 +198,7 @@ export default async function DriversPage(props: PageProps<"/drivers">) {
               />
               <TireStrategy stints={telemetry?.stints ?? []} teamColor={teamColor} />
             </div>
-            <LapTimesChart laps={telemetry?.laps ?? []} teamColor={teamColor} />
-            <RaceChaosPanel raceName={selectedRace.race.location} build={chaosBuild} />
-          </div>
+            <LapTimesChart laps={telemetry?.laps ?? []} teamColor={teamColor} />          </div>
         )}
 
         <p className="text-center text-xs text-muted-foreground pt-4 pb-8">

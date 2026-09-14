@@ -2,13 +2,14 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Flag, Gauge, MapPin, Users } from "lucide-react";
+import { Activity, Flag, Gauge, MapPin, Users } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const NAV_ITEMS = [
   { href: "/", label: "Home", icon: Gauge },
   { href: "/drivers", label: "Drivers", icon: Users },
   { href: "/schedule", label: "Schedule", icon: MapPin },
+  { href: "/chaos", label: "Race Chaos", icon: Activity },
 ];
 
 export function AppSidebar() {

@@ -9,7 +9,7 @@ deployed to Modal, and called from the Homework 3 F1 dashboard on Vercel.
 |---|---|
 | Modal API base URL | `https://sirjacket42--race-chaos-index-fastapi-app.modal.run` |
 | API docs (`/docs`) | `https://sirjacket42--race-chaos-index-fastapi-app.modal.run/docs` |
-| Vercel app | https://f1-dashboard-green.vercel.app (Race Chaos panel is on the **Drivers** page, `/drivers`, after selecting a race) |
+| Vercel app | https://f1-dashboard-green.vercel.app (Race Chaos tab: https://f1-dashboard-green.vercel.app/chaos) |
 | Postman screenshots | `postman/screenshots/` (health, info, valid 200, invalid 422) |
 
 ## What it does

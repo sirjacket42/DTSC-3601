@@ -112,7 +112,7 @@ curl "https://<your-deployment>/api/sync-results?season=2026"
 
 ## Race Chaos panel
 
-The Driver Spotlight page's "Race telemetry" section includes a **Race Chaos** panel that
+The **Race Chaos** tab (`/chaos`, in the sidebar) has a season picker, a race picker, and a panel that
 calls the Homework 4 chaos-score API — a scikit-learn `Pipeline` (custom feature
 transformer + `QuantileTransformer` + `IsolationForest`) served with FastAPI on Modal,
 built in the sibling `Homework_4` project. It scores the *selected race's full field*
@@ -120,7 +120,7 @@ built in the sibling `Homework_4` project. It scores the *selected race's full f
 ("weirdness") it was, plus a per-feature radar breakdown and the 3 most similar historical
 races.
 
-- **Server side** (`src/app/drivers/page.tsx`): fetches that race's full Jolpica
+- **Server side** (`src/app/chaos/page.tsx`): fetches that race's full Jolpica
   `results.json` (`getRaceResults` in `src/lib/jolpica.ts`, now also keeping `grid`, raw
   `status`, and `Time.millis`) and OpenF1 `race_control` for the race's `session_key`
   (`getRaceControlMessages` in `src/lib/openf1.ts`, already stored per-race in

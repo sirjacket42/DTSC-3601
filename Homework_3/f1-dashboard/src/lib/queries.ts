@@ -118,6 +118,12 @@ export function findNextRace(races: Race[]): Race | null {
   return byDate.find((r) => new Date(r.date_start).getTime() > now) ?? byDate[byDate.length - 1] ?? null;
 }
 
+/** Only the races that have already started. */
+export function filterStartedRaces(races: Race[]): Race[] {
+  const now = Date.now();
+  return races.filter((r) => new Date(r.date_start).getTime() <= now);
+}
+
 /** How many races in the list have already happened. */
 export function countCompletedRaces(races: Race[]): number {
   const now = Date.now();
