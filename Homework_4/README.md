@@ -23,7 +23,7 @@ and how *weird* (non-directionally unusual versus history, from an
 features (`retirement_rate`, `retirement_lap_spread`, `position_shuffle`,
 `winner_grid`, `podium_closeness`, `neutralizations`), which feed a
 `QuantileTransformer` and an `IsolationForest` inside one fitted
-`Pipeline` (scikit-learn 1.8.0). It was trained on 185 races spanning
+`Pipeline` (scikit-learn 1.8.0). It was trained on 186 races spanning
 seasons 2018-2026 (main races only, no sprints). The response also
 returns a 0-100 percentile per feature (for a radar chart), a chaos label
 (Calm/Eventful/Chaotic/Legendary), and the 3 most similar historical
@@ -33,7 +33,7 @@ races by nearest-neighbor distance in feature space.
 
 `serve.py` loads `pipeline.joblib` once at import time and never touches
 scikit-learn's `fit()` again. The bundle carries state that can only come
-from having been fit against the 185-race training set: the
+from having been fit against the 186-race training set: the
 `QuantileTransformer`'s per-feature empirical CDFs, the `IsolationForest`'s
 trees (`random_state=42`), and a `NearestNeighbors` index over the
 quantile-transformed features. Also bundled: sorted `chaos_reference` /
@@ -127,12 +127,12 @@ most_similar_races: [{season, round, race_name, distance}]  # exactly 3
   no key); FastF1's `track_status_data()` for safety-car/VSC/red-flag counts during training
   (2018-2026, public static files); OpenF1 `race_control` for the same counts at inference time
   (2023-2026, no key for historical data -- this is what the frontend calls).
-- **Training set:** 185 races, seasons 2018-2026, main races only (no sprints).
+- **Training set:** 186 races, seasons 2018-2026, main races only (no sprints).
 - **2021 Belgian Grand Prix excluded.** That race was declared official after ~3 laps behind
   the safety car in heavy rain, so the classified "race time" is a few minutes rather than a
   normal ~50min-4h10m race -- it fails `build_pipeline.py`'s winner `time_millis` sanity bound
   and is dropped as a shortened/anomalous race (see `validate_and_fix_race` in `fetch_data.py`).
-- **OpenF1/FastF1 counting agreement: 77/83** 2023-2026 races checked during training (see
+- **OpenF1/FastF1 counting agreement: 78/84** 2023-2026 races checked during training (see
   `data/neutralization_mismatches.csv`). The 6 disagreements are documented, not bugs -- see
   "Known residual mismatch" #1 and #2 in `data/COUNTING_RULES.md`: (1) a safety car leading the
   field back out after a red flag sometimes has no explicit `SAFETY CAR DEPLOYED` message, so

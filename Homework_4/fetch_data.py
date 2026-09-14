@@ -232,6 +232,11 @@ def fetch_results(season: int, round_: int) -> list[dict]:
     url = f"{JOLPICA_BASE}/{season}/{round_}/results.json?limit=100"
     cache_path = JOLPICA_DIR / f"{season}_{round_}_results.json"
     data = fetch_json_cached(url, cache_path, _jolpica_session, _jolpica_throttle)
+    if not data["MRData"]["RaceTable"]["Races"]:
+        # An empty response means "not published yet" -- never trust it from
+        # the cache, or rounds run after the first fetch are skipped forever.
+        cache_path.unlink(missing_ok=True)
+        data = fetch_json_cached(url, cache_path, _jolpica_session, _jolpica_throttle)
     return data["MRData"]["RaceTable"]["Races"]
 
 
